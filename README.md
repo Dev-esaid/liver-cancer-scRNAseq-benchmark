@@ -3,7 +3,6 @@
 ![Scanpy](https://img.shields.io/badge/Scanpy-single--cell-green)
 ![scRNA-seq](https://img.shields.io/badge/scRNA--seq-Atlas%20Scale-success)
 ![Status](https://img.shields.io/badge/status-active-success)
-![License](https://img.shields.io/badge/license-MIT-orange)
 
 ## Overview
 
