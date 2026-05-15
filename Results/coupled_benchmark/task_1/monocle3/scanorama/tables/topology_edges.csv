@@ -1,0 +1,24 @@
+source,target,weight,directed
+C1QA+ Macrophage,Inflammatory Macrophage,1.0,False
+FCGR3A+ Monocyte,MARCO+ Macrophage,1.0,False
+Inflammatory Macrophage,MARCO+ Macrophage,1.0,False
+FCGR3A+ Monocyte,Monocyte-derived Macrophage,2.0,False
+Inflammatory Macrophage,Monocyte-derived Macrophage,3.0,False
+MMP9+ Macrophage,Monocyte-derived Macrophage,5.0,False
+C1QA+ Macrophage,THBS1+ Macrophage,1.0,False
+FCGR3A+ Monocyte,THBS1+ Macrophage,1.0,False
+Monocyte-derived Macrophage,THBS1+ Macrophage,2.0,False
+FCGR3A+ Monocyte,Tissue Monocyte,2.0,False
+Inflammatory Macrophage,Tissue Monocyte,2.0,False
+THBS1+ Macrophage,Tissue Monocyte,3.0,False
+Tissue Monocyte,Transitional Macrophage,1.0,False
+C1QA+ Macrophage,TREM2+ Macrophage,2.0,False
+MARCO+ Macrophage,TREM2+ Macrophage,5.0,False
+MMP9+ Macrophage,TREM2+ Macrophage,4.0,False
+Monocyte-derived Macrophage,TREM2+ Macrophage,1.0,False
+Inflammatory Macrophage,VEGFA+ Macrophage,1.0,False
+MARCO+ Macrophage,VEGFA+ Macrophage,1.0,False
+MMP9+ Macrophage,VEGFA+ Macrophage,2.0,False
+Monocyte-derived Macrophage,VEGFA+ Macrophage,1.0,False
+Tissue Monocyte,VEGFA+ Macrophage,1.0,False
+TREM2+ Macrophage,VEGFA+ Macrophage,9.0,False

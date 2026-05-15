@@ -1,0 +1,17 @@
+# Command:
+/data1/esraa/miniconda3/envs/thesis-env/bin/Rscript /data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/R/monocle3_run.R --expr_mtx /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/monocle3/harmony/logs/tmp/monocle3/bootstrap_2/bundle/expr.mtx --genes_csv /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/monocle3/harmony/logs/tmp/monocle3/bootstrap_2/bundle/genes.csv --cells_csv /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/monocle3/harmony/logs/tmp/monocle3/bootstrap_2/bundle/cells.csv --meta_csv /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/monocle3/harmony/logs/tmp/monocle3/bootstrap_2/meta.csv --umap_csv /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/monocle3/harmony/logs/tmp/monocle3/bootstrap_2/umap.csv --group_key cell_subtype_L2 --root_cell_id 65694 --use_partition FALSE --seed 2 --out_dir /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/monocle3/harmony/logs/tmp/monocle3/bootstrap_2/r_out
+
+monocle3 version            : 1.4.26
+SingleCellExperiment version: 1.24.0
+SummarizedExperiment version: 1.32.0
+igraph version              : 2.2.2
+seed                        : 2
+use_partition               : FALSE
+close_loop                  : FALSE  [Fix 3 — acyclic biology]
+build_group_edges           : majority-label per vertex [Fix 5]
+'as(<dgTMatrix>, "dgCMatrix")' is deprecated.
+Use 'as(., "CsparseMatrix")' instead.
+See help("Deprecated") and help("Matrix-deprecated").
+build_group_edges [Fix 5]: 278 / 278 principal vertices assigned a majority label.
+build_group_edges [Fix 5]: 23 group-level edges written (expected ~11 for spanning tree).
+Monocle3 completed. Outputs written to: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/monocle3/harmony/logs/tmp/monocle3/bootstrap_2/r_out

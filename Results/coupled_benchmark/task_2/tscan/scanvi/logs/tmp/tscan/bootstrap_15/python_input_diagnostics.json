@@ -1,0 +1,48 @@
+{
+  "method": "tscan",
+  "tag": "bootstrap_15",
+  "n_cells": 26095,
+  "n_dims_written": 30,
+  "rep_key": "X_integrated",
+  "group_key": "cell_subtype_L2",
+  "root_cell_id": "14118",
+  "root_cluster": "Naive T",
+  "embedding_csv": "/data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/tscan/scanvi/logs/tmp/tscan/bootstrap_15/embedding.csv",
+  "meta_csv": "/data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/tscan/scanvi/logs/tmp/tscan/bootstrap_15/meta.csv",
+  "embedding_index_head": [
+    "18",
+    "72",
+    "74",
+    "81",
+    "88",
+    "89",
+    "147",
+    "155",
+    "160",
+    "161"
+  ],
+  "meta_cell_id_head": [
+    "18",
+    "72",
+    "74",
+    "81",
+    "88",
+    "89",
+    "147",
+    "155",
+    "160",
+    "161"
+  ],
+  "group_head": [
+    "Naive T",
+    "Naive T",
+    "Intermediate T",
+    "Tissue-resident Memory T",
+    "Intermediate T",
+    "Effector Memory T",
+    "Tissue-resident Memory T",
+    "Central Memory T",
+    "Effector Memory T",
+    "Intermediate T"
+  ]
+}

@@ -1,0 +1,11 @@
+# Command:
+Rscript /data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/R/slingshot_run.R --embedding /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/slingshot/task1_macrophage_TAM/logs/tmp/slingshot/bootstrap_14/embedding.csv --meta /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/slingshot/task1_macrophage_TAM/logs/tmp/slingshot/bootstrap_14/meta.csv --cluster_key cluster_annotation --root_cluster "monocyte-derived macrophage" --seed 14 --out_dir /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/slingshot/task1_macrophage_TAM/logs/tmp/slingshot/bootstrap_14/r_out
+
+slingshot version: 2.10.0
+SingleCellExperiment version: 1.24.0
+igraph version: 1.5.1
+seed: 14
+n_cells: 10798
+n_clusters: 7
+root_cluster: monocyte-derived macrophage
+Slingshot completed successfully. Outputs written to: /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/slingshot/task1_macrophage_TAM/logs/tmp/slingshot/bootstrap_14/r_out

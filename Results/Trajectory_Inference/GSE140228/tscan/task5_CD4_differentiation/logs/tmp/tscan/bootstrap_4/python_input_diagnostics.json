@@ -1,0 +1,48 @@
+{
+  "method": "tscan",
+  "tag": "bootstrap_4",
+  "n_cells": 13320,
+  "n_dims_written": 30,
+  "rep_key": "X_pca",
+  "group_key": "celltype_sub",
+  "root_cell_id": "GSE140228_CAACCTCTCACTATTC-1-D20171109_Nplus",
+  "root_cluster": "CD4-C5-TCF7",
+  "embedding_csv": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/tscan/task5_CD4_differentiation/logs/tmp/tscan/bootstrap_4/embedding.csv",
+  "meta_csv": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/tscan/task5_CD4_differentiation/logs/tmp/tscan/bootstrap_4/meta.csv",
+  "embedding_index_head": [
+    "GSE140228_AAACGGGAGAGACTAT-1-D20171109_A",
+    "GSE140228_AACGTTGCATTCCTCG-1-D20171109_A",
+    "GSE140228_AACGTTGCATTTCACT-1-D20171109_A",
+    "GSE140228_AACGTTGGTTGAACTC-1-D20171109_A",
+    "GSE140228_AACTCAGGTGCAACGA-1-D20171109_A",
+    "GSE140228_AAGCCGCAGTACGCCC-1-D20171109_A",
+    "GSE140228_AAGCCGCCAACTTGAC-1-D20171109_A",
+    "GSE140228_ACACCGGGTTCACCTC-1-D20171109_A",
+    "GSE140228_ACATGGTTCAACCATG-1-D20171109_A",
+    "GSE140228_ACGATGTTCCATGAGT-1-D20171109_A"
+  ],
+  "meta_cell_id_head": [
+    "GSE140228_AAACGGGAGAGACTAT-1-D20171109_A",
+    "GSE140228_AACGTTGCATTCCTCG-1-D20171109_A",
+    "GSE140228_AACGTTGCATTTCACT-1-D20171109_A",
+    "GSE140228_AACGTTGGTTGAACTC-1-D20171109_A",
+    "GSE140228_AACTCAGGTGCAACGA-1-D20171109_A",
+    "GSE140228_AAGCCGCAGTACGCCC-1-D20171109_A",
+    "GSE140228_AAGCCGCCAACTTGAC-1-D20171109_A",
+    "GSE140228_ACACCGGGTTCACCTC-1-D20171109_A",
+    "GSE140228_ACATGGTTCAACCATG-1-D20171109_A",
+    "GSE140228_ACGATGTTCCATGAGT-1-D20171109_A"
+  ],
+  "group_head": [
+    "CD4/CD8-C1-CCR7",
+    "CD4-C3-ANXA1",
+    "CD4-C5-TCF7",
+    "CD4-C3-ANXA1",
+    "CD4-C3-ANXA1",
+    "CD4-C3-ANXA1",
+    "CD4-C3-ANXA1",
+    "CD4-C3-ANXA1",
+    "CD4/CD8-C1-CCR7",
+    "CD4-C3-ANXA1"
+  ]
+}

@@ -1,0 +1,270 @@
+==== seurat START 30 مار, 2026 +04 20:52:48 ====
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/seurat.py:112: DtypeWarning: Columns (0) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(csv_path, index_col=0)
+/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_benchmark/graph.py:226: FutureWarning: In the future, the default backend for leiden will be igraph instead of leidenalg.
+
+ To achieve the future defaults please pass: flavor="igraph" and n_iterations=2.  directed must also be False to work with igraph's implementation.
+  sc.tl.leiden(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:111: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  counts = adata_tmp.obs.groupby(label_key).agg(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+=== RUNNING seurat ===
+  outdir: /data1/esraa/Thesis-Project/Results/Integration/fastmnn_seurat_hvg_seed0/runs/seurat_fastmnn_seurat_hvg_seed0
+  run_tag: fastmnn_seurat_hvg_seed0
+  atlas: /data1/esraa/Thesis-Project/Data/Processed_data/post_HVG_intersection/concatenated_hvg.h5ad
+[Python] Writing temporary h5ad for R: /data1/esraa/Thesis-Project/Results/Integration/fastmnn_seurat_hvg_seed0/runs/seurat_fastmnn_seurat_hvg_seed0/adata_for_seurat_seurat_fastmnn_seurat_hvg_seed0.h5ad
+[Python] Wrote HVG list: /data1/esraa/Thesis-Project/Results/Integration/fastmnn_seurat_hvg_seed0/runs/seurat_fastmnn_seurat_hvg_seed0/seurat_genes_seurat_fastmnn_seurat_hvg_seed0.csv (n=4000)
+[Python] Calling R Seurat with: Rscript /data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/R/run_seurat_integration.R /data1/esraa/Thesis-Project/Results/Integration/fastmnn_seurat_hvg_seed0/runs/seurat_fastmnn_seurat_hvg_seed0/adata_for_seurat_seurat_fastmnn_seurat_hvg_seed0.h5ad dataset /data1/esraa/Thesis-Project/Results/Integration/fastmnn_seurat_hvg_seed0/runs/seurat_fastmnn_seurat_hvg_seed0/seurat_fastmnn_seurat_hvg_seed0 rpca 20 30 50 /data1/esraa/Thesis-Project/Results/Integration/fastmnn_seurat_hvg_seed0/runs/seurat_fastmnn_seurat_hvg_seed0/seurat_genes_seurat_fastmnn_seurat_hvg_seed0.csv 0
+[R] Reading H5AD: /data1/esraa/Thesis-Project/Results/Integration/fastmnn_seurat_hvg_seed0/runs/seurat_fastmnn_seurat_hvg_seed0/adata_for_seurat_seurat_fastmnn_seurat_hvg_seed0.h5ad
+[R] Warning message:
+[R] The names of these selected obs columns have been modified to match R
+[R] conventions: 'Cell#' -> 'Cell.' and 'Cluster#' -> 'Cluster.'
+[R] Batches found: GSE115469, GSE124395, GSE125449, GSE136103, GSE138709, GSE140228, GSE146409, GSE149614, GSE151530
+[R] Assays in SCE: X, counts, log1p_norm
+[R] Using 'X' assay (assumed log-normalized, will skip NormalizeData)
+[R] Using assay: X | dims = 4000 genes x 299891 cells
+[R] Subset genes requested: 4000 | present: 4000
+[R] Skipping NormalizeData (data already normalized) [FULL OBJ]
+[R] Running FindIntegrationAnchors(mode=rpca, reduction=rpca, dims=1:30, k.anchor=20)
+[R] Running IntegrateEmbeddings(dims=1:30) [atlas-scale safe]
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 3 into 2
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 6 into 1
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 9 into 8
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 4 into 7
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 2 3 into 1 6
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 7 4 into 8 9
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 5 into 8 9 7 4
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 1 6 2 3 into 8 9 7 4 5
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Saved integrated embedding CSV: /data1/esraa/Thesis-Project/Results/Integration/fastmnn_seurat_hvg_seed0/runs/seurat_fastmnn_seurat_hvg_seed0/seurat_fastmnn_seurat_hvg_seed0_seurat_integrated_rpca.csv
+[R] Saved legacy PCA CSV (compatibility): /data1/esraa/Thesis-Project/Results/Integration/fastmnn_seurat_hvg_seed0/runs/seurat_fastmnn_seurat_hvg_seed0/seurat_fastmnn_seurat_hvg_seed0_seurat_pca.csv
+[R] Saved Seurat RDS: /data1/esraa/Thesis-Project/Results/Integration/fastmnn_seurat_hvg_seed0/runs/seurat_fastmnn_seurat_hvg_seed0/seurat_fastmnn_seurat_hvg_seed0_seurat_integrated_embedding_only.rds
+[R] DONE
+1 labels consist of a single batch or is too small. Skip.
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 4
+Adding diffusion to step 4
+Adding diffusion to step 4
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 8
+Adding diffusion to step 9
+Adding diffusion to step 10
+Adding diffusion to step 11
+Adding diffusion to step 12
+Adding diffusion to step 13
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 8
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 8
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 8
+Adding diffusion to step 9
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 8
+Adding diffusion to step 9
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 4
+=== DONE seurat ===
+==== seurat START 05 أبر, 2026 +04 12:16:13 ====
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+=== RUNNING seurat ===
+  outdir: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0
+  run_tag: full_hvg_seed0
+  atlas: /data1/esraa/Thesis-Project/Data/Processed_data/post_HVG_intersection/concatenated_hvg.h5ad
+  CUDA_VISIBLE_DEVICES: None
+  METHOD_THREADS: 3
+  OMP_NUM_THREADS: 3
+  OPENBLAS_NUM_THREADS: 3
+  MKL_NUM_THREADS: 3
+[Python] Exported 'log1p_norm' layer as X for R (log-normalised).
+[Python] Writing temporary h5ad for R: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/adata_for_seurat_seurat_full_hvg_seed0.h5ad
+[Python] Wrote HVG list: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/seurat_genes_seurat_full_hvg_seed0.csv (n=4000)
+[Python] Calling R Seurat with: Rscript /data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/R/run_seurat_integration.R /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/adata_for_seurat_seurat_full_hvg_seed0.h5ad dataset /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/seurat_full_hvg_seed0 rpca 20 30 50 /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/seurat_genes_seurat_full_hvg_seed0.csv 0
+[R] Reading H5AD: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/adata_for_seurat_seurat_full_hvg_seed0.h5ad
+[R] Warning message:
+[R] The names of these selected obs columns have been modified to match R
+[R] conventions: 'Cell#' -> 'Cell.' and 'Cluster#' -> 'Cluster.'
+[R] Batches found: GSE115469, GSE124395, GSE125449, GSE136103, GSE138709, GSE140228, GSE146409, GSE149614, GSE151530
+[R] Assays in SCE: X, counts, log1p_norm
+[R] Using 'log1p_norm' assay (log-normalized, will skip NormalizeData)
+[R] Using assay: log1p_norm | 4000 genes x 299891 cells
+[R] Error in file(file, "rt") : cannot open the connection
+[R] Calls: read.csv -> read.table -> file
+[R] In addition: Warning message:
+[R] In file(file, "rt") :
+[R]   cannot open file '/data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/seurat_genes_seurat_full_hvg_seed0.csv': No such file or directory
+[R] Execution halted
+Traceback (most recent call last):
+  File "<stdin>", line 70, in <module>
+  File "/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/seurat.py", line 176, in run
+    return run_seurat_via_r(adata_in=adata_in, outdir=outdir, cfg=cfg)
+  File "/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/seurat.py", line 298, in run_seurat_via_r
+    _stream_subprocess(cmd, cwd=outdir)
+  File "/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/seurat.py", line 110, in _stream_subprocess
+    raise subprocess.CalledProcessError(ret, cmd)
+subprocess.CalledProcessError: Command '['Rscript', '/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/R/run_seurat_integration.R', '/data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/adata_for_seurat_seurat_full_hvg_seed0.h5ad', 'dataset', '/data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/seurat_full_hvg_seed0', 'rpca', '20', '30', '50', '/data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/seurat_genes_seurat_full_hvg_seed0.csv', '0']' returned non-zero exit status 1.

@@ -1,0 +1,31 @@
+{
+  "NMI": 0.5570956541112548,
+  "ARI": 0.22232992650684885,
+  "cell_type_ASW": 0.4684079699218273,
+  "isolated_label_F1": 0.2714275095970062,
+  "isolated_label_ASW": 0.46974826444472584,
+  "cell_cycle_conservation": 0.8789255383765323,
+  "hvg_conservation": 1.0,
+  "trajectory_conservation": NaN,
+  "trajectory_conservation_note": "compute_trajectory=False",
+  "batch_ASW": 0.7546218412429115,
+  "pcr_comparison": 0.06113889872629252,
+  "kBET": 0.23618416022768607,
+  "graph_connectivity": 0.9779208994553217,
+  "iLISI": 0.17823389130926892,
+  "cLISI": 0.9861547184050844,
+  "fastmnn_r_script": "/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/R/run_fastmnn.R",
+  "fastmnn_assay_type": "X",
+  "fastmnn_d": 50,
+  "fastmnn_k": 50,
+  "fastmnn_cos_norm": false,
+  "fastmnn_ndist": 1.0,
+  "fastmnn_seed": 0,
+  "fastmnn_hvg_used": true,
+  "fastmnn_gene_csv": "/data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/fastmnn_full_hvg_seed0/fastmnn_genes_fastmnn_full_hvg_seed0.csv",
+  "fastmnn_wrote_minimal_h5ad": true,
+  "fastmnn_minimal_obs_extra": [
+    "donor_id"
+  ],
+  "fastmnn_embedding_csv": "/data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/fastmnn_full_hvg_seed0/fastmnn_full_hvg_seed0_fastmnn_embedding.csv"
+}

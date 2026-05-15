@@ -1,0 +1,20 @@
+{
+  "NMI": 0.5789441009908216,
+  "ARI": 0.2594797854244545,
+  "cell_type_ASW": 0.5323889218270779,
+  "isolated_label_F1": 0.21238938053097345,
+  "isolated_label_ASW": 0.7344674915075302,
+  "cell_cycle_conservation": 0.2597529992660602,
+  "hvg_conservation": 1.0,
+  "trajectory_conservation": NaN,
+  "trajectory_conservation_note": "compute_trajectory=False",
+  "batch_ASW": 0.7582419817404705,
+  "pcr_comparison": 0.5377007401095485,
+  "kBET": 0.44401217129844417,
+  "graph_connectivity": 0.8500509160024491,
+  "iLISI": 0.27011950588699424,
+  "cLISI": 0.9851294862159923,
+  "seurat_r_script": "/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/R/run_seurat_integration.R",
+  "seurat_mode": "rpca",
+  "seurat_pca_csv": "/data1/esraa/Thesis-Project/Results/Smoke/seurat_rpca_test/seurat_smoke_rpca_seurat_pca.csv"
+}

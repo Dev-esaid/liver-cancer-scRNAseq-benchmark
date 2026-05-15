@@ -1,0 +1,13 @@
+source,target,weight,directed
+C1QA+ Macrophage,HLA-II+ Macrophage,1.8858446228883,False
+C1QA+ Macrophage,THBS1+ Macrophage,1.90081487965486,False
+C1QA+ Macrophage,TREM2+ Macrophage,2.00686910408277,False
+CD14+ Monocyte,Tissue Monocyte,1.12101690647818,False
+FCGR3A+ Monocyte,Tissue Monocyte,2.62895201854898,False
+Inflammatory Macrophage,Transitional Macrophage,2.07746784146482,False
+MARCO+ Macrophage,Monocyte-derived Macrophage,2.1250840891051,False
+MMP9+ Macrophage,Monocyte-derived Macrophage,2.48884604068266,False
+Monocyte-derived Macrophage,Transitional Macrophage,1.52286432612089,False
+THBS1+ Macrophage,Tissue Monocyte,1.66169606439586,False
+THBS1+ Macrophage,Transitional Macrophage,1.65477816822165,False
+TREM2+ Macrophage,VEGFA+ Macrophage,1.88478423924876,False

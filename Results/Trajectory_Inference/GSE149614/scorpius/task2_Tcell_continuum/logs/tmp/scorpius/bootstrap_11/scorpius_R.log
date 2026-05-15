@@ -1,0 +1,9 @@
+# Command:
+/data1/esraa/miniconda3/envs/thesis-env/bin/Rscript /data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/R/scorpius_run.R --embedding /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/scorpius/task2_Tcell_continuum/logs/tmp/scorpius/bootstrap_11/embedding.csv --seed 11 --out_dir /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/scorpius/task2_Tcell_continuum/logs/tmp/scorpius/bootstrap_11/r_out --edge_mode group --n_waypoints 50 --weight_mode unit --directed 0 --require_groups 1 --meta_csv /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/scorpius/task2_Tcell_continuum/logs/tmp/scorpius/bootstrap_11/meta.csv --group_key cluster_annotation
+
+TSP patch: injected local %||% into 2 function(s).
+SCORPIUS R-orientation: no root_cell_id provided — skipping.
+SCORPIUS completed successfully.
+Pseudotime orientation flipped (R layer): FALSE
+Pseudotime: 12346 cells -> /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/scorpius/task2_Tcell_continuum/logs/tmp/scorpius/bootstrap_11/r_out/pseudotime.csv
+Edges: 8 rows (mode=group, weight=unit, directed=0) -> /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/scorpius/task2_Tcell_continuum/logs/tmp/scorpius/bootstrap_11/r_out/edges.csv

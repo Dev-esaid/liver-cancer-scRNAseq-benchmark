@@ -1,0 +1,11 @@
+{
+  "n_pseudotime_rows_raw": 12346,
+  "n_pseudotime_ids_unique": 12346,
+  "n_common_ids": 12346,
+  "n_finite_pseudotime_after_reindex": 12346,
+  "n_edges": 8,
+  "n_topology_nodes": 9,
+  "r_log": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/tscan/task2_Tcell_continuum/logs/tmp/tscan/bootstrap_1/tscan_R.log",
+  "pseudotime_csv": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/tscan/task2_Tcell_continuum/logs/tmp/tscan/bootstrap_1/r_out/pseudotime.csv",
+  "edges_csv": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/tscan/task2_Tcell_continuum/logs/tmp/tscan/bootstrap_1/r_out/edges.csv"
+}

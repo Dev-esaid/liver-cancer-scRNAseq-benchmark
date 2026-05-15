@@ -1,0 +1,349 @@
+{
+  "meta": {
+    "dataset_name": "integrated_liver_atlas_9datasets",
+    "task_name": "task2_CD8_Tcell_differentiation",
+    "method_name": "slingshot",
+    "n_cells": 32612,
+    "n_genes": 3953
+  },
+  "pseudotime_sanity_raw": {
+    "status": "ok",
+    "value": {
+      "n_cells": 32612,
+      "n_finite": 32612,
+      "finite_fraction": 1.0,
+      "min": 0.0,
+      "max": 10.566476977803,
+      "mean": 5.128750963466666,
+      "std": 1.5194596862577863,
+      "n_unique": 31796,
+      "tie_fraction": 0.025021464491598144
+    },
+    "reason": null
+  },
+  "marker_concordance": {
+    "status": "ok",
+    "value": [
+      {
+        "program": "Naive T",
+        "expected_direction": "either",
+        "used_for_root": true,
+        "spearman_rho_raw": -0.2021785205617727,
+        "spearman_rho_aligned": 0.2021785205617727,
+        "spearman_p": 6.39752413524966e-298,
+        "n_used": 32612,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "CD8 T (SELL+)",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.24186690175769524,
+        "spearman_rho_aligned": 0.24186690175769524,
+        "spearman_p": 0.0,
+        "n_used": 32612,
+        "genes_requested": 10,
+        "genes_present": 9,
+        "genes_missing": 1
+      },
+      {
+        "program": "CD8 T (GZMK+)",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.11038205607267502,
+        "spearman_rho_aligned": 0.11038205607267502,
+        "spearman_p": 6.2082083761958964e-89,
+        "n_used": 32612,
+        "genes_requested": 10,
+        "genes_present": 9,
+        "genes_missing": 1
+      },
+      {
+        "program": "CD8 T (CX3CR1+)",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.5964280820599995,
+        "spearman_rho_aligned": 0.5964280820599995,
+        "spearman_p": 0.0,
+        "n_used": 32612,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "CD8 T (KLRD1+)",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.5459875403062794,
+        "spearman_rho_aligned": 0.5459875403062794,
+        "spearman_p": 0.0,
+        "n_used": 32612,
+        "genes_requested": 10,
+        "genes_present": 9,
+        "genes_missing": 1
+      },
+      {
+        "program": "Cytotoxic T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.5687208150681157,
+        "spearman_rho_aligned": 0.5687208150681157,
+        "spearman_p": 0.0,
+        "n_used": 32612,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "Intermediate T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.25877088594040004,
+        "spearman_rho_aligned": 0.25877088594040004,
+        "spearman_p": 0.0,
+        "n_used": 32612,
+        "genes_requested": 10,
+        "genes_present": 9,
+        "genes_missing": 1
+      },
+      {
+        "program": "Memory/Activated T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.21232053990114674,
+        "spearman_rho_aligned": 0.21232053990114674,
+        "spearman_p": 0.0,
+        "n_used": 32612,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "Central Memory T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.2953124433103444,
+        "spearman_rho_aligned": 0.2953124433103444,
+        "spearman_p": 0.0,
+        "n_used": 32612,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "Effector Memory T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.43375250102273755,
+        "spearman_rho_aligned": 0.43375250102273755,
+        "spearman_p": 0.0,
+        "n_used": 32612,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "Tissue-resident Memory T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.21585429225356392,
+        "spearman_rho_aligned": 0.21585429225356392,
+        "spearman_p": 0.0,
+        "n_used": 32612,
+        "genes_requested": 10,
+        "genes_present": 8,
+        "genes_missing": 2
+      },
+      {
+        "program": "CD8 T (PDCD1+)",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.26678465259532425,
+        "spearman_rho_aligned": 0.26678465259532425,
+        "spearman_p": 0.0,
+        "n_used": 32612,
+        "genes_requested": 10,
+        "genes_present": 7,
+        "genes_missing": 3
+      }
+    ],
+    "reason": null
+  },
+  "marker_monotonicity": {
+    "status": "ok",
+    "value": [
+      {
+        "program": "Naive T",
+        "expected_direction": "either",
+        "used_for_root": true,
+        "binned_monotonicity": 0.631578947368421,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "CD8 T (SELL+)",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.631578947368421,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 9
+      },
+      {
+        "program": "CD8 T (GZMK+)",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.631578947368421,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 9
+      },
+      {
+        "program": "CD8 T (CX3CR1+)",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.8421052631578947,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "CD8 T (KLRD1+)",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.736842105263158,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 9
+      },
+      {
+        "program": "Cytotoxic T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.7894736842105263,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "Intermediate T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.736842105263158,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 9
+      },
+      {
+        "program": "Memory/Activated T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.6842105263157895,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "Central Memory T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.6842105263157895,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "Effector Memory T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.6842105263157895,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "Tissue-resident Memory T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.6842105263157895,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 8
+      },
+      {
+        "program": "CD8 T (PDCD1+)",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.7894736842105263,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 7
+      }
+    ],
+    "reason": null
+  },
+  "knn_smoothness": {
+    "status": "ok",
+    "value": {
+      "mean_abs_deviation_to_neighbor_mean": 0.021531754712570194,
+      "n_zero_degree": 0,
+      "mean_row_sum": 7.104818754673999
+    },
+    "reason": null
+  },
+  "root_purity": {
+    "status": "ok",
+    "value": {
+      "group_key": "cell_subtype_L2",
+      "root_label": "Naive T",
+      "alpha": 0.1,
+      "n_tail": 3262,
+      "root_purity": 0.3231146535867566,
+      "baseline_fraction": 0.04955231203238072,
+      "fold_enrichment": 6.52067765022977
+    },
+    "reason": null
+  },
+  "topology_pseudotime_consistency": {
+    "status": "ok",
+    "value": {
+      "group_key": "cell_subtype_L2",
+      "root_group": "Naive T",
+      "distance_transform": "inverse_weight",
+      "force_undirected": true,
+      "spearman_rho": 0.5384615384615385,
+      "spearman_rho_abs": 0.5384615384615385,
+      "spearman_p": 0.07089431754922315,
+      "n_clusters_used": 12,
+      "n_nodes_graph": 12,
+      "n_nodes_reachable": 12,
+      "graph_build_report": {
+        "status": "ok",
+        "n_rows": 11,
+        "n_edges_used": 11,
+        "n_edges_skipped": 0,
+        "distance_transform": "inverse_weight",
+        "force_undirected": true,
+        "has_weight": true,
+        "has_directed": true,
+        "n_nodes": 12
+      }
+    },
+    "reason": null
+  }
+}

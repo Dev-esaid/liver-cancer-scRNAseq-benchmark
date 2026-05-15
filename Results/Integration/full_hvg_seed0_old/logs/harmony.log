@@ -1,0 +1,169 @@
+==== harmony START 30 مار, 2026 +04 18:40:41 ====
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+2026-03-30 18:41:20,337 - harmonypy - INFO - Running Harmony (PyTorch on cuda)
+2026-03-30 18:41:20,337 - harmonypy - INFO -   Parameters:
+2026-03-30 18:41:20,337 - harmonypy - INFO -     max_iter_harmony: 20
+2026-03-30 18:41:20,337 - harmonypy - INFO -     max_iter_kmeans: 20
+2026-03-30 18:41:20,337 - harmonypy - INFO -     epsilon_cluster: 1e-05
+2026-03-30 18:41:20,337 - harmonypy - INFO -     epsilon_harmony: 0.0001
+2026-03-30 18:41:20,337 - harmonypy - INFO -     nclust: 100
+2026-03-30 18:41:20,337 - harmonypy - INFO -     block_size: 0.05
+2026-03-30 18:41:20,337 - harmonypy - INFO -     lamb: [1. 1. 1. 1. 1. 1. 1. 1. 1.]
+2026-03-30 18:41:20,337 - harmonypy - INFO -     theta: [2. 2. 2. 2. 2. 2. 2. 2. 2.]
+2026-03-30 18:41:20,337 - harmonypy - INFO -     sigma: [0.1 0.1 0.1 0.1 0.1]...
+2026-03-30 18:41:20,337 - harmonypy - INFO -     verbose: True
+2026-03-30 18:41:20,338 - harmonypy - INFO -     random_state: 0
+2026-03-30 18:41:20,338 - harmonypy - INFO -   Data: 50 PCs × 299891 cells
+2026-03-30 18:41:20,338 - harmonypy - INFO -   Batch variables: ['dataset']
+2026-03-30 18:41:20,498 - harmonypy - INFO - Computing initial centroids with sklearn.KMeans...
+2026-03-30 18:41:24,658 - harmonypy - INFO - KMeans initialization complete.
+2026-03-30 18:41:24,788 - harmonypy - INFO - Iteration 1 of 20
+2026-03-30 18:41:25,223 - harmonypy - INFO - Iteration 2 of 20
+2026-03-30 18:41:25,546 - harmonypy - INFO - Iteration 3 of 20
+2026-03-30 18:41:25,869 - harmonypy - INFO - Iteration 4 of 20
+2026-03-30 18:41:26,191 - harmonypy - INFO - Converged after 4 iterations
+/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_benchmark/graph.py:226: FutureWarning: In the future, the default backend for leiden will be igraph instead of leidenalg.
+
+ To achieve the future defaults please pass: flavor="igraph" and n_iterations=2.  directed must also be False to work with igraph's implementation.
+  sc.tl.leiden(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+=== RUNNING harmony ===
+  outdir: /data1/esraa/Thesis-Project/Results/Integration/parallel6_hvg_seed0/runs/harmony_parallel6_hvg_seed0
+  run_tag: parallel6_hvg_seed0
+  atlas: /data1/esraa/Thesis-Project/Data/Processed_data/post_HVG_intersection/concatenated_hvg.h5ad
+1 labels consist of a single batch or is too small. Skip.
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 4
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 8
+Adding diffusion to step 9
+Adding diffusion to step 10
+Adding diffusion to step 4
+Adding diffusion to step 4
+Adding diffusion to step 4
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 8
+Adding diffusion to step 4
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 4
+Adding diffusion to step 5
+=== DONE harmony ===
+==== harmony START 05 أبر, 2026 +04 12:16:13 ====
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+2026-04-05 12:16:50,014 - harmonypy - INFO - Running Harmony (PyTorch on cuda)
+2026-04-05 12:16:50,014 - harmonypy - INFO -   Parameters:
+2026-04-05 12:16:50,014 - harmonypy - INFO -     max_iter_harmony: 20
+2026-04-05 12:16:50,014 - harmonypy - INFO -     max_iter_kmeans: 20
+2026-04-05 12:16:50,014 - harmonypy - INFO -     epsilon_cluster: 1e-05
+2026-04-05 12:16:50,014 - harmonypy - INFO -     epsilon_harmony: 0.0001
+2026-04-05 12:16:50,014 - harmonypy - INFO -     nclust: 100
+2026-04-05 12:16:50,014 - harmonypy - INFO -     block_size: 0.05
+2026-04-05 12:16:50,014 - harmonypy - INFO -     lamb: [1. 1. 1. 1. 1. 1. 1. 1. 1.]
+2026-04-05 12:16:50,014 - harmonypy - INFO -     theta: [2. 2. 2. 2. 2. 2. 2. 2. 2.]
+2026-04-05 12:16:50,014 - harmonypy - INFO -     sigma: [0.1 0.1 0.1 0.1 0.1]...
+2026-04-05 12:16:50,014 - harmonypy - INFO -     verbose: True
+2026-04-05 12:16:50,014 - harmonypy - INFO -     random_state: 0
+2026-04-05 12:16:50,014 - harmonypy - INFO -   Data: 50 PCs × 299891 cells
+2026-04-05 12:16:50,014 - harmonypy - INFO -   Batch variables: ['dataset']
+2026-04-05 12:16:50,445 - harmonypy - INFO - Computing initial centroids with sklearn.KMeans...
+2026-04-05 12:16:55,349 - harmonypy - INFO - KMeans initialization complete.
+2026-04-05 12:16:55,625 - harmonypy - INFO - Iteration 1 of 20
+2026-04-05 12:17:05,041 - harmonypy - INFO - Iteration 2 of 20
+2026-04-05 12:17:05,372 - harmonypy - INFO - Iteration 3 of 20
+2026-04-05 12:17:05,650 - harmonypy - INFO - Iteration 4 of 20
+2026-04-05 12:17:05,945 - harmonypy - INFO - Converged after 4 iterations

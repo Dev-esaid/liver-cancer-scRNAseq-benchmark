@@ -1,0 +1,9 @@
+Method,Marker concordance,Marker monotonicity,kNN smoothness,Root purity,Topology consistency,Composite rank
+CellRank,3.0,1.0,6.0,7.0,7.0,4.8
+ElPiGraph,6.0,8.0,7.0,5.0,5.0,6.2
+Monocle3,7.0,6.0,3.0,4.0,6.0,5.2
+PAGA + DPT,5.0,3.0,1.0,3.0,4.0,3.2
+SCORPIUS,4.0,5.0,4.0,8.0,3.0,4.8
+Slingshot,2.0,4.0,5.0,2.0,2.0,3.0
+TSCAN,1.0,2.0,8.0,1.0,1.0,2.6
+VIA,8.0,7.0,2.0,6.0,8.0,6.2

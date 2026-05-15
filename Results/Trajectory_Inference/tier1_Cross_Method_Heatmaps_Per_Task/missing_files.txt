@@ -1,0 +1,6 @@
+/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/via/task1_macrophage_TAM/tables/metrics_summary.json
+/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/via/task2_Tcell_continuum/tables/metrics_summary.json
+/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/via/task3_myeloid_monocyte_to_TAM/tables/metrics_summary.json
+/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/via/task4_CD8_exhaustion/tables/metrics_summary.json
+/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/via/task5_CD4_differentiation/tables/metrics_summary.json
+/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/via/task6_NK_maturation/tables/metrics_summary.json

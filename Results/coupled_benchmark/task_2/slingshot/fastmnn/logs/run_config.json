@@ -1,0 +1,444 @@
+{
+  "run_meta": {
+    "method": "slingshot",
+    "dataset": "integrated_liver_atlas_9datasets",
+    "task": "task2_CD8_Tcell_differentiation",
+    "run_dir": "/data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/slingshot/fastmnn",
+    "random_state": 0
+  },
+  "runtime": {
+    "python": {
+      "version": "3.10.19 | packaged by conda-forge | (main, Jan 26 2026, 23:45:08) [GCC 14.3.0]",
+      "executable": "/data1/esraa/miniconda3/envs/thesis-env/bin/python",
+      "platform": "linux"
+    },
+    "versions": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "scipy": "1.15.3",
+      "anndata": "0.11.4",
+      "scanpy": "1.11.5",
+      "umap-learn": "0.5.11"
+    }
+  },
+  "seeding": {
+    "status": "ok",
+    "reason": null,
+    "details": {
+      "seed": 0,
+      "PYTHONHASHSEED": "0"
+    }
+  },
+  "run_spec": {
+    "group_key": "cell_subtype_L2",
+    "include_key": "cell_subtype_L2",
+    "include_values": [
+      "Naive T",
+      "CD8 T (SELL+)",
+      "CD8 T (GZMK+)",
+      "CD8 T (CX3CR1+)",
+      "CD8 T (KLRD1+)",
+      "Cytotoxic T",
+      "Intermediate T",
+      "Memory/Activated T",
+      "Central Memory T",
+      "Effector Memory T",
+      "Tissue-resident Memory T",
+      "CD8 T (PDCD1+)"
+    ],
+    "exclude_key": null,
+    "exclude_values": null,
+    "replace_labels_json": "{}",
+    "batch_key": null,
+    "expression_layer": null,
+    "n_pcs": 30,
+    "n_neighbors": 20,
+    "n_bootstrap": 20,
+    "bootstrap_frac": 0.8,
+    "bootstrap_seed": 0,
+    "bootstrap_stratify_by": null,
+    "bootstrap_min_per_group": 10,
+    "skip_stability": false,
+    "hvg_subset": false,
+    "n_top_genes": 3000,
+    "hvg_flavor": "seurat",
+    "metrics_gene_panel": "full_genes_via_raw_log1p"
+  },
+  "ti_method": {
+    "status": "error",
+    "error_msg": "ti_failed"
+  },
+  "data": {
+    "n_cells_post_preprocess": 32612,
+    "n_genes_post_preprocess": 3953
+  },
+  "data_validation": {
+    "status": "ok",
+    "reason": null,
+    "details": {
+      "n_obs": 299891,
+      "n_vars": 4000,
+      "has_X": true,
+      "layers": [
+        "counts",
+        "log1p_norm"
+      ]
+    }
+  },
+  "priors": {
+    "dataset": "integrated_liver_atlas_9datasets",
+    "task": "task2_CD8_Tcell_differentiation",
+    "group_key": "cell_subtype_L2",
+    "n_marker_programs": 12,
+    "marker_programs": [
+      "Naive T",
+      "CD8 T (SELL+)",
+      "CD8 T (GZMK+)",
+      "CD8 T (CX3CR1+)",
+      "CD8 T (KLRD1+)",
+      "Cytotoxic T",
+      "Intermediate T",
+      "Memory/Activated T",
+      "Central Memory T",
+      "Effector Memory T",
+      "Tissue-resident Memory T",
+      "CD8 T (PDCD1+)"
+    ],
+    "n_ordinal_covariates": 0,
+    "terminal_label_key": null,
+    "root_group": "Naive T",
+    "root_group_key": "cell_subtype_L2",
+    "has_root_cell_id": false
+  },
+  "preprocessing": {
+    "n_cells_input": 299891,
+    "n_genes_input": 4000,
+    "n_cells_output": 32612,
+    "n_genes_output": 3953,
+    "steps": [
+      {
+        "step": "subset_cells",
+        "n_cells_before": 299891,
+        "include": {
+          "key": "cell_subtype_L2",
+          "n_values": 12,
+          "values": [
+            "Cytotoxic T",
+            "Intermediate T",
+            "Naive T",
+            "CD8 T (CX3CR1+)",
+            "CD8 T (PDCD1+)",
+            "Memory/Activated T",
+            "Tissue-resident Memory T",
+            "Effector Memory T",
+            "CD8 T (SELL+)",
+            "CD8 T (GZMK+)",
+            "CD8 T (KLRD1+)",
+            "Central Memory T"
+          ],
+          "n_kept_after_include": 32612
+        },
+        "exclude": null,
+        "n_cells_after": 32612,
+        "n_cells_removed": 267279
+      },
+      {
+        "step": "filter_min_cells",
+        "min_cells": 3,
+        "n_genes_before": 4000,
+        "n_genes_after": 3953,
+        "n_genes_removed": 47
+      },
+      {
+        "step": "filter_min_counts",
+        "min_counts": 1,
+        "n_genes_before": 3953,
+        "n_genes_after": 3953,
+        "n_genes_removed": 0
+      },
+      {
+        "step": "select_highly_variable_genes",
+        "n_top_genes": 3000,
+        "flavor": "variance_fallback",
+        "batch_key": null,
+        "subset": false,
+        "n_genes_before": 3953,
+        "n_hvg_selected": 3000,
+        "n_genes_after": 3953
+      }
+    ],
+    "params": {
+      "include_key": "cell_subtype_L2",
+      "include_values": [
+        "Naive T",
+        "CD8 T (SELL+)",
+        "CD8 T (GZMK+)",
+        "CD8 T (CX3CR1+)",
+        "CD8 T (KLRD1+)",
+        "Cytotoxic T",
+        "Intermediate T",
+        "Memory/Activated T",
+        "Central Memory T",
+        "Effector Memory T",
+        "Tissue-resident Memory T",
+        "CD8 T (PDCD1+)"
+      ],
+      "exclude_key": null,
+      "exclude_values": null,
+      "replace_labels_json": "{}",
+      "replace_labels_key": "cell_subtype_L2",
+      "min_cells": 3,
+      "min_counts": 1,
+      "n_top_genes": 3000,
+      "normalize": false,
+      "log1p": false,
+      "scale": false,
+      "target_sum": 10000.0,
+      "hvg_flavor": "seurat",
+      "hvg_subset": false,
+      "batch_key": null
+    }
+  },
+  "metrics_gene_panel": {
+    "geometry_mirror": {
+      "status": "ok",
+      "copied": [
+        "obsm",
+        "obsp",
+        "uns"
+      ]
+    }
+  },
+  "preprocessing_post": {
+    "hvg_subset_runner": {
+      "requested": false,
+      "applied": false,
+      "n_genes_full": 3953,
+      "n_hvg": 3000,
+      "n_genes_working": 3953
+    }
+  },
+  "adata_exports": {
+    "post_geometry": {
+      "status": "ok",
+      "path": "/data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/slingshot/fastmnn/adata/adata_post_geometry.h5ad",
+      "error": null
+    }
+  },
+  "geometry": {
+    "routing_detection": {
+      "mode": "coupled",
+      "path": "/data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/fastmnn_full_hvg_seed0/adata_fastmnn_fastmnn_full_hvg_seed0.h5ad",
+      "has_x_emb": true,
+      "has_namespaced_neighbors_uns": true,
+      "has_namespaced_graph": true,
+      "in_integration_tree": true,
+      "in_coupled_tree": false,
+      "inferred_integration_method": "fastmnn",
+      "strong_evidence": true
+    }
+  },
+  "neighbors": {
+    "status": "ok",
+    "neighbors_key": "neighbors",
+    "connectivities_key": "connectivities",
+    "distances_key": "distances",
+    "n_neighbors_requested": 20,
+    "n_neighbors_actual": 20,
+    "n_neighbors_clamped": false,
+    "rep_key": "X_integrated",
+    "metric": "euclidean",
+    "random_state": 0,
+    "scanpy_key_added": null
+  },
+  "umap": {
+    "status": "ok",
+    "neighbors_key": "neighbors",
+    "umap_key_canonical": "X_umap",
+    "umap_key_requested": "X_umap",
+    "n_components": 2,
+    "min_dist": 0.3,
+    "spread": 1.0,
+    "min_dist_over_spread": 0.3,
+    "random_state": 0,
+    "n_epochs_actual": null
+  },
+  "coupled_geometry": {
+    "integration_method": "fastmnn",
+    "n_cells": 32612,
+    "n_genes": 3953,
+    "n_neighbors": 20,
+    "random_state": 0,
+    "route": "B",
+    "embedding_source": "obsm['X_emb']",
+    "embedding_shape": [
+      32612,
+      50
+    ],
+    "embedding_range": [
+      -103.8496,
+      166.9832
+    ],
+    "integrated_rep_key": "X_integrated",
+    "neighbors_status": "ok",
+    "connectivities_key": "connectivities",
+    "distances_key": "distances",
+    "n_neighbors_requested": 20,
+    "n_neighbors_actual": 20,
+    "graph_nnz": 1013684,
+    "umap_status": "ok"
+  },
+  "metrics_inputs": {
+    "n_cells": 32612,
+    "n_genes_var_names": 3953,
+    "var_names_preview": {
+      "n": 3953,
+      "head": [
+        "A1BG",
+        "A1CF",
+        "A2M",
+        "AADAC",
+        "AADAT",
+        "AASDH",
+        "AASS",
+        "ABCA10",
+        "ABCA2",
+        "ABCA5"
+      ],
+      "tail": [
+        "ZNF831",
+        "ZNF843",
+        "ZNF846",
+        "ZNF883",
+        "ZNRF3",
+        "ZP3",
+        "ZSCAN5A",
+        "ZSWIM4",
+        "ZSWIM5",
+        "ZUFSP"
+      ]
+    },
+    "expression_layer": "log1p",
+    "layers_present": [
+      "counts",
+      "log1p_norm",
+      "log1p"
+    ],
+    "X_shape": [
+      32612,
+      3953
+    ],
+    "layer_shape": [
+      32612,
+      3953
+    ],
+    "layer_present": true,
+    "fixed_var_names_preview": {
+      "n": 3953,
+      "head": [
+        "A1BG",
+        "A1CF",
+        "A2M",
+        "AADAC",
+        "AADAT",
+        "AASDH",
+        "AASS",
+        "ABCA10",
+        "ABCA2",
+        "ABCA5"
+      ],
+      "tail": [
+        "ZNF831",
+        "ZNF843",
+        "ZNF846",
+        "ZNF883",
+        "ZNRF3",
+        "ZP3",
+        "ZSCAN5A",
+        "ZSWIM4",
+        "ZSWIM5",
+        "ZUFSP"
+      ]
+    },
+    "var_name_overlap_with_fixed": {
+      "n_fixed": 3953,
+      "n_current": 3953,
+      "n_intersection": 3953,
+      "n_fixed_only": 0,
+      "n_current_only": 0
+    }
+  },
+  "root_selection": {
+    "n_cells": 32612,
+    "rep_key": "X_integrated",
+    "random_state": 0,
+    "selection": {
+      "status": "ok",
+      "strategy": "group_centroid",
+      "root_group": "Naive T",
+      "group_key": "cell_subtype_L2",
+      "rep_key": "X_integrated",
+      "n_group_cells": 1616,
+      "k": 1,
+      "dist_to_centroid": 1.4246001662415781,
+      "root_cell_id": "54896",
+      "random_state": 0
+    },
+    "source": "cli_root_group",
+    "effective_group_key": "cell_subtype_L2"
+  },
+  "metrics": {
+    "meta": {
+      "dataset_name": "integrated_liver_atlas_9datasets",
+      "task_name": "task2_CD8_Tcell_differentiation",
+      "method_name": "slingshot",
+      "n_cells": 32612,
+      "n_genes": 3953
+    },
+    "pseudotime_sanity_raw": {
+      "status": "error",
+      "value": null,
+      "reason": "pseudotime has no finite values"
+    },
+    "marker_concordance": {
+      "status": "skipped",
+      "value": null,
+      "reason": "pseudotime has no finite values"
+    },
+    "marker_monotonicity": {
+      "status": "skipped",
+      "value": null,
+      "reason": "pseudotime has no finite values"
+    },
+    "knn_smoothness": {
+      "status": "skipped",
+      "value": null,
+      "reason": "pseudotime has no finite values"
+    },
+    "root_purity": {
+      "status": "skipped",
+      "value": null,
+      "reason": "pseudotime has no finite values"
+    },
+    "topology_pseudotime_consistency": {
+      "status": "skipped",
+      "value": null,
+      "reason": "pseudotime has no finite values"
+    }
+  },
+  "plotting": {
+    "status": "ok",
+    "written": [
+      "/data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/slingshot/fastmnn/figures/umap_by_cell_subtype_L2.png"
+    ],
+    "skipped": [],
+    "errors": [],
+    "captions_file": "/data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/slingshot/fastmnn/figures/figure_captions.txt"
+  },
+  "final": {
+    "run_completed": true,
+    "success": false,
+    "reason": "ti_failed",
+    "total_elapsed_seconds": 60.158
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "meta": {
+    "ti_method": "slingshot",
+    "task_name": "task1_Monocyte_macrophage_TAM",
+    "n_integration_methods": 10,
+    "n_successful_runs": 9,
+    "n_failed_runs": 1,
+    "integration_methods": [
+      "bbknn",
+      "combat",
+      "fastmnn",
+      "harmony",
+      "liger",
+      "scanorama",
+      "scanvi",
+      "scgen",
+      "scvi",
+      "seurat"
+    ]
+  },
+  "kendalls_w": {
+    "status": "ok",
+    "value": {
+      "W": 0.389664,
+      "n_rankers": 9,
+      "n_cells_common": 20355,
+      "S": 22182349586230.5,
+      "chi2": 71381.0173,
+      "df": 20354,
+      "p_value": 0.0,
+      "integration_methods": [
+        "bbknn",
+        "combat",
+        "harmony",
+        "liger",
+        "scanorama",
+        "scanvi",
+        "scgen",
+        "scvi",
+        "seurat"
+      ]
+    },
+    "reason": null
+  },
+  "topology_jaccard": {
+    "status": "ok",
+    "value": {
+      "jaccard_mean": 0.242474,
+      "jaccard_std": 0.118637,
+      "jaccard_min": 0.05,
+      "jaccard_max": 0.5,
+      "n_pairs": 36,
+      "n_topology_ok": 9,
+      "pairwise_values": [
+        0.142857,
+        0.2,
+        0.176471,
+        0.411765,
+        0.5,
+        0.263158,
+        0.5,
+        0.263158,
+        0.2,
+        0.4,
+        0.333333,
+        0.2,
+        0.263158,
+        0.2,
+        0.142857,
+        0.117647,
+        0.142857,
+        0.2,
+        0.142857,
+        0.142857,
+        0.2,
+        0.294118,
+        0.222222,
+        0.230769,
+        0.157895,
+        0.05,
+        0.263158,
+        0.142857,
+        0.5,
+        0.2,
+        0.142857,
+        0.5,
+        0.263158,
+        0.142857,
+        0.142857,
+        0.333333
+      ],
+      "pair_labels": [
+        [
+          "bbknn",
+          "combat"
+        ],
+        [
+          "bbknn",
+          "harmony"
+        ],
+        [
+          "bbknn",
+          "liger"
+        ],
+        [
+          "bbknn",
+          "scanorama"
+        ],
+        [
+          "bbknn",
+          "scanvi"
+        ],
+        [
+          "bbknn",
+          "scgen"
+        ],
+        [
+          "bbknn",
+          "scvi"
+        ],
+        [
+          "bbknn",
+          "seurat"
+        ],
+        [
+          "combat",
+          "harmony"
+        ],
+        [
+          "combat",
+          "liger"
+        ],
+        [
+          "combat",
+          "scanorama"
+        ],
+        [
+          "combat",
+          "scanvi"
+        ],
+        [
+          "combat",
+          "scgen"
+        ],
+        [
+          "combat",
+          "scvi"
+        ],
+        [
+          "combat",
+          "seurat"
+        ],
+        [
+          "harmony",
+          "liger"
+        ],
+        [
+          "harmony",
+          "scanorama"
+        ],
+        [
+          "harmony",
+          "scanvi"
+        ],
+        [
+          "harmony",
+          "scgen"
+        ],
+        [
+          "harmony",
+          "scvi"
+        ],
+        [
+          "harmony",
+          "seurat"
+        ],
+        [
+          "liger",
+          "scanorama"
+        ],
+        [
+          "liger",
+          "scanvi"
+        ],
+        [
+          "liger",
+          "scgen"
+        ],
+        [
+          "liger",
+          "scvi"
+        ],
+        [
+          "liger",
+          "seurat"
+        ],
+        [
+          "scanorama",
+          "scanvi"
+        ],
+        [
+          "scanorama",
+          "scgen"
+        ],
+        [
+          "scanorama",
+          "scvi"
+        ],
+        [
+          "scanorama",
+          "seurat"
+        ],
+        [
+          "scanvi",
+          "scgen"
+        ],
+        [
+          "scanvi",
+          "scvi"
+        ],
+        [
+          "scanvi",
+          "seurat"
+        ],
+        [
+          "scgen",
+          "scvi"
+        ],
+        [
+          "scgen",
+          "seurat"
+        ],
+        [
+          "scvi",
+          "seurat"
+        ]
+      ]
+    },
+    "reason": null
+  },
+  "branch_count_variance": {
+    "status": "ok",
+    "value": {
+      "leaves": {
+        "values": [
+          6,
+          5,
+          7,
+          7,
+          7,
+          5,
+          9,
+          6,
+          5
+        ],
+        "mean": 6.3333,
+        "std": 1.2472,
+        "min": 5,
+        "max": 9,
+        "cv": 0.1969
+      },
+      "branchpoints": {
+        "values": [
+          3,
+          2,
+          3,
+          4,
+          4,
+          3,
+          3,
+          4,
+          2
+        ],
+        "mean": 3.1111,
+        "std": 0.737,
+        "min": 2,
+        "max": 4,
+        "cv": 0.2369
+      },
+      "n_topology_ok": 9,
+      "per_method": [
+        {
+          "integration_method": "bbknn",
+          "n_leaves": 6,
+          "n_branchpoints": 3
+        },
+        {
+          "integration_method": "combat",
+          "n_leaves": 5,
+          "n_branchpoints": 2
+        },
+        {
+          "integration_method": "harmony",
+          "n_leaves": 7,
+          "n_branchpoints": 3
+        },
+        {
+          "integration_method": "liger",
+          "n_leaves": 7,
+          "n_branchpoints": 4
+        },
+        {
+          "integration_method": "scanorama",
+          "n_leaves": 7,
+          "n_branchpoints": 4
+        },
+        {
+          "integration_method": "scanvi",
+          "n_leaves": 5,
+          "n_branchpoints": 3
+        },
+        {
+          "integration_method": "scgen",
+          "n_leaves": 9,
+          "n_branchpoints": 3
+        },
+        {
+          "integration_method": "scvi",
+          "n_leaves": 6,
+          "n_branchpoints": 4
+        },
+        {
+          "integration_method": "seurat",
+          "n_leaves": 5,
+          "n_branchpoints": 2
+        }
+      ]
+    },
+    "reason": null
+  },
+  "root_placement_consistency": {
+    "status": "ok",
+    "value": {
+      "consistency_rate_total": 0.9,
+      "consistency_rate_evaluable": 1.0,
+      "n_correct": 9,
+      "n_evaluable": 9,
+      "n_total_runs": 10,
+      "n_failed_runs": 1,
+      "root_group_expected": "Tissue Monocyte",
+      "group_key": "cell_subtype_L2",
+      "per_method": [
+        {
+          "integration_method": "bbknn",
+          "root_cell_id": "GSM4041154_healthy2_cd45-_ATTATCCTCGCAAGCC-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "combat",
+          "root_cell_id": "GSM4041155_healthy3_cd45+_TGTATTCTCGGTGTCG-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "fastmnn",
+          "root_cell_id": "GSM4041150_healthy1_cd45+_CAGCCGACACAGGAGT-1",
+          "root_assigned_group": null,
+          "root_group_expected": "Tissue Monocyte",
+          "correct": null,
+          "counted_as_incorrect_in_total": true,
+          "note": "run not evaluable for root placement"
+        },
+        {
+          "integration_method": "harmony",
+          "root_cell_id": "GSM4041167_cirrhotic3_cd45-_TGACTTTCACCAGTTA-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "liger",
+          "root_cell_id": "GSM4041159_healthy4_cd45-_AACTCCCCACTAAGTC-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "scanorama",
+          "root_cell_id": "GSM4041160_healthy5_cd45+_CGTAGGCCACCGAATT-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "scanvi",
+          "root_cell_id": "GSM4041153_healthy2_cd45+_ACGCCGAAGGGAACGG-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "scgen",
+          "root_cell_id": "GSM4041163_cirrhotic1_cd45-B_CACAGTATCACAGGCC-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "scvi",
+          "root_cell_id": "GSM4041160_healthy5_cd45+_CCACTACTCGGAATCT-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "seurat",
+          "root_cell_id": "GSM4041155_healthy3_cd45+_AAAGCAACATGCATGT-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        }
+      ]
+    },
+    "reason": null
+  },
+  "integration_sensitivity_score": {
+    "status": "ok",
+    "value": {
+      "ISS": 0.465732,
+      "components_used": [
+        "kendalls_w",
+        "topology_jaccard",
+        "root_consistency"
+      ],
+      "components_available": {
+        "kendalls_w": true,
+        "topology_jaccard": true,
+        "root_consistency": true
+      },
+      "component_scores": {
+        "kendalls_w": 0.389664,
+        "topology_jaccard": 0.242474,
+        "root_consistency": 0.9
+      },
+      "weights_used": {
+        "kendalls_w": 0.4,
+        "topology_jaccard": 0.35,
+        "root_consistency": 0.25
+      },
+      "weights_renormalised": false
+    },
+    "reason": null
+  }
+}

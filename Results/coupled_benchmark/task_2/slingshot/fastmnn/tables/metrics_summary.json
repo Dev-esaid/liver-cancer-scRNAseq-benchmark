@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "dataset_name": "integrated_liver_atlas_9datasets",
+    "task_name": "task2_CD8_Tcell_differentiation",
+    "method_name": "slingshot",
+    "n_cells": 32612,
+    "n_genes": 3953
+  },
+  "pseudotime_sanity_raw": {
+    "status": "error",
+    "value": null,
+    "reason": "pseudotime has no finite values"
+  },
+  "marker_concordance": {
+    "status": "skipped",
+    "value": null,
+    "reason": "pseudotime has no finite values"
+  },
+  "marker_monotonicity": {
+    "status": "skipped",
+    "value": null,
+    "reason": "pseudotime has no finite values"
+  },
+  "knn_smoothness": {
+    "status": "skipped",
+    "value": null,
+    "reason": "pseudotime has no finite values"
+  },
+  "root_purity": {
+    "status": "skipped",
+    "value": null,
+    "reason": "pseudotime has no finite values"
+  },
+  "topology_pseudotime_consistency": {
+    "status": "skipped",
+    "value": null,
+    "reason": "pseudotime has no finite values"
+  }
+}

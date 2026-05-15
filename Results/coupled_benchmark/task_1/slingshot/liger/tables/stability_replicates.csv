@@ -1,0 +1,21 @@
+replicate_index,seed,status,n_cells,root_cell_id,error_msg
+0,0,error,,,RuntimeError: Slingshot R step failed (exit=1). See log: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/slingshot/liger/logs/tmp/slingshot/bootstrap_0/slingshot_R.log
+1,1,ok,16287.0,GSM4041165_cirrhotic2_cd45-_TTAGTTCCATGCAACT-1,
+2,2,error,,,RuntimeError: Slingshot R step failed (exit=1). See log: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/slingshot/liger/logs/tmp/slingshot/bootstrap_2/slingshot_R.log
+3,3,error,,,RuntimeError: Slingshot R step failed (exit=1). See log: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/slingshot/liger/logs/tmp/slingshot/bootstrap_3/slingshot_R.log
+4,4,error,,,RuntimeError: Slingshot R step failed (exit=1). See log: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/slingshot/liger/logs/tmp/slingshot/bootstrap_4/slingshot_R.log
+5,5,ok,16287.0,GSM4041159_healthy4_cd45-_AACTCCCCACTAAGTC-1,
+6,6,ok,16287.0,GSM4041159_healthy4_cd45-_AACTCCCCACTAAGTC-1,
+7,7,error,,,RuntimeError: Slingshot R step failed (exit=1). See log: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/slingshot/liger/logs/tmp/slingshot/bootstrap_7/slingshot_R.log
+8,8,ok,16287.0,GSM4041159_healthy4_cd45-_AACTCCCCACTAAGTC-1,
+9,9,ok,16287.0,GSM4041159_healthy4_cd45-_AACTCCCCACTAAGTC-1,
+10,10,error,,,RuntimeError: Slingshot R step failed (exit=1). See log: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/slingshot/liger/logs/tmp/slingshot/bootstrap_10/slingshot_R.log
+11,11,ok,16287.0,GSM4041159_healthy4_cd45-_AACTCCCCACTAAGTC-1,
+12,12,ok,16287.0,GSM4041159_healthy4_cd45-_AACTCCCCACTAAGTC-1,
+13,13,error,,,RuntimeError: Slingshot R step failed (exit=1). See log: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/slingshot/liger/logs/tmp/slingshot/bootstrap_13/slingshot_R.log
+14,14,ok,16287.0,GSM4041159_healthy4_cd45-_AACTCCCCACTAAGTC-1,
+15,15,ok,16287.0,GSM4041159_healthy4_cd45-_AACTCCCCACTAAGTC-1,
+16,16,error,,,RuntimeError: Slingshot R step failed (exit=1). See log: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/slingshot/liger/logs/tmp/slingshot/bootstrap_16/slingshot_R.log
+17,17,error,,,RuntimeError: Slingshot R step failed (exit=1). See log: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/slingshot/liger/logs/tmp/slingshot/bootstrap_17/slingshot_R.log
+18,18,error,,,RuntimeError: Slingshot R step failed (exit=1). See log: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/slingshot/liger/logs/tmp/slingshot/bootstrap_18/slingshot_R.log
+19,19,ok,16287.0,GSM4041159_healthy4_cd45-_AACTCCCCACTAAGTC-1,

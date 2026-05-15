@@ -1,0 +1,1258 @@
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+2026-04-06 18:43:29,614 | INFO | TI_benchmark.method_runner | Loading adata from /data1/esraa/Thesis-Project/Data/Processed_data/post_norm_log1p/adata_140228.h5ad
+2026-04-06 18:43:33,967 | INFO | TI_benchmark.method_runner | Loaded adata: 63306 cells × 54574 genes
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:43:49,773 | INFO | __main__ | VIA ti_runner start | seed=0 | bootstrap_index=None | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/phate/__init__.py
+2026-04-06 18:43:49.776402	Running VIA over input data of 7203 (samples) x 30 (features)
+2026-04-06 18:43:49.776418	Knngraph has 30 neighbors
+2026-04-06 18:43:53.054453	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.1 % of edges. 
+2026-04-06 18:43:53.075305	Number of connected components used for clustergraph  is 1
+2026-04-06 18:43:53.284524	Commencing community detection
+2026-04-06 18:43:53.752649	Finished community detection. Found 110 clusters.
+2026-04-06 18:43:53.754101	Merging 90 very small clusters (<10)
+2026-04-06 18:43:53.755186	Finished detecting communities. Found 20 communities
+2026-04-06 18:43:53.755443	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:43:53.766234	Graph has 1 connected components before pruning
+2026-04-06 18:43:53.767271	Graph has 1 connected components after pruning
+2026-04-06 18:43:53.767329	Graph has 1 connected components after reconnecting
+2026-04-06 18:43:53.767570	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:43:53.767580	73.1% links trimmed from global pruning relative to start
+initial links 334 and final_links_n 334
+2026-04-06 18:43:53.769165	component number 0 out of  [0]
+2026-04-06 18:43:53.771859	The root index, 3371 provided by the user belongs to cluster number 14 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:43:53.774003	Computing lazy-teleporting expected hitting times
+2026-04-06 18:43:54.179213	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:04<?, ?it/s]  0%|          | 0/1300 [00:04<?, ?it/s]  0%|          | 0/1300 [00:04<?, ?it/s]  0%|          | 0/1300 [00:04<?, ?it/s]  0%|          | 0/1300 [00:04<?, ?it/s]  0%|          | 0/1300 [00:04<?, ?it/s]  0%|          | 0/1300 [00:04<?, ?it/s]  0%|          | 0/1300 [00:04<?, ?it/s]  0%|          | 0/1300 [00:04<?, ?it/s]  0%|          | 0/1300 [00:04<?, ?it/s]  0%|          | 0/1300 [00:05<?, ?it/s]  0%|          | 0/1300 [00:05<?, ?it/s]  0%|          | 0/1300 [00:05<?, ?it/s]  0%|          | 0/1300 [00:05<?, ?it/s]  0%|          | 0/1300 [00:05<?, ?it/s]  0%|          | 0/1300 [00:05<?, ?it/s]  0%|          | 0/1300 [00:05<?, ?it/s]  0%|          | 0/1300 [00:05<?, ?it/s]  0%|          | 0/1300 [00:05<?, ?it/s]  0%|          | 0/1300 [00:05<?, ?it/s]100%|██████████| 1300/1300 [00:06<00:00, 214.83it/s]100%|██████████| 1300/1300 [00:06<00:00, 214.82it/s]100%|██████████| 1300/1300 [00:06<00:00, 214.82it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:44:00.308540	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:44:00.308551	Closeness:[0, 2, 4, 7, 8, 9, 10, 11, 12, 15, 17, 18]
+2026-04-06 18:44:00.308555	Betweenness:[3, 4, 5, 6, 7, 8, 9, 14, 15, 16, 18]
+2026-04-06 18:44:00.308558	Out Degree:[0, 2, 4, 7, 8, 9, 12, 15, 17, 18]
+2026-04-06 18:44:00.308652	Cluster 0 had 3 or more neighboring terminal states [7, 8, 15, 17] and so we removed cluster 7
+2026-04-06 18:44:00.308668	Cluster 4 had 3 or more neighboring terminal states [9, 12, 17, 18] and so we removed cluster 9
+2026-04-06 18:44:00.308685	Cluster 12 had 3 or more neighboring terminal states [2, 4, 17] and so we removed cluster 2
+2026-04-06 18:44:00.308693	Cluster 17 had 3 or more neighboring terminal states [0, 4, 12] and so we removed cluster 0
+2026-04-06 18:44:00.308759	Terminal clusters corresponding to unique lineages in this component are [4, 8, 12, 15, 17, 18] 
+2026-04-06 18:44:00.308766	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]100%|██████████| 1000/1000 [00:03<00:00, 258.95it/s]100%|██████████| 1000/1000 [00:03<00:00, 258.93it/s]100%|██████████| 1000/1000 [00:03<00:00, 258.92it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:44:14,416 | INFO | __main__ | VIA ti_runner start | seed=0 | bootstrap_index=0 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:44:04.200226	Cluster or terminal cell fate 4 is reached 617.0 times
+2026-04-06 18:44:04.214306	Cluster or terminal cell fate 8 is reached 524.0 times
+2026-04-06 18:44:04.229383	Cluster or terminal cell fate 12 is reached 591.0 times
+2026-04-06 18:44:04.244455	Cluster or terminal cell fate 15 is reached 526.0 times
+2026-04-06 18:44:04.259640	Cluster or terminal cell fate 17 is reached 626.0 times
+2026-04-06 18:44:04.277363	Cluster or terminal cell fate 18 is reached 124.0 times
+2026-04-06 18:44:04.283869	There are (6) terminal clusters corresponding to unique lineages {4: 'NK-C5-CD69', 8: 'NK-C7-CD160', 12: 'NK-C3-IFNG', 15: 'NK-C5-CD69', 17: 'NK-C3-IFNG', 18: 'NK-C5-CD69'}
+2026-04-06 18:44:04.283883	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:44:05.477659	Cluster graph layout based on forward biasing
+2026-04-06 18:44:05.478360	Starting make edgebundle viagraph...
+2026-04-06 18:44:05.478365	Make via clustergraph edgebundle
+2026-04-06 18:44:05.752498	Hammer dims: Nodes shape: (20, 2) Edges shape: (90, 3)
+2026-04-06 18:44:05.752963	Graph has 1 connected components before pruning
+2026-04-06 18:44:05.753819	Graph has 6 connected components after pruning
+2026-04-06 18:44:05.761374	Graph has 1 connected components after reconnecting
+2026-04-06 18:44:05.761653	55.6% links trimmed from local pruning relative to start
+2026-04-06 18:44:05.761663	67.8% links trimmed from global pruning relative to start
+initial links 90 and final_links_n 40
+2026-04-06 18:44:05.769860	Time elapsed 14.6 seconds
+2026-04-06 18:44:14.418704	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:44:14.418717	Knngraph has 30 neighbors
+2026-04-06 18:44:16.973486	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 49.8 % of edges. 
+2026-04-06 18:44:16.991564	Number of connected components used for clustergraph  is 1
+2026-04-06 18:44:17.160203	Commencing community detection
+2026-04-06 18:44:17.526650	Finished community detection. Found 128 clusters.
+2026-04-06 18:44:17.527614	Merging 110 very small clusters (<10)
+2026-04-06 18:44:17.528697	Finished detecting communities. Found 18 communities
+2026-04-06 18:44:17.528903	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:44:17.537285	Graph has 1 connected components before pruning
+2026-04-06 18:44:17.538198	Graph has 1 connected components after pruning
+2026-04-06 18:44:17.538250	Graph has 1 connected components after reconnecting
+2026-04-06 18:44:17.538476	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:44:17.538484	70.8% links trimmed from global pruning relative to start
+initial links 274 and final_links_n 274
+2026-04-06 18:44:17.539956	component number 0 out of  [0]
+2026-04-06 18:44:17.542225	The root index, 2704 provided by the user belongs to cluster number 14 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:44:17.544113	Computing lazy-teleporting expected hitting times
+2026-04-06 18:44:17.904148	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]100%|██████████| 1300/1300 [00:03<00:00, 405.95it/s]100%|██████████| 1300/1300 [00:03<00:00, 405.92it/s]100%|██████████| 1300/1300 [00:03<00:00, 405.91it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:44:21.171726	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:44:21.171737	Closeness:[0, 3, 4, 9, 10, 11, 12, 15, 17]
+2026-04-06 18:44:21.171742	Betweenness:[2, 3, 4, 10, 11, 12, 14, 15, 17]
+2026-04-06 18:44:21.171744	Out Degree:[0, 1, 2, 3, 4, 5, 8, 9, 10, 15, 17]
+2026-04-06 18:44:21.171851	Cluster 2 had 3 or more neighboring terminal states [9, 12, 17] and so we removed cluster 12
+2026-04-06 18:44:21.171863	Cluster 3 had 3 or more neighboring terminal states [9, 10, 17] and so we removed cluster 10
+2026-04-06 18:44:21.171869	We removed cluster 4 from the shortlist of terminal states
+2026-04-06 18:44:21.171877	Cluster 9 had 3 or more neighboring terminal states [0, 2, 3, 11] and so we removed cluster 11
+2026-04-06 18:44:21.171972	Terminal clusters corresponding to unique lineages in this component are [0, 2, 3, 9, 15, 17] 
+2026-04-06 18:44:21.171979	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 348.38it/s]100%|██████████| 1000/1000 [00:02<00:00, 348.35it/s]100%|██████████| 1000/1000 [00:02<00:00, 348.34it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:44:32,511 | INFO | __main__ | VIA ti_runner start | seed=1 | bootstrap_index=1 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:44:24.070815	Cluster or terminal cell fate 0 is reached 446.0 times
+2026-04-06 18:44:24.086143	Cluster or terminal cell fate 2 is reached 250.0 times
+2026-04-06 18:44:24.099792	Cluster or terminal cell fate 3 is reached 618.0 times
+2026-04-06 18:44:24.113495	Cluster or terminal cell fate 9 is reached 629.0 times
+2026-04-06 18:44:24.127109	Cluster or terminal cell fate 15 is reached 562.0 times
+2026-04-06 18:44:24.142428	Cluster or terminal cell fate 17 is reached 358.0 times
+2026-04-06 18:44:24.148585	There are (6) terminal clusters corresponding to unique lineages {0: 'NK-C7-CD160', 2: 'NK-C5-CD69', 3: 'NK-C5-CD69', 9: 'NK-C3-IFNG', 15: 'NK-C5-CD69', 17: 'NK-C5-CD69'}
+2026-04-06 18:44:24.148601	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:44:25.083931	Cluster graph layout based on forward biasing
+2026-04-06 18:44:25.084636	Starting make edgebundle viagraph...
+2026-04-06 18:44:25.084642	Make via clustergraph edgebundle
+2026-04-06 18:44:25.171274	Hammer dims: Nodes shape: (18, 2) Edges shape: (80, 3)
+2026-04-06 18:44:25.171793	Graph has 1 connected components before pruning
+2026-04-06 18:44:25.172794	Graph has 6 connected components after pruning
+2026-04-06 18:44:25.174789	Graph has 1 connected components after reconnecting
+2026-04-06 18:44:25.175071	55.0% links trimmed from local pruning relative to start
+2026-04-06 18:44:25.175081	70.0% links trimmed from global pruning relative to start
+initial links 80 and final_links_n 36
+2026-04-06 18:44:25.182275	Time elapsed 9.7 seconds
+2026-04-06 18:44:32.513416	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:44:32.513429	Knngraph has 30 neighbors
+2026-04-06 18:44:34.997781	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.2 % of edges. 
+2026-04-06 18:44:35.014922	Number of connected components used for clustergraph  is 1
+2026-04-06 18:44:35.183288	Commencing community detection
+2026-04-06 18:44:35.556286	Finished community detection. Found 121 clusters.
+2026-04-06 18:44:35.557310	Merging 103 very small clusters (<10)
+2026-04-06 18:44:35.558442	Finished detecting communities. Found 18 communities
+2026-04-06 18:44:35.558663	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:44:35.567702	Graph has 1 connected components before pruning
+2026-04-06 18:44:35.568618	Graph has 1 connected components after pruning
+2026-04-06 18:44:35.568672	Graph has 1 connected components after reconnecting
+2026-04-06 18:44:35.568892	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:44:35.568900	73.9% links trimmed from global pruning relative to start
+initial links 276 and final_links_n 276
+2026-04-06 18:44:35.570404	component number 0 out of  [0]
+2026-04-06 18:44:35.572662	The root index, 2716 provided by the user belongs to cluster number 13 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:44:35.574425	Computing lazy-teleporting expected hitting times
+2026-04-06 18:44:35.943382	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]100%|██████████| 1300/1300 [00:03<00:00, 417.89it/s]100%|██████████| 1300/1300 [00:03<00:00, 417.86it/s]100%|██████████| 1300/1300 [00:03<00:00, 417.84it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:44:39.115221	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:44:39.115231	Closeness:[0, 1, 3, 6, 7, 9, 11, 12, 13, 15]
+2026-04-06 18:44:39.115236	Betweenness:[0, 1, 3, 6, 7, 8, 9, 11, 13, 15]
+2026-04-06 18:44:39.115239	Out Degree:[1, 3, 4, 6, 7, 8, 9, 10, 11, 12, 15]
+2026-04-06 18:44:39.115332	Cluster 0 had 3 or more neighboring terminal states [7, 8, 15] and so we removed cluster 7
+2026-04-06 18:44:39.115343	Cluster 1 had 3 or more neighboring terminal states [9, 11, 12] and so we removed cluster 1
+2026-04-06 18:44:39.115348	We removed cluster 6 from the shortlist of terminal states
+2026-04-06 18:44:39.115427	Terminal clusters corresponding to unique lineages in this component are [0, 8, 9, 11, 12, 15] 
+2026-04-06 18:44:39.115433	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 344.44it/s]100%|██████████| 1000/1000 [00:02<00:00, 344.42it/s]100%|██████████| 1000/1000 [00:02<00:00, 344.41it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:44:50,192 | INFO | __main__ | VIA ti_runner start | seed=2 | bootstrap_index=2 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:44:42.045202	Cluster or terminal cell fate 0 is reached 739.0 times
+2026-04-06 18:44:42.056739	Cluster or terminal cell fate 8 is reached 832.0 times
+2026-04-06 18:44:42.072507	Cluster or terminal cell fate 9 is reached 194.0 times
+2026-04-06 18:44:42.088662	Cluster or terminal cell fate 11 is reached 195.0 times
+2026-04-06 18:44:42.104389	Cluster or terminal cell fate 12 is reached 195.0 times
+2026-04-06 18:44:42.116458	Cluster or terminal cell fate 15 is reached 824.0 times
+2026-04-06 18:44:42.122516	There are (6) terminal clusters corresponding to unique lineages {0: 'NK-C7-CD160', 8: 'NK-C7-CD160', 9: 'NK-C1-FCGR3A', 11: 'NK-C1-FCGR3A', 12: 'NK-C1-FCGR3A', 15: 'NK-C5-CD69'}
+2026-04-06 18:44:42.122530	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:44:43.081047	Cluster graph layout based on forward biasing
+2026-04-06 18:44:43.081625	Starting make edgebundle viagraph...
+2026-04-06 18:44:43.081631	Make via clustergraph edgebundle
+2026-04-06 18:44:43.160476	Hammer dims: Nodes shape: (18, 2) Edges shape: (72, 3)
+2026-04-06 18:44:43.160937	Graph has 1 connected components before pruning
+2026-04-06 18:44:43.161792	Graph has 4 connected components after pruning
+2026-04-06 18:44:43.162934	Graph has 1 connected components after reconnecting
+2026-04-06 18:44:43.163159	50.0% links trimmed from local pruning relative to start
+2026-04-06 18:44:43.163169	70.8% links trimmed from global pruning relative to start
+initial links 72 and final_links_n 36
+2026-04-06 18:44:43.169561	Time elapsed 9.6 seconds
+2026-04-06 18:44:50.194218	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:44:50.194231	Knngraph has 30 neighbors
+2026-04-06 18:44:52.639553	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 49.7 % of edges. 
+2026-04-06 18:44:52.656999	Number of connected components used for clustergraph  is 1
+2026-04-06 18:44:52.820100	Commencing community detection
+2026-04-06 18:44:53.207121	Finished community detection. Found 108 clusters.
+2026-04-06 18:44:53.208143	Merging 90 very small clusters (<10)
+2026-04-06 18:44:53.209184	Finished detecting communities. Found 18 communities
+2026-04-06 18:44:53.209409	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:44:53.218028	Graph has 1 connected components before pruning
+2026-04-06 18:44:53.218993	Graph has 1 connected components after pruning
+2026-04-06 18:44:53.219049	Graph has 1 connected components after reconnecting
+2026-04-06 18:44:53.219283	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:44:53.219291	73.7% links trimmed from global pruning relative to start
+initial links 274 and final_links_n 274
+2026-04-06 18:44:53.220846	component number 0 out of  [0]
+2026-04-06 18:44:53.223273	The root index, 2682 provided by the user belongs to cluster number 13 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:44:53.225154	Computing lazy-teleporting expected hitting times
+2026-04-06 18:44:53.599850	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]100%|██████████| 1300/1300 [00:03<00:00, 404.51it/s]100%|██████████| 1300/1300 [00:03<00:00, 404.49it/s]100%|██████████| 1300/1300 [00:03<00:00, 404.48it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:44:56.875107	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:44:56.875117	Closeness:[1, 3, 9, 10, 11, 12, 15, 16]
+2026-04-06 18:44:56.875121	Betweenness:[0, 1, 4, 6, 8, 9, 10, 11, 13, 15]
+2026-04-06 18:44:56.875123	Out Degree:[2, 3, 4, 7, 9, 10, 11, 12, 15, 16]
+2026-04-06 18:44:56.875199	We removed cluster 1 from the shortlist of terminal states
+2026-04-06 18:44:56.875209	Cluster 3 had 3 or more neighboring terminal states [9, 10, 16] and so we removed cluster 10
+2026-04-06 18:44:56.875216	We removed cluster 4 from the shortlist of terminal states
+2026-04-06 18:44:56.875289	Terminal clusters corresponding to unique lineages in this component are [3, 9, 11, 12, 15, 16] 
+2026-04-06 18:44:56.875295	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 349.22it/s]100%|██████████| 1000/1000 [00:02<00:00, 349.20it/s]100%|██████████| 1000/1000 [00:02<00:00, 349.19it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:45:08,052 | INFO | __main__ | VIA ti_runner start | seed=3 | bootstrap_index=3 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:44:59.769042	Cluster or terminal cell fate 3 is reached 360.0 times
+2026-04-06 18:44:59.784159	Cluster or terminal cell fate 9 is reached 366.0 times
+2026-04-06 18:44:59.799820	Cluster or terminal cell fate 11 is reached 123.0 times
+2026-04-06 18:44:59.815269	Cluster or terminal cell fate 12 is reached 124.0 times
+2026-04-06 18:44:59.827750	Cluster or terminal cell fate 15 is reached 700.0 times
+2026-04-06 18:44:59.843280	Cluster or terminal cell fate 16 is reached 81.0 times
+2026-04-06 18:44:59.849131	There are (6) terminal clusters corresponding to unique lineages {3: 'NK-C5-CD69', 9: 'NK-C3-IFNG', 11: 'NK-C1-FCGR3A', 12: 'NK-C1-FCGR3A', 15: 'NK-C5-CD69', 16: 'NK-C5-CD69'}
+2026-04-06 18:44:59.849149	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:45:00.798278	Cluster graph layout based on forward biasing
+2026-04-06 18:45:00.798886	Starting make edgebundle viagraph...
+2026-04-06 18:45:00.798892	Make via clustergraph edgebundle
+2026-04-06 18:45:00.881345	Hammer dims: Nodes shape: (18, 2) Edges shape: (72, 3)
+2026-04-06 18:45:00.881825	Graph has 1 connected components before pruning
+2026-04-06 18:45:00.882730	Graph has 3 connected components after pruning
+2026-04-06 18:45:00.883633	Graph has 1 connected components after reconnecting
+2026-04-06 18:45:00.883873	50.0% links trimmed from local pruning relative to start
+2026-04-06 18:45:00.883883	72.2% links trimmed from global pruning relative to start
+initial links 72 and final_links_n 36
+2026-04-06 18:45:00.890693	Time elapsed 9.7 seconds
+2026-04-06 18:45:08.054333	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:45:08.054345	Knngraph has 30 neighbors
+2026-04-06 18:45:10.458686	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.4 % of edges. 
+2026-04-06 18:45:10.475863	Number of connected components used for clustergraph  is 1
+2026-04-06 18:45:10.643422	Commencing community detection
+2026-04-06 18:45:11.004372	Finished community detection. Found 103 clusters.
+2026-04-06 18:45:11.005479	Merging 85 very small clusters (<10)
+2026-04-06 18:45:11.006590	Finished detecting communities. Found 18 communities
+2026-04-06 18:45:11.006830	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:45:11.016199	Graph has 1 connected components before pruning
+2026-04-06 18:45:11.017158	Graph has 1 connected components after pruning
+2026-04-06 18:45:11.017214	Graph has 1 connected components after reconnecting
+2026-04-06 18:45:11.017449	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:45:11.017457	73.0% links trimmed from global pruning relative to start
+initial links 282 and final_links_n 282
+2026-04-06 18:45:11.019019	component number 0 out of  [0]
+2026-04-06 18:45:11.021437	The root index, 2708 provided by the user belongs to cluster number 13 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:45:11.023320	Computing lazy-teleporting expected hitting times
+2026-04-06 18:45:11.380167	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]100%|██████████| 1300/1300 [00:03<00:00, 409.36it/s]100%|██████████| 1300/1300 [00:03<00:00, 409.34it/s]100%|██████████| 1300/1300 [00:03<00:00, 409.33it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:45:14.616840	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:45:14.616850	Closeness:[0, 1, 4, 9, 10, 11, 12, 15]
+2026-04-06 18:45:14.616855	Betweenness:[0, 1, 3, 6, 9, 10, 11, 13, 15]
+2026-04-06 18:45:14.616857	Out Degree:[0, 3, 4, 6, 7, 8, 9, 10, 11, 12, 15, 17]
+2026-04-06 18:45:14.616944	Cluster 0 had 3 or more neighboring terminal states [6, 9, 15] and so we removed cluster 6
+2026-04-06 18:45:14.616954	We removed cluster 1 from the shortlist of terminal states
+2026-04-06 18:45:14.616959	We removed cluster 3 from the shortlist of terminal states
+2026-04-06 18:45:14.616971	Cluster 9 had 3 or more neighboring terminal states [0, 4, 11] and so we removed cluster 0
+2026-04-06 18:45:14.616977	Cluster 10 had 3 or more neighboring terminal states [4, 11, 12] and so we removed cluster 11
+2026-04-06 18:45:14.617040	Terminal clusters corresponding to unique lineages in this component are [4, 9, 10, 12, 15] 
+2026-04-06 18:45:14.617046	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 346.77it/s]100%|██████████| 1000/1000 [00:02<00:00, 346.74it/s]100%|██████████| 1000/1000 [00:02<00:00, 346.73it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:45:25,585 | INFO | __main__ | VIA ti_runner start | seed=4 | bootstrap_index=4 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:45:17.530303	Cluster or terminal cell fate 4 is reached 592.0 times
+2026-04-06 18:45:17.545084	Cluster or terminal cell fate 9 is reached 618.0 times
+2026-04-06 18:45:17.560971	Cluster or terminal cell fate 10 is reached 146.0 times
+2026-04-06 18:45:17.576731	Cluster or terminal cell fate 12 is reached 129.0 times
+2026-04-06 18:45:17.590591	Cluster or terminal cell fate 15 is reached 660.0 times
+2026-04-06 18:45:17.595629	There are (5) terminal clusters corresponding to unique lineages {4: 'NK-C5-CD69', 9: 'NK-C3-IFNG', 10: 'NK-C1-FCGR3A', 12: 'NK-C1-FCGR3A', 15: 'NK-C5-CD69'}
+2026-04-06 18:45:17.595643	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:45:18.545751	Cluster graph layout based on forward biasing
+2026-04-06 18:45:18.546448	Starting make edgebundle viagraph...
+2026-04-06 18:45:18.546454	Make via clustergraph edgebundle
+2026-04-06 18:45:18.632048	Hammer dims: Nodes shape: (18, 2) Edges shape: (76, 3)
+2026-04-06 18:45:18.632521	Graph has 1 connected components before pruning
+2026-04-06 18:45:18.633423	Graph has 4 connected components after pruning
+2026-04-06 18:45:18.634676	Graph has 1 connected components after reconnecting
+2026-04-06 18:45:18.634925	52.6% links trimmed from local pruning relative to start
+2026-04-06 18:45:18.634935	71.1% links trimmed from global pruning relative to start
+initial links 76 and final_links_n 36
+2026-04-06 18:45:18.640971	Time elapsed 9.6 seconds
+2026-04-06 18:45:25.587427	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:45:25.587440	Knngraph has 30 neighbors
+2026-04-06 18:45:28.060792	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.2 % of edges. 
+2026-04-06 18:45:28.078163	Number of connected components used for clustergraph  is 1
+2026-04-06 18:45:28.245242	Commencing community detection
+2026-04-06 18:45:28.619982	Finished community detection. Found 112 clusters.
+2026-04-06 18:45:28.620992	Merging 94 very small clusters (<10)
+2026-04-06 18:45:28.622068	Finished detecting communities. Found 18 communities
+2026-04-06 18:45:28.622282	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:45:28.630912	Graph has 1 connected components before pruning
+2026-04-06 18:45:28.631860	Graph has 1 connected components after pruning
+2026-04-06 18:45:28.631925	Graph has 1 connected components after reconnecting
+2026-04-06 18:45:28.632165	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:45:28.632174	72.7% links trimmed from global pruning relative to start
+initial links 286 and final_links_n 286
+2026-04-06 18:45:28.633746	component number 0 out of  [0]
+2026-04-06 18:45:28.636041	The root index, 297 provided by the user belongs to cluster number 13 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:45:28.637794	Computing lazy-teleporting expected hitting times
+2026-04-06 18:45:29.001242	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]100%|██████████| 1300/1300 [00:03<00:00, 406.77it/s]100%|██████████| 1300/1300 [00:03<00:00, 406.75it/s]100%|██████████| 1300/1300 [00:03<00:00, 406.74it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:45:32.259508	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:45:32.259519	Closeness:[0, 2, 3, 4, 9, 10, 11, 12, 15]
+2026-04-06 18:45:32.259523	Betweenness:[1, 3, 4, 9, 11, 12, 13, 15, 17]
+2026-04-06 18:45:32.259526	Out Degree:[0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 15, 17]
+2026-04-06 18:45:32.259608	Cluster 1 had 3 or more neighboring terminal states [10, 12, 17] and so we removed cluster 12
+2026-04-06 18:45:32.259618	Cluster 2 had 3 or more neighboring terminal states [9, 10, 11] and so we removed cluster 11
+2026-04-06 18:45:32.259624	Cluster 3 had 3 or more neighboring terminal states [9, 10, 17] and so we removed cluster 9
+2026-04-06 18:45:32.259629	We removed cluster 4 from the shortlist of terminal states
+2026-04-06 18:45:32.259638	Cluster 10 had 3 or more neighboring terminal states [0, 1, 2, 3, 15] and so we removed cluster 2
+2026-04-06 18:45:32.259703	Terminal clusters corresponding to unique lineages in this component are [0, 1, 3, 10, 15, 17] 
+2026-04-06 18:45:32.259709	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 342.53it/s]100%|██████████| 1000/1000 [00:02<00:00, 342.51it/s]100%|██████████| 1000/1000 [00:02<00:00, 342.50it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:45:43,521 | INFO | __main__ | VIA ti_runner start | seed=5 | bootstrap_index=5 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:45:35.206018	Cluster or terminal cell fate 0 is reached 664.0 times
+2026-04-06 18:45:35.221491	Cluster or terminal cell fate 1 is reached 345.0 times
+2026-04-06 18:45:35.236757	Cluster or terminal cell fate 3 is reached 414.0 times
+2026-04-06 18:45:35.248063	Cluster or terminal cell fate 10 is reached 996.0 times
+2026-04-06 18:45:35.259828	Cluster or terminal cell fate 15 is reached 994.0 times
+2026-04-06 18:45:35.275450	Cluster or terminal cell fate 17 is reached 236.0 times
+2026-04-06 18:45:35.281637	There are (6) terminal clusters corresponding to unique lineages {0: 'NK-C7-CD160', 1: 'NK-C5-CD69', 3: 'NK-C5-CD69', 10: 'NK-C3-IFNG', 15: 'NK-C5-CD69', 17: 'NK-C5-CD69'}
+2026-04-06 18:45:35.281651	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:45:36.240020	Cluster graph layout based on forward biasing
+2026-04-06 18:45:36.240634	Starting make edgebundle viagraph...
+2026-04-06 18:45:36.240640	Make via clustergraph edgebundle
+2026-04-06 18:45:36.325779	Hammer dims: Nodes shape: (18, 2) Edges shape: (78, 3)
+2026-04-06 18:45:36.326277	Graph has 1 connected components before pruning
+2026-04-06 18:45:36.327201	Graph has 7 connected components after pruning
+2026-04-06 18:45:36.329371	Graph has 1 connected components after reconnecting
+2026-04-06 18:45:36.329624	53.8% links trimmed from local pruning relative to start
+2026-04-06 18:45:36.329635	66.7% links trimmed from global pruning relative to start
+initial links 78 and final_links_n 36
+2026-04-06 18:45:36.336719	Time elapsed 9.7 seconds
+2026-04-06 18:45:43.523038	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:45:43.523052	Knngraph has 30 neighbors
+2026-04-06 18:45:45.976234	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.0 % of edges. 
+2026-04-06 18:45:45.993483	Number of connected components used for clustergraph  is 1
+2026-04-06 18:45:46.159309	Commencing community detection
+2026-04-06 18:45:46.527466	Finished community detection. Found 108 clusters.
+2026-04-06 18:45:46.528487	Merging 90 very small clusters (<10)
+2026-04-06 18:45:46.529539	Finished detecting communities. Found 18 communities
+2026-04-06 18:45:46.529757	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:45:46.538375	Graph has 1 connected components before pruning
+2026-04-06 18:45:46.539293	Graph has 1 connected components after pruning
+2026-04-06 18:45:46.539346	Graph has 1 connected components after reconnecting
+2026-04-06 18:45:46.539568	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:45:46.539577	73.9% links trimmed from global pruning relative to start
+initial links 276 and final_links_n 276
+2026-04-06 18:45:46.541055	component number 0 out of  [0]
+2026-04-06 18:45:46.543304	The root index, 2701 provided by the user belongs to cluster number 13 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:45:46.545054	Computing lazy-teleporting expected hitting times
+2026-04-06 18:45:46.903830	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]100%|██████████| 1300/1300 [00:02<00:00, 446.16it/s]100%|██████████| 1300/1300 [00:02<00:00, 446.13it/s]100%|██████████| 1300/1300 [00:02<00:00, 446.11it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:45:49.880181	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:45:49.880192	Closeness:[0, 3, 5, 9, 10, 11, 12, 15, 17]
+2026-04-06 18:45:49.880196	Betweenness:[2, 3, 6, 7, 8, 9, 11, 13, 15, 17]
+2026-04-06 18:45:49.880199	Out Degree:[0, 1, 2, 3, 5, 7, 8, 9, 10, 15, 17]
+2026-04-06 18:45:49.880294	Cluster 0 had 3 or more neighboring terminal states [8, 9, 15] and so we removed cluster 0
+2026-04-06 18:45:49.880306	We removed cluster 3 from the shortlist of terminal states
+2026-04-06 18:45:49.880313	Cluster 5 had 3 or more neighboring terminal states [9, 10, 17] and so we removed cluster 10
+2026-04-06 18:45:49.880324	Cluster 9 had 3 or more neighboring terminal states [2, 5, 11] and so we removed cluster 11
+2026-04-06 18:45:49.880398	Terminal clusters corresponding to unique lineages in this component are [2, 5, 8, 9, 15, 17] 
+2026-04-06 18:45:49.880404	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]100%|██████████| 1000/1000 [00:03<00:00, 305.95it/s]100%|██████████| 1000/1000 [00:03<00:00, 305.94it/s]100%|██████████| 1000/1000 [00:03<00:00, 305.93it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:46:01,396 | INFO | __main__ | VIA ti_runner start | seed=6 | bootstrap_index=6 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:45:53.180972	Cluster or terminal cell fate 2 is reached 67.0 times
+2026-04-06 18:45:53.196102	Cluster or terminal cell fate 5 is reached 241.0 times
+2026-04-06 18:45:53.207178	Cluster or terminal cell fate 8 is reached 760.0 times
+2026-04-06 18:45:53.222424	Cluster or terminal cell fate 9 is reached 235.0 times
+2026-04-06 18:45:53.234364	Cluster or terminal cell fate 15 is reached 760.0 times
+2026-04-06 18:45:53.249757	Cluster or terminal cell fate 17 is reached 230.0 times
+2026-04-06 18:45:53.255622	There are (6) terminal clusters corresponding to unique lineages {2: 'NK-C5-CD69', 5: 'NK-C5-CD69', 8: 'NK-C7-CD160', 9: 'NK-C3-IFNG', 15: 'NK-C5-CD69', 17: 'NK-C5-CD69'}
+2026-04-06 18:45:53.255636	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:45:54.215486	Cluster graph layout based on forward biasing
+2026-04-06 18:45:54.216117	Starting make edgebundle viagraph...
+2026-04-06 18:45:54.216122	Make via clustergraph edgebundle
+2026-04-06 18:45:54.301097	Hammer dims: Nodes shape: (18, 2) Edges shape: (72, 3)
+2026-04-06 18:45:54.301586	Graph has 1 connected components before pruning
+2026-04-06 18:45:54.302486	Graph has 5 connected components after pruning
+2026-04-06 18:45:54.304012	Graph has 1 connected components after reconnecting
+2026-04-06 18:45:54.304257	50.0% links trimmed from local pruning relative to start
+2026-04-06 18:45:54.304267	66.7% links trimmed from global pruning relative to start
+initial links 72 and final_links_n 36
+2026-04-06 18:45:54.311637	Time elapsed 9.7 seconds
+2026-04-06 18:46:01.398841	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:46:01.398853	Knngraph has 30 neighbors
+2026-04-06 18:46:03.855954	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.1 % of edges. 
+2026-04-06 18:46:03.875053	Number of connected components used for clustergraph  is 1
+2026-04-06 18:46:04.037903	Commencing community detection
+2026-04-06 18:46:04.406816	Finished community detection. Found 129 clusters.
+2026-04-06 18:46:04.407790	Merging 110 very small clusters (<10)
+2026-04-06 18:46:04.408856	Finished detecting communities. Found 19 communities
+2026-04-06 18:46:04.409064	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:46:04.418962	Graph has 1 connected components before pruning
+2026-04-06 18:46:04.419907	Graph has 1 connected components after pruning
+2026-04-06 18:46:04.419961	Graph has 1 connected components after reconnecting
+2026-04-06 18:46:04.420192	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:46:04.420200	72.5% links trimmed from global pruning relative to start
+initial links 306 and final_links_n 306
+2026-04-06 18:46:04.421696	component number 0 out of  [0]
+2026-04-06 18:46:04.424017	The root index, 2677 provided by the user belongs to cluster number 12 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:46:04.425793	Computing lazy-teleporting expected hitting times
+2026-04-06 18:46:04.801858	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]100%|██████████| 1300/1300 [00:02<00:00, 447.80it/s]100%|██████████| 1300/1300 [00:02<00:00, 447.77it/s]100%|██████████| 1300/1300 [00:02<00:00, 447.75it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:46:07.769764	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:46:07.769776	Closeness:[1, 4, 9, 10, 11, 13, 15, 18]
+2026-04-06 18:46:07.769780	Betweenness:[3, 4, 6, 8, 9, 10, 12, 13, 15, 18]
+2026-04-06 18:46:07.769783	Out Degree:[0, 3, 4, 7, 8, 9, 10, 11, 13, 15, 16, 18]
+2026-04-06 18:46:07.769870	We removed cluster 3 from the shortlist of terminal states
+2026-04-06 18:46:07.769879	Cluster 4 had 3 or more neighboring terminal states [9, 13, 18] and so we removed cluster 9
+2026-04-06 18:46:07.769895	Cluster 10 had 3 or more neighboring terminal states [11, 13, 18] and so we removed cluster 11
+2026-04-06 18:46:07.769910	Cluster 13 had 3 or more neighboring terminal states [4, 10, 15, 18] and so we removed cluster 10
+2026-04-06 18:46:07.769974	Terminal clusters corresponding to unique lineages in this component are [4, 8, 13, 15, 18] 
+2026-04-06 18:46:07.769981	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 346.84it/s]100%|██████████| 1000/1000 [00:02<00:00, 346.81it/s]100%|██████████| 1000/1000 [00:02<00:00, 346.80it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:46:18,983 | INFO | __main__ | VIA ti_runner start | seed=7 | bootstrap_index=7 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:46:10.680474	Cluster or terminal cell fate 4 is reached 988.0 times
+2026-04-06 18:46:10.692994	Cluster or terminal cell fate 8 is reached 613.0 times
+2026-04-06 18:46:10.704608	Cluster or terminal cell fate 13 is reached 989.0 times
+2026-04-06 18:46:10.717333	Cluster or terminal cell fate 15 is reached 662.0 times
+2026-04-06 18:46:10.729563	Cluster or terminal cell fate 18 is reached 988.0 times
+2026-04-06 18:46:10.734549	There are (5) terminal clusters corresponding to unique lineages {4: 'NK-C5-CD69', 8: 'NK-C7-CD160', 13: 'NK-C3-IFNG', 15: 'NK-C5-CD69', 18: 'NK-C3-IFNG'}
+2026-04-06 18:46:10.734562	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:46:11.636858	Cluster graph layout based on forward biasing
+2026-04-06 18:46:11.637472	Starting make edgebundle viagraph...
+2026-04-06 18:46:11.637477	Make via clustergraph edgebundle
+2026-04-06 18:46:11.725068	Hammer dims: Nodes shape: (19, 2) Edges shape: (84, 3)
+2026-04-06 18:46:11.725533	Graph has 1 connected components before pruning
+2026-04-06 18:46:11.726391	Graph has 5 connected components after pruning
+2026-04-06 18:46:11.727926	Graph has 1 connected components after reconnecting
+2026-04-06 18:46:11.728162	54.8% links trimmed from local pruning relative to start
+2026-04-06 18:46:11.728172	70.2% links trimmed from global pruning relative to start
+initial links 84 and final_links_n 38
+2026-04-06 18:46:11.734665	Time elapsed 9.3 seconds
+2026-04-06 18:46:18.985618	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:46:18.985631	Knngraph has 30 neighbors
+2026-04-06 18:46:21.758696	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.1 % of edges. 
+2026-04-06 18:46:21.776006	Number of connected components used for clustergraph  is 1
+2026-04-06 18:46:21.939594	Commencing community detection
+2026-04-06 18:46:22.323042	Finished community detection. Found 120 clusters.
+2026-04-06 18:46:22.324057	Merging 102 very small clusters (<10)
+2026-04-06 18:46:22.325207	Finished detecting communities. Found 18 communities
+2026-04-06 18:46:22.325424	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:46:22.334163	Graph has 1 connected components before pruning
+2026-04-06 18:46:22.335133	Graph has 1 connected components after pruning
+2026-04-06 18:46:22.335189	Graph has 1 connected components after reconnecting
+2026-04-06 18:46:22.335428	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:46:22.335436	70.3% links trimmed from global pruning relative to start
+initial links 276 and final_links_n 276
+2026-04-06 18:46:22.337012	component number 0 out of  [0]
+2026-04-06 18:46:22.339434	The root index, 2694 provided by the user belongs to cluster number 14 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:46:22.341326	Computing lazy-teleporting expected hitting times
+2026-04-06 18:46:22.700775	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]100%|██████████| 1300/1300 [00:02<00:00, 450.39it/s]100%|██████████| 1300/1300 [00:02<00:00, 450.36it/s]100%|██████████| 1300/1300 [00:02<00:00, 450.34it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:46:25.648615	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:46:25.648626	Closeness:[0, 1, 2, 6, 7, 9, 10, 12, 15]
+2026-04-06 18:46:25.648630	Betweenness:[1, 4, 6, 8, 10, 11, 12, 15]
+2026-04-06 18:46:25.648633	Out Degree:[0, 1, 2, 6, 7, 8, 9, 10, 15]
+2026-04-06 18:46:25.648719	Cluster 0 had 3 or more neighboring terminal states [6, 8, 9, 15] and so we removed cluster 6
+2026-04-06 18:46:25.648729	We removed cluster 1 from the shortlist of terminal states
+2026-04-06 18:46:25.648741	We removed cluster 7 from the shortlist of terminal states
+2026-04-06 18:46:25.648746	Cluster 8 had 3 or more neighboring terminal states [0, 9, 15] and so we removed cluster 8
+2026-04-06 18:46:25.648815	Terminal clusters corresponding to unique lineages in this component are [0, 2, 9, 10, 15] 
+2026-04-06 18:46:25.648821	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 345.04it/s]100%|██████████| 1000/1000 [00:02<00:00, 345.02it/s]100%|██████████| 1000/1000 [00:02<00:00, 345.01it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:46:36,736 | INFO | __main__ | VIA ti_runner start | seed=8 | bootstrap_index=8 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:46:28.575024	Cluster or terminal cell fate 0 is reached 871.0 times
+2026-04-06 18:46:28.588541	Cluster or terminal cell fate 2 is reached 542.0 times
+2026-04-06 18:46:28.602357	Cluster or terminal cell fate 9 is reached 658.0 times
+2026-04-06 18:46:28.616651	Cluster or terminal cell fate 10 is reached 254.0 times
+2026-04-06 18:46:28.629550	Cluster or terminal cell fate 15 is reached 857.0 times
+2026-04-06 18:46:28.634597	There are (5) terminal clusters corresponding to unique lineages {0: 'NK-C7-CD160', 2: 'NK-C5-CD69', 9: 'NK-C3-IFNG', 10: 'NK-C1-FCGR3A', 15: 'NK-C5-CD69'}
+2026-04-06 18:46:28.634611	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:46:29.549713	Cluster graph layout based on forward biasing
+2026-04-06 18:46:29.550349	Starting make edgebundle viagraph...
+2026-04-06 18:46:29.550355	Make via clustergraph edgebundle
+2026-04-06 18:46:29.638268	Hammer dims: Nodes shape: (18, 2) Edges shape: (82, 3)
+2026-04-06 18:46:29.638757	Graph has 1 connected components before pruning
+2026-04-06 18:46:29.639674	Graph has 6 connected components after pruning
+2026-04-06 18:46:29.641723	Graph has 1 connected components after reconnecting
+2026-04-06 18:46:29.642005	56.1% links trimmed from local pruning relative to start
+2026-04-06 18:46:29.642016	68.3% links trimmed from global pruning relative to start
+initial links 82 and final_links_n 36
+2026-04-06 18:46:29.649303	Time elapsed 9.6 seconds
+2026-04-06 18:46:36.738399	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:46:36.738412	Knngraph has 30 neighbors
+2026-04-06 18:46:39.565250	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.5 % of edges. 
+2026-04-06 18:46:39.585144	Number of connected components used for clustergraph  is 1
+2026-04-06 18:46:39.786960	Commencing community detection
+2026-04-06 18:46:40.187266	Finished community detection. Found 115 clusters.
+2026-04-06 18:46:40.188283	Merging 97 very small clusters (<10)
+2026-04-06 18:46:40.189322	Finished detecting communities. Found 18 communities
+2026-04-06 18:46:40.189536	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:46:40.198567	Graph has 1 connected components before pruning
+2026-04-06 18:46:40.199552	Graph has 1 connected components after pruning
+2026-04-06 18:46:40.199609	Graph has 1 connected components after reconnecting
+2026-04-06 18:46:40.199853	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:46:40.199862	72.0% links trimmed from global pruning relative to start
+initial links 286 and final_links_n 286
+2026-04-06 18:46:40.201473	component number 0 out of  [0]
+2026-04-06 18:46:40.203925	The root index, 2654 provided by the user belongs to cluster number 14 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:46:40.206100	Computing lazy-teleporting expected hitting times
+2026-04-06 18:46:40.582283	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]100%|██████████| 1300/1300 [00:02<00:00, 452.20it/s]100%|██████████| 1300/1300 [00:02<00:00, 452.18it/s]100%|██████████| 1300/1300 [00:02<00:00, 452.17it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:46:43.518365	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:46:43.518375	Closeness:[0, 1, 2, 6, 8, 9, 10, 12, 15]
+2026-04-06 18:46:43.518379	Betweenness:[1, 2, 3, 5, 7, 10, 11, 12, 14, 15]
+2026-04-06 18:46:43.518382	Out Degree:[0, 1, 2, 3, 6, 7, 8, 9, 10, 15, 17]
+2026-04-06 18:46:43.518468	Cluster 0 had 3 or more neighboring terminal states [6, 8, 9, 15] and so we removed cluster 6
+2026-04-06 18:46:43.518480	Cluster 1 had 3 or more neighboring terminal states [9, 10, 12] and so we removed cluster 12
+2026-04-06 18:46:43.518492	We removed cluster 7 from the shortlist of terminal states
+2026-04-06 18:46:43.518502	Cluster 9 had 3 or more neighboring terminal states [0, 1, 2, 15] and so we removed cluster 1
+2026-04-06 18:46:43.518514	Cluster 15 had 3 or more neighboring terminal states [0, 8, 9] and so we removed cluster 8
+2026-04-06 18:46:43.518573	Terminal clusters corresponding to unique lineages in this component are [0, 2, 9, 15] 
+2026-04-06 18:46:43.518580	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 343.89it/s]100%|██████████| 1000/1000 [00:02<00:00, 343.87it/s]100%|██████████| 1000/1000 [00:02<00:00, 343.85it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:46:54,498 | INFO | __main__ | VIA ti_runner start | seed=9 | bootstrap_index=9 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:46:46.452571	Cluster or terminal cell fate 0 is reached 893.0 times
+2026-04-06 18:46:46.467208	Cluster or terminal cell fate 2 is reached 345.0 times
+2026-04-06 18:46:46.480641	Cluster or terminal cell fate 9 is reached 838.0 times
+2026-04-06 18:46:46.492605	Cluster or terminal cell fate 15 is reached 902.0 times
+2026-04-06 18:46:46.497065	There are (4) terminal clusters corresponding to unique lineages {0: 'NK-C7-CD160', 2: 'NK-C5-CD69', 9: 'NK-C3-IFNG', 15: 'NK-C5-CD69'}
+2026-04-06 18:46:46.497079	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:46:47.424964	Cluster graph layout based on forward biasing
+2026-04-06 18:46:47.425573	Starting make edgebundle viagraph...
+2026-04-06 18:46:47.425579	Make via clustergraph edgebundle
+2026-04-06 18:46:47.508896	Hammer dims: Nodes shape: (18, 2) Edges shape: (80, 3)
+2026-04-06 18:46:47.509372	Graph has 1 connected components before pruning
+2026-04-06 18:46:47.510256	Graph has 6 connected components after pruning
+2026-04-06 18:46:47.512068	Graph has 1 connected components after reconnecting
+2026-04-06 18:46:47.512318	55.0% links trimmed from local pruning relative to start
+2026-04-06 18:46:47.512327	70.0% links trimmed from global pruning relative to start
+initial links 80 and final_links_n 36
+2026-04-06 18:46:47.518481	Time elapsed 9.7 seconds
+2026-04-06 18:46:54.500684	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:46:54.500696	Knngraph has 30 neighbors
+2026-04-06 18:46:57.134490	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.4 % of edges. 
+2026-04-06 18:46:57.152682	Number of connected components used for clustergraph  is 1
+2026-04-06 18:46:57.320427	Commencing community detection
+2026-04-06 18:46:57.713467	Finished community detection. Found 99 clusters.
+2026-04-06 18:46:57.714504	Merging 81 very small clusters (<10)
+2026-04-06 18:46:57.715529	Finished detecting communities. Found 18 communities
+2026-04-06 18:46:57.715754	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:46:57.724631	Graph has 1 connected components before pruning
+2026-04-06 18:46:57.725591	Graph has 1 connected components after pruning
+2026-04-06 18:46:57.725647	Graph has 1 connected components after reconnecting
+2026-04-06 18:46:57.725894	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:46:57.725908	72.1% links trimmed from global pruning relative to start
+initial links 272 and final_links_n 272
+2026-04-06 18:46:57.727477	component number 0 out of  [0]
+2026-04-06 18:46:57.729879	The root index, 288 provided by the user belongs to cluster number 13 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:46:57.731773	Computing lazy-teleporting expected hitting times
+2026-04-06 18:46:58.107146	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]100%|██████████| 1300/1300 [00:02<00:00, 435.49it/s]100%|██████████| 1300/1300 [00:02<00:00, 435.46it/s]100%|██████████| 1300/1300 [00:02<00:00, 435.45it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:47:01.155073	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:47:01.155084	Closeness:[0, 1, 2, 4, 8, 9, 10, 11, 15, 17]
+2026-04-06 18:47:01.155089	Betweenness:[3, 4, 7, 8, 9, 10, 11, 12, 13, 15, 17]
+2026-04-06 18:47:01.155091	Out Degree:[0, 1, 3, 4, 6, 7, 8, 9, 12, 15, 17]
+2026-04-06 18:47:01.155190	Cluster 0 had 3 or more neighboring terminal states [1, 8, 15] and so we removed cluster 8
+2026-04-06 18:47:01.155203	Cluster 1 had 3 or more neighboring terminal states [0, 9, 12, 17] and so we removed cluster 9
+2026-04-06 18:47:01.155211	Cluster 3 had 3 or more neighboring terminal states [11, 12, 17] and so we removed cluster 11
+2026-04-06 18:47:01.155217	We removed cluster 4 from the shortlist of terminal states
+2026-04-06 18:47:01.155230	We removed cluster 10 from the shortlist of terminal states
+2026-04-06 18:47:01.155307	Terminal clusters corresponding to unique lineages in this component are [0, 1, 3, 12, 15, 17] 
+2026-04-06 18:47:01.155313	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]100%|██████████| 1000/1000 [00:03<00:00, 308.22it/s]100%|██████████| 1000/1000 [00:03<00:00, 308.19it/s]100%|██████████| 1000/1000 [00:03<00:00, 308.18it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:47:12,635 | INFO | __main__ | VIA ti_runner start | seed=10 | bootstrap_index=10 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:47:04.427531	Cluster or terminal cell fate 0 is reached 591.0 times
+2026-04-06 18:47:04.440911	Cluster or terminal cell fate 1 is reached 418.0 times
+2026-04-06 18:47:04.456573	Cluster or terminal cell fate 3 is reached 166.0 times
+2026-04-06 18:47:04.471559	Cluster or terminal cell fate 12 is reached 183.0 times
+2026-04-06 18:47:04.483949	Cluster or terminal cell fate 15 is reached 680.0 times
+2026-04-06 18:47:04.497578	Cluster or terminal cell fate 17 is reached 383.0 times
+2026-04-06 18:47:04.503277	There are (6) terminal clusters corresponding to unique lineages {0: 'NK-C7-CD160', 1: 'NK-C5-CD69', 3: 'NK-C5-CD69', 12: 'NK-C3-IFNG', 15: 'NK-C5-CD69', 17: 'NK-C5-CD69'}
+2026-04-06 18:47:04.503291	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:47:05.416258	Cluster graph layout based on forward biasing
+2026-04-06 18:47:05.416896	Starting make edgebundle viagraph...
+2026-04-06 18:47:05.416901	Make via clustergraph edgebundle
+2026-04-06 18:47:05.497338	Hammer dims: Nodes shape: (18, 2) Edges shape: (76, 3)
+2026-04-06 18:47:05.497797	Graph has 1 connected components before pruning
+2026-04-06 18:47:05.498628	Graph has 3 connected components after pruning
+2026-04-06 18:47:05.499505	Graph has 1 connected components after reconnecting
+2026-04-06 18:47:05.499742	52.6% links trimmed from local pruning relative to start
+2026-04-06 18:47:05.499752	72.4% links trimmed from global pruning relative to start
+initial links 76 and final_links_n 36
+2026-04-06 18:47:05.507024	Time elapsed 9.9 seconds
+2026-04-06 18:47:12.637389	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:47:12.637402	Knngraph has 30 neighbors
+2026-04-06 18:47:15.194712	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.3 % of edges. 
+2026-04-06 18:47:15.213668	Number of connected components used for clustergraph  is 1
+2026-04-06 18:47:15.381895	Commencing community detection
+2026-04-06 18:47:15.760782	Finished community detection. Found 109 clusters.
+2026-04-06 18:47:15.761821	Merging 91 very small clusters (<10)
+2026-04-06 18:47:15.762881	Finished detecting communities. Found 18 communities
+2026-04-06 18:47:15.763107	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:47:15.772081	Graph has 1 connected components before pruning
+2026-04-06 18:47:15.773034	Graph has 1 connected components after pruning
+2026-04-06 18:47:15.773089	Graph has 1 connected components after reconnecting
+2026-04-06 18:47:15.773325	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:47:15.773333	73.3% links trimmed from global pruning relative to start
+initial links 270 and final_links_n 270
+2026-04-06 18:47:15.774894	component number 0 out of  [0]
+2026-04-06 18:47:15.777287	The root index, 2693 provided by the user belongs to cluster number 14 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:47:15.779180	Computing lazy-teleporting expected hitting times
+2026-04-06 18:47:16.156471	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]100%|██████████| 1300/1300 [00:02<00:00, 433.92it/s]100%|██████████| 1300/1300 [00:02<00:00, 433.90it/s]100%|██████████| 1300/1300 [00:02<00:00, 433.88it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:47:19.216311	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:47:19.216322	Closeness:[0, 3, 4, 6, 7, 9, 10, 11, 12, 14, 15]
+2026-04-06 18:47:19.216326	Betweenness:[1, 3, 6, 7, 8, 9, 11, 12, 14, 15]
+2026-04-06 18:47:19.216328	Out Degree:[1, 3, 4, 6, 9, 10, 11, 12, 15, 17]
+2026-04-06 18:47:19.216409	Cluster 1 had 3 or more neighboring terminal states [9, 10, 11, 12] and so we removed cluster 1
+2026-04-06 18:47:19.216416	We removed cluster 3 from the shortlist of terminal states
+2026-04-06 18:47:19.216428	Cluster 9 had 3 or more neighboring terminal states [4, 11, 12] and so we removed cluster 4
+2026-04-06 18:47:19.216439	Cluster 11 had 3 or more neighboring terminal states [9, 10, 12] and so we removed cluster 10
+2026-04-06 18:47:19.216501	Terminal clusters corresponding to unique lineages in this component are [7, 9, 11, 12, 15] 
+2026-04-06 18:47:19.216506	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 344.69it/s]100%|██████████| 1000/1000 [00:02<00:00, 344.66it/s]100%|██████████| 1000/1000 [00:02<00:00, 344.65it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:47:30,556 | INFO | __main__ | VIA ti_runner start | seed=11 | bootstrap_index=11 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:47:22.144314	Cluster or terminal cell fate 7 is reached 777.0 times
+2026-04-06 18:47:22.160782	Cluster or terminal cell fate 9 is reached 167.0 times
+2026-04-06 18:47:22.176860	Cluster or terminal cell fate 11 is reached 167.0 times
+2026-04-06 18:47:22.193240	Cluster or terminal cell fate 12 is reached 148.0 times
+2026-04-06 18:47:22.206030	Cluster or terminal cell fate 15 is reached 864.0 times
+2026-04-06 18:47:22.211277	There are (5) terminal clusters corresponding to unique lineages {7: 'NK-C7-CD160', 9: 'NK-C1-FCGR3A', 11: 'NK-C1-FCGR3A', 12: 'NK-C1-FCGR3A', 15: 'NK-C5-CD69'}
+2026-04-06 18:47:22.211292	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:47:23.147442	Cluster graph layout based on forward biasing
+2026-04-06 18:47:23.148055	Starting make edgebundle viagraph...
+2026-04-06 18:47:23.148060	Make via clustergraph edgebundle
+2026-04-06 18:47:23.224447	Hammer dims: Nodes shape: (18, 2) Edges shape: (72, 3)
+2026-04-06 18:47:23.224899	Graph has 1 connected components before pruning
+2026-04-06 18:47:23.225753	Graph has 6 connected components after pruning
+2026-04-06 18:47:23.227481	Graph has 1 connected components after reconnecting
+2026-04-06 18:47:23.227715	51.4% links trimmed from local pruning relative to start
+2026-04-06 18:47:23.227726	65.3% links trimmed from global pruning relative to start
+initial links 72 and final_links_n 35
+2026-04-06 18:47:23.234031	Time elapsed 9.5 seconds
+2026-04-06 18:47:30.558076	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:47:30.558090	Knngraph has 30 neighbors
+2026-04-06 18:47:33.437429	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.3 % of edges. 
+2026-04-06 18:47:33.456298	Number of connected components used for clustergraph  is 1
+2026-04-06 18:47:33.627075	Commencing community detection
+2026-04-06 18:47:34.017841	Finished community detection. Found 98 clusters.
+2026-04-06 18:47:34.018844	Merging 80 very small clusters (<10)
+2026-04-06 18:47:34.019851	Finished detecting communities. Found 18 communities
+2026-04-06 18:47:34.020072	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:47:34.028915	Graph has 1 connected components before pruning
+2026-04-06 18:47:34.029866	Graph has 1 connected components after pruning
+2026-04-06 18:47:34.029929	Graph has 1 connected components after reconnecting
+2026-04-06 18:47:34.030168	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:47:34.030176	73.7% links trimmed from global pruning relative to start
+initial links 266 and final_links_n 266
+2026-04-06 18:47:34.031717	component number 0 out of  [0]
+2026-04-06 18:47:34.034151	The root index, 2693 provided by the user belongs to cluster number 14 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:47:34.036028	Computing lazy-teleporting expected hitting times
+2026-04-06 18:47:34.416312	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]100%|██████████| 1300/1300 [00:02<00:00, 433.46it/s]100%|██████████| 1300/1300 [00:02<00:00, 433.42it/s]100%|██████████| 1300/1300 [00:02<00:00, 433.41it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:47:37.479024	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:47:37.479035	Closeness:[2, 3, 6, 7, 10, 11, 12, 14, 15]
+2026-04-06 18:47:37.479039	Betweenness:[0, 2, 3, 6, 7, 8, 9, 11, 12, 14, 15]
+2026-04-06 18:47:37.479041	Out Degree:[2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 14, 15]
+2026-04-06 18:47:37.479122	Cluster 2 had 3 or more neighboring terminal states [10, 11, 12] and so we removed cluster 2
+2026-04-06 18:47:37.479134	We removed cluster 7 from the shortlist of terminal states
+2026-04-06 18:47:37.479149	Cluster 11 had 3 or more neighboring terminal states [9, 10, 12] and so we removed cluster 9
+2026-04-06 18:47:37.479211	Terminal clusters corresponding to unique lineages in this component are [8, 10, 11, 12, 15] 
+2026-04-06 18:47:37.479217	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 345.16it/s]100%|██████████| 1000/1000 [00:02<00:00, 345.13it/s]100%|██████████| 1000/1000 [00:02<00:00, 345.12it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:47:48,524 | INFO | __main__ | VIA ti_runner start | seed=12 | bootstrap_index=12 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:47:40.402258	Cluster or terminal cell fate 8 is reached 733.0 times
+2026-04-06 18:47:40.417666	Cluster or terminal cell fate 10 is reached 286.0 times
+2026-04-06 18:47:40.433519	Cluster or terminal cell fate 11 is reached 282.0 times
+2026-04-06 18:47:40.450413	Cluster or terminal cell fate 12 is reached 189.0 times
+2026-04-06 18:47:40.462898	Cluster or terminal cell fate 15 is reached 729.0 times
+2026-04-06 18:47:40.468123	There are (5) terminal clusters corresponding to unique lineages {8: 'NK-C7-CD160', 10: 'NK-C1-FCGR3A', 11: 'NK-C1-FCGR3A', 12: 'NK-C1-FCGR3A', 15: 'NK-C5-CD69'}
+2026-04-06 18:47:40.468138	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:47:41.411566	Cluster graph layout based on forward biasing
+2026-04-06 18:47:41.412181	Starting make edgebundle viagraph...
+2026-04-06 18:47:41.412187	Make via clustergraph edgebundle
+2026-04-06 18:47:41.492830	Hammer dims: Nodes shape: (18, 2) Edges shape: (70, 3)
+2026-04-06 18:47:41.493306	Graph has 1 connected components before pruning
+2026-04-06 18:47:41.494159	Graph has 5 connected components after pruning
+2026-04-06 18:47:41.495709	Graph has 1 connected components after reconnecting
+2026-04-06 18:47:41.495980	48.6% links trimmed from local pruning relative to start
+2026-04-06 18:47:41.495990	68.6% links trimmed from global pruning relative to start
+initial links 70 and final_links_n 36
+2026-04-06 18:47:41.502604	Time elapsed 9.8 seconds
+2026-04-06 18:47:48.526795	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:47:48.526807	Knngraph has 30 neighbors
+2026-04-06 18:47:51.024882	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.4 % of edges. 
+2026-04-06 18:47:51.042911	Number of connected components used for clustergraph  is 1
+2026-04-06 18:47:51.210721	Commencing community detection
+2026-04-06 18:47:51.594067	Finished community detection. Found 119 clusters.
+2026-04-06 18:47:51.595025	Merging 101 very small clusters (<10)
+2026-04-06 18:47:51.596056	Finished detecting communities. Found 18 communities
+2026-04-06 18:47:51.596261	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:47:51.606313	Graph has 1 connected components before pruning
+2026-04-06 18:47:51.607287	Graph has 1 connected components after pruning
+2026-04-06 18:47:51.607342	Graph has 1 connected components after reconnecting
+2026-04-06 18:47:51.607583	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:47:51.607591	72.3% links trimmed from global pruning relative to start
+initial links 282 and final_links_n 282
+2026-04-06 18:47:51.609187	component number 0 out of  [0]
+2026-04-06 18:47:51.611537	The root index, 20 provided by the user belongs to cluster number 14 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:47:51.613325	Computing lazy-teleporting expected hitting times
+2026-04-06 18:47:51.980286	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]100%|██████████| 1300/1300 [00:02<00:00, 454.52it/s]100%|██████████| 1300/1300 [00:02<00:00, 454.50it/s]100%|██████████| 1300/1300 [00:02<00:00, 454.49it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:47:54.902066	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:47:54.902076	Closeness:[0, 2, 5, 7, 9, 10, 11, 12, 15, 17]
+2026-04-06 18:47:54.902081	Betweenness:[2, 3, 5, 7, 9, 11, 14, 15, 17]
+2026-04-06 18:47:54.902083	Out Degree:[0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 15, 17]
+2026-04-06 18:47:54.902169	Cluster 0 had 3 or more neighboring terminal states [7, 10, 15] and so we removed cluster 7
+2026-04-06 18:47:54.902178	We removed cluster 2 from the shortlist of terminal states
+2026-04-06 18:47:54.902183	We removed cluster 3 from the shortlist of terminal states
+2026-04-06 18:47:54.902189	Cluster 5 had 3 or more neighboring terminal states [9, 10, 17] and so we removed cluster 9
+2026-04-06 18:47:54.902201	Cluster 10 had 3 or more neighboring terminal states [0, 5, 11] and so we removed cluster 11
+2026-04-06 18:47:54.902265	Terminal clusters corresponding to unique lineages in this component are [0, 5, 10, 15, 17] 
+2026-04-06 18:47:54.902271	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]  0%|          | 0/1000 [00:03<?, ?it/s]100%|██████████| 1000/1000 [00:03<00:00, 308.69it/s]100%|██████████| 1000/1000 [00:03<00:00, 308.68it/s]100%|██████████| 1000/1000 [00:03<00:00, 308.67it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:48:06,372 | INFO | __main__ | VIA ti_runner start | seed=13 | bootstrap_index=13 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:47:58.168604	Cluster or terminal cell fate 0 is reached 925.0 times
+2026-04-06 18:47:58.184071	Cluster or terminal cell fate 5 is reached 373.0 times
+2026-04-06 18:47:58.198346	Cluster or terminal cell fate 10 is reached 669.0 times
+2026-04-06 18:47:58.211823	Cluster or terminal cell fate 15 is reached 882.0 times
+2026-04-06 18:47:58.228133	Cluster or terminal cell fate 17 is reached 276.0 times
+2026-04-06 18:47:58.233462	There are (5) terminal clusters corresponding to unique lineages {0: 'NK-C7-CD160', 5: 'NK-C5-CD69', 10: 'NK-C3-IFNG', 15: 'NK-C5-CD69', 17: 'NK-C5-CD69'}
+2026-04-06 18:47:58.233475	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:47:59.165743	Cluster graph layout based on forward biasing
+2026-04-06 18:47:59.166402	Starting make edgebundle viagraph...
+2026-04-06 18:47:59.166408	Make via clustergraph edgebundle
+2026-04-06 18:47:59.249640	Hammer dims: Nodes shape: (18, 2) Edges shape: (78, 3)
+2026-04-06 18:47:59.250100	Graph has 1 connected components before pruning
+2026-04-06 18:47:59.250933	Graph has 5 connected components after pruning
+2026-04-06 18:47:59.252420	Graph has 1 connected components after reconnecting
+2026-04-06 18:47:59.252672	53.8% links trimmed from local pruning relative to start
+2026-04-06 18:47:59.252683	69.2% links trimmed from global pruning relative to start
+initial links 78 and final_links_n 36
+2026-04-06 18:47:59.259361	Time elapsed 9.7 seconds
+2026-04-06 18:48:06.375228	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:48:06.375242	Knngraph has 30 neighbors
+2026-04-06 18:48:08.973953	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.0 % of edges. 
+2026-04-06 18:48:08.992535	Number of connected components used for clustergraph  is 1
+2026-04-06 18:48:09.160994	Commencing community detection
+2026-04-06 18:48:09.548560	Finished community detection. Found 125 clusters.
+2026-04-06 18:48:09.549581	Merging 107 very small clusters (<10)
+2026-04-06 18:48:09.550705	Finished detecting communities. Found 18 communities
+2026-04-06 18:48:09.550930	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:48:09.559632	Graph has 1 connected components before pruning
+2026-04-06 18:48:09.560605	Graph has 1 connected components after pruning
+2026-04-06 18:48:09.560662	Graph has 1 connected components after reconnecting
+2026-04-06 18:48:09.560900	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:48:09.560915	72.9% links trimmed from global pruning relative to start
+initial links 266 and final_links_n 266
+2026-04-06 18:48:09.562484	component number 0 out of  [0]
+2026-04-06 18:48:09.564875	The root index, 298 provided by the user belongs to cluster number 14 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:48:09.566848	Computing lazy-teleporting expected hitting times
+2026-04-06 18:48:09.947047	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]100%|██████████| 1300/1300 [00:02<00:00, 449.66it/s]100%|██████████| 1300/1300 [00:02<00:00, 449.63it/s]100%|██████████| 1300/1300 [00:02<00:00, 449.62it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:48:12.899475	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:48:12.899485	Closeness:[0, 1, 3, 4, 7, 9, 10, 12, 15, 17]
+2026-04-06 18:48:12.899490	Betweenness:[2, 3, 4, 9, 11, 12, 14, 15, 17]
+2026-04-06 18:48:12.899492	Out Degree:[0, 1, 2, 3, 4, 7, 8, 9, 10, 15, 17]
+2026-04-06 18:48:12.899570	Cluster 0 had 3 or more neighboring terminal states [7, 10, 15] and so we removed cluster 7
+2026-04-06 18:48:12.899584	Cluster 2 had 3 or more neighboring terminal states [10, 12, 17] and so we removed cluster 12
+2026-04-06 18:48:12.899590	Cluster 3 had 3 or more neighboring terminal states [9, 10, 17] and so we removed cluster 9
+2026-04-06 18:48:12.899594	We removed cluster 4 from the shortlist of terminal states
+2026-04-06 18:48:12.899606	Cluster 10 had 3 or more neighboring terminal states [0, 2, 3] and so we removed cluster 2
+2026-04-06 18:48:12.899666	Terminal clusters corresponding to unique lineages in this component are [0, 1, 3, 10, 15, 17] 
+2026-04-06 18:48:12.899672	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 347.85it/s]100%|██████████| 1000/1000 [00:02<00:00, 347.83it/s]100%|██████████| 1000/1000 [00:02<00:00, 347.82it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:48:24,202 | INFO | __main__ | VIA ti_runner start | seed=14 | bootstrap_index=14 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:48:15.800381	Cluster or terminal cell fate 0 is reached 948.0 times
+2026-04-06 18:48:15.815196	Cluster or terminal cell fate 1 is reached 213.0 times
+2026-04-06 18:48:15.830298	Cluster or terminal cell fate 3 is reached 387.0 times
+2026-04-06 18:48:15.844520	Cluster or terminal cell fate 10 is reached 645.0 times
+2026-04-06 18:48:15.856607	Cluster or terminal cell fate 15 is reached 919.0 times
+2026-04-06 18:48:15.873851	Cluster or terminal cell fate 17 is reached 218.0 times
+2026-04-06 18:48:15.880735	There are (6) terminal clusters corresponding to unique lineages {0: 'NK-C7-CD160', 1: 'NK-C1-FCGR3A', 3: 'NK-C5-CD69', 10: 'NK-C3-IFNG', 15: 'NK-C5-CD69', 17: 'NK-C5-CD69'}
+2026-04-06 18:48:15.880756	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:48:16.818885	Cluster graph layout based on forward biasing
+2026-04-06 18:48:16.819459	Starting make edgebundle viagraph...
+2026-04-06 18:48:16.819465	Make via clustergraph edgebundle
+2026-04-06 18:48:16.901213	Hammer dims: Nodes shape: (18, 2) Edges shape: (72, 3)
+2026-04-06 18:48:16.901707	Graph has 1 connected components before pruning
+2026-04-06 18:48:16.902625	Graph has 5 connected components after pruning
+2026-04-06 18:48:16.904176	Graph has 1 connected components after reconnecting
+2026-04-06 18:48:16.904425	50.0% links trimmed from local pruning relative to start
+2026-04-06 18:48:16.904436	69.4% links trimmed from global pruning relative to start
+initial links 72 and final_links_n 36
+2026-04-06 18:48:16.912366	Time elapsed 9.4 seconds
+2026-04-06 18:48:24.204373	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:48:24.204387	Knngraph has 30 neighbors
+2026-04-06 18:48:26.995221	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.1 % of edges. 
+2026-04-06 18:48:27.012532	Number of connected components used for clustergraph  is 1
+2026-04-06 18:48:27.173451	Commencing community detection
+2026-04-06 18:48:27.541295	Finished community detection. Found 116 clusters.
+2026-04-06 18:48:27.542313	Merging 97 very small clusters (<10)
+2026-04-06 18:48:27.543429	Finished detecting communities. Found 19 communities
+2026-04-06 18:48:27.543648	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:48:27.552445	Graph has 1 connected components before pruning
+2026-04-06 18:48:27.553375	Graph has 1 connected components after pruning
+2026-04-06 18:48:27.553429	Graph has 1 connected components after reconnecting
+2026-04-06 18:48:27.553655	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:48:27.553663	72.3% links trimmed from global pruning relative to start
+initial links 296 and final_links_n 296
+2026-04-06 18:48:27.555160	component number 0 out of  [0]
+2026-04-06 18:48:27.557405	The root index, 2706 provided by the user belongs to cluster number 14 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:48:27.559178	Computing lazy-teleporting expected hitting times
+2026-04-06 18:48:27.936950	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]100%|██████████| 1300/1300 [00:03<00:00, 422.28it/s]100%|██████████| 1300/1300 [00:03<00:00, 422.26it/s]100%|██████████| 1300/1300 [00:03<00:00, 422.25it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:48:31.082738	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:48:31.082749	Closeness:[2, 4, 9, 10, 11, 15, 17, 18]
+2026-04-06 18:48:31.082754	Betweenness:[3, 4, 8, 9, 10, 11, 12, 14, 15, 17, 18]
+2026-04-06 18:48:31.082757	Out Degree:[1, 2, 3, 4, 8, 9, 12, 15, 17, 18]
+2026-04-06 18:48:31.082854	Cluster 2 had 3 or more neighboring terminal states [9, 10, 11, 12] and so we removed cluster 10
+2026-04-06 18:48:31.082863	We removed cluster 3 from the shortlist of terminal states
+2026-04-06 18:48:31.082871	Cluster 4 had 3 or more neighboring terminal states [9, 12, 17, 18] and so we removed cluster 9
+2026-04-06 18:48:31.082890	Cluster 12 had 3 or more neighboring terminal states [2, 4, 11, 17] and so we removed cluster 11
+2026-04-06 18:48:31.082964	Terminal clusters corresponding to unique lineages in this component are [2, 4, 8, 12, 15, 17, 18] 
+2026-04-06 18:48:31.082970	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 347.02it/s]100%|██████████| 1000/1000 [00:02<00:00, 347.00it/s]100%|██████████| 1000/1000 [00:02<00:00, 346.98it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:48:42,085 | INFO | __main__ | VIA ti_runner start | seed=15 | bootstrap_index=15 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:48:33.994984	Cluster or terminal cell fate 2 is reached 185.0 times
+2026-04-06 18:48:34.010607	Cluster or terminal cell fate 4 is reached 390.0 times
+2026-04-06 18:48:34.023566	Cluster or terminal cell fate 8 is reached 614.0 times
+2026-04-06 18:48:34.039826	Cluster or terminal cell fate 12 is reached 286.0 times
+2026-04-06 18:48:34.052842	Cluster or terminal cell fate 15 is reached 613.0 times
+2026-04-06 18:48:34.067485	Cluster or terminal cell fate 17 is reached 390.0 times
+2026-04-06 18:48:34.083670	Cluster or terminal cell fate 18 is reached 128.0 times
+2026-04-06 18:48:34.090109	There are (7) terminal clusters corresponding to unique lineages {2: 'NK-C1-FCGR3A', 4: 'NK-C5-CD69', 8: 'NK-C7-CD160', 12: 'NK-C3-IFNG', 15: 'NK-C5-CD69', 17: 'NK-C3-IFNG', 18: 'NK-C5-CD69'}
+2026-04-06 18:48:34.090124	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:48:35.008914	Cluster graph layout based on forward biasing
+2026-04-06 18:48:35.009564	Starting make edgebundle viagraph...
+2026-04-06 18:48:35.009570	Make via clustergraph edgebundle
+2026-04-06 18:48:35.092462	Hammer dims: Nodes shape: (19, 2) Edges shape: (82, 3)
+2026-04-06 18:48:35.092955	Graph has 1 connected components before pruning
+2026-04-06 18:48:35.093863	Graph has 4 connected components after pruning
+2026-04-06 18:48:35.095093	Graph has 1 connected components after reconnecting
+2026-04-06 18:48:35.095336	53.7% links trimmed from local pruning relative to start
+2026-04-06 18:48:35.095346	72.0% links trimmed from global pruning relative to start
+initial links 82 and final_links_n 38
+2026-04-06 18:48:35.102706	Time elapsed 9.9 seconds
+2026-04-06 18:48:42.087180	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:48:42.087196	Knngraph has 30 neighbors
+2026-04-06 18:48:44.575186	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.3 % of edges. 
+2026-04-06 18:48:44.592174	Number of connected components used for clustergraph  is 1
+2026-04-06 18:48:44.753433	Commencing community detection
+2026-04-06 18:48:45.109959	Finished community detection. Found 123 clusters.
+2026-04-06 18:48:45.110920	Merging 105 very small clusters (<10)
+2026-04-06 18:48:45.111988	Finished detecting communities. Found 18 communities
+2026-04-06 18:48:45.112191	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:48:45.120439	Graph has 1 connected components before pruning
+2026-04-06 18:48:45.121358	Graph has 1 connected components after pruning
+2026-04-06 18:48:45.121412	Graph has 1 connected components after reconnecting
+2026-04-06 18:48:45.121637	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:48:45.121645	69.6% links trimmed from global pruning relative to start
+initial links 276 and final_links_n 276
+2026-04-06 18:48:45.123141	component number 0 out of  [0]
+2026-04-06 18:48:45.125453	The root index, 2711 provided by the user belongs to cluster number 14 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:48:45.127362	Computing lazy-teleporting expected hitting times
+2026-04-06 18:48:45.482362	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]100%|██████████| 1300/1300 [00:02<00:00, 457.41it/s]100%|██████████| 1300/1300 [00:02<00:00, 457.38it/s]100%|██████████| 1300/1300 [00:02<00:00, 457.37it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:48:48.386452	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:48:48.386462	Closeness:[0, 1, 3, 9, 10, 11, 12, 15]
+2026-04-06 18:48:48.386466	Betweenness:[1, 2, 3, 4, 9, 11, 12, 13, 14, 15]
+2026-04-06 18:48:48.386469	Out Degree:[0, 1, 2, 3, 6, 8, 10, 11, 13, 15]
+2026-04-06 18:48:48.386553	Cluster 1 had 3 or more neighboring terminal states [3, 10, 11, 13] and so we removed cluster 13
+2026-04-06 18:48:48.386563	Cluster 2 had 3 or more neighboring terminal states [9, 10, 11, 12] and so we removed cluster 9
+2026-04-06 18:48:48.386570	Cluster 3 had 3 or more neighboring terminal states [1, 10, 12] and so we removed cluster 12
+2026-04-06 18:48:48.386580	Cluster 10 had 3 or more neighboring terminal states [0, 1, 2, 3] and so we removed cluster 2
+2026-04-06 18:48:48.386646	Terminal clusters corresponding to unique lineages in this component are [0, 1, 3, 10, 11, 15] 
+2026-04-06 18:48:48.386651	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 349.69it/s]100%|██████████| 1000/1000 [00:02<00:00, 349.67it/s]100%|██████████| 1000/1000 [00:02<00:00, 349.66it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:48:59,996 | INFO | __main__ | VIA ti_runner start | seed=16 | bootstrap_index=16 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:48:51.609552	Cluster or terminal cell fate 0 is reached 390.0 times
+2026-04-06 18:48:51.622134	Cluster or terminal cell fate 1 is reached 729.0 times
+2026-04-06 18:48:51.635728	Cluster or terminal cell fate 3 is reached 729.0 times
+2026-04-06 18:48:51.648352	Cluster or terminal cell fate 10 is reached 737.0 times
+2026-04-06 18:48:51.662940	Cluster or terminal cell fate 11 is reached 158.0 times
+2026-04-06 18:48:51.677285	Cluster or terminal cell fate 15 is reached 393.0 times
+2026-04-06 18:48:51.683727	There are (6) terminal clusters corresponding to unique lineages {0: 'NK-C7-CD160', 1: 'NK-C5-CD69', 3: 'NK-C5-CD69', 10: 'NK-C3-IFNG', 11: 'NK-C1-FCGR3A', 15: 'NK-C5-CD69'}
+2026-04-06 18:48:51.683741	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:48:52.600408	Cluster graph layout based on forward biasing
+2026-04-06 18:48:52.601043	Starting make edgebundle viagraph...
+2026-04-06 18:48:52.601048	Make via clustergraph edgebundle
+2026-04-06 18:48:52.687093	Hammer dims: Nodes shape: (18, 2) Edges shape: (84, 3)
+2026-04-06 18:48:52.687546	Graph has 1 connected components before pruning
+2026-04-06 18:48:52.688378	Graph has 6 connected components after pruning
+2026-04-06 18:48:52.690037	Graph has 1 connected components after reconnecting
+2026-04-06 18:48:52.690265	58.3% links trimmed from local pruning relative to start
+2026-04-06 18:48:52.690275	70.2% links trimmed from global pruning relative to start
+initial links 84 and final_links_n 35
+2026-04-06 18:48:52.698012	Time elapsed 9.6 seconds
+2026-04-06 18:48:59.999034	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:48:59.999047	Knngraph has 30 neighbors
+2026-04-06 18:49:02.478690	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.1 % of edges. 
+2026-04-06 18:49:02.496725	Number of connected components used for clustergraph  is 1
+2026-04-06 18:49:02.659238	Commencing community detection
+2026-04-06 18:49:03.041717	Finished community detection. Found 118 clusters.
+2026-04-06 18:49:03.042728	Merging 99 very small clusters (<10)
+2026-04-06 18:49:03.043846	Finished detecting communities. Found 19 communities
+2026-04-06 18:49:03.044066	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:49:03.052837	Graph has 1 connected components before pruning
+2026-04-06 18:49:03.053825	Graph has 1 connected components after pruning
+2026-04-06 18:49:03.053882	Graph has 1 connected components after reconnecting
+2026-04-06 18:49:03.054142	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:49:03.054151	73.2% links trimmed from global pruning relative to start
+initial links 306 and final_links_n 306
+2026-04-06 18:49:03.055727	component number 0 out of  [0]
+2026-04-06 18:49:03.058153	The root index, 2714 provided by the user belongs to cluster number 14 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:49:03.060043	Computing lazy-teleporting expected hitting times
+2026-04-06 18:49:03.444365	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]100%|██████████| 1300/1300 [00:02<00:00, 455.25it/s]100%|██████████| 1300/1300 [00:02<00:00, 455.22it/s]100%|██████████| 1300/1300 [00:02<00:00, 455.21it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:49:06.363967	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:49:06.363977	Closeness:[0, 1, 4, 9, 10, 11, 12, 15, 17]
+2026-04-06 18:49:06.363982	Betweenness:[0, 3, 9, 10, 11, 12, 14, 15, 17]
+2026-04-06 18:49:06.363984	Out Degree:[0, 1, 2, 3, 4, 7, 9, 12, 15, 17, 18]
+2026-04-06 18:49:06.364082	Cluster 1 had 3 or more neighboring terminal states [9, 10, 11] and so we removed cluster 10
+2026-04-06 18:49:06.364092	Cluster 4 had 3 or more neighboring terminal states [9, 12, 17] and so we removed cluster 9
+2026-04-06 18:49:06.364109	Cluster 12 had 3 or more neighboring terminal states [4, 11, 17] and so we removed cluster 11
+2026-04-06 18:49:06.364117	Cluster 17 had 3 or more neighboring terminal states [0, 4, 12] and so we removed cluster 0
+2026-04-06 18:49:06.364178	Terminal clusters corresponding to unique lineages in this component are [1, 4, 12, 15, 17] 
+2026-04-06 18:49:06.364183	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 353.61it/s]100%|██████████| 1000/1000 [00:02<00:00, 353.58it/s]100%|██████████| 1000/1000 [00:02<00:00, 353.57it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:49:17,682 | INFO | __main__ | VIA ti_runner start | seed=17 | bootstrap_index=17 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:49:09.224112	Cluster or terminal cell fate 1 is reached 155.0 times
+2026-04-06 18:49:09.238687	Cluster or terminal cell fate 4 is reached 622.0 times
+2026-04-06 18:49:09.253762	Cluster or terminal cell fate 12 is reached 624.0 times
+2026-04-06 18:49:09.268418	Cluster or terminal cell fate 15 is reached 443.0 times
+2026-04-06 18:49:09.283132	Cluster or terminal cell fate 17 is reached 616.0 times
+2026-04-06 18:49:09.288161	There are (5) terminal clusters corresponding to unique lineages {1: 'NK-C1-FCGR3A', 4: 'NK-C5-CD69', 12: 'NK-C3-IFNG', 15: 'NK-C5-CD69', 17: 'NK-C3-IFNG'}
+2026-04-06 18:49:09.288175	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:49:10.193108	Cluster graph layout based on forward biasing
+2026-04-06 18:49:10.193754	Starting make edgebundle viagraph...
+2026-04-06 18:49:10.193759	Make via clustergraph edgebundle
+2026-04-06 18:49:10.277472	Hammer dims: Nodes shape: (19, 2) Edges shape: (82, 3)
+2026-04-06 18:49:10.277958	Graph has 1 connected components before pruning
+2026-04-06 18:49:10.278864	Graph has 6 connected components after pruning
+2026-04-06 18:49:10.280678	Graph has 1 connected components after reconnecting
+2026-04-06 18:49:10.280941	53.7% links trimmed from local pruning relative to start
+2026-04-06 18:49:10.280951	69.5% links trimmed from global pruning relative to start
+initial links 82 and final_links_n 38
+2026-04-06 18:49:10.287820	Time elapsed 9.3 seconds
+2026-04-06 18:49:17.684111	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:49:17.684124	Knngraph has 30 neighbors
+2026-04-06 18:49:20.245089	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.2 % of edges. 
+2026-04-06 18:49:20.263428	Number of connected components used for clustergraph  is 1
+2026-04-06 18:49:20.428564	Commencing community detection
+2026-04-06 18:49:20.805842	Finished community detection. Found 110 clusters.
+2026-04-06 18:49:20.806859	Merging 91 very small clusters (<10)
+2026-04-06 18:49:20.807906	Finished detecting communities. Found 19 communities
+2026-04-06 18:49:20.808128	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:49:20.816863	Graph has 1 connected components before pruning
+2026-04-06 18:49:20.817782	Graph has 1 connected components after pruning
+2026-04-06 18:49:20.817834	Graph has 1 connected components after reconnecting
+2026-04-06 18:49:20.818062	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:49:20.818069	71.6% links trimmed from global pruning relative to start
+initial links 296 and final_links_n 296
+2026-04-06 18:49:20.819541	component number 0 out of  [0]
+2026-04-06 18:49:20.821803	The root index, 2704 provided by the user belongs to cluster number 14 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:49:20.823578	Computing lazy-teleporting expected hitting times
+2026-04-06 18:49:21.216234	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]  0%|          | 0/1300 [00:03<?, ?it/s]100%|██████████| 1300/1300 [00:03<00:00, 398.53it/s]100%|██████████| 1300/1300 [00:03<00:00, 398.52it/s]100%|██████████| 1300/1300 [00:03<00:00, 398.51it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:49:24.541037	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:49:24.541047	Closeness:[2, 5, 6, 9, 10, 11, 14, 15]
+2026-04-06 18:49:24.541052	Betweenness:[0, 1, 3, 5, 7, 8, 9, 11, 12, 14, 15]
+2026-04-06 18:49:24.541054	Out Degree:[1, 2, 4, 5, 7, 8, 9, 10, 11, 12, 14, 15]
+2026-04-06 18:49:24.541148	Cluster 2 had 3 or more neighboring terminal states [9, 10, 11, 12] and so we removed cluster 10
+2026-04-06 18:49:24.541163	Cluster 9 had 3 or more neighboring terminal states [2, 11, 12] and so we removed cluster 2
+2026-04-06 18:49:24.541175	Cluster 12 had 3 or more neighboring terminal states [1, 9, 11] and so we removed cluster 1
+2026-04-06 18:49:24.541235	Terminal clusters corresponding to unique lineages in this component are [7, 8, 9, 11, 12, 15] 
+2026-04-06 18:49:24.541242	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 350.56it/s]100%|██████████| 1000/1000 [00:02<00:00, 350.53it/s]100%|██████████| 1000/1000 [00:02<00:00, 350.51it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:49:35,632 | INFO | __main__ | VIA ti_runner start | seed=18 | bootstrap_index=18 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:49:27.423333	Cluster or terminal cell fate 7 is reached 610.0 times
+2026-04-06 18:49:27.437861	Cluster or terminal cell fate 8 is reached 369.0 times
+2026-04-06 18:49:27.454041	Cluster or terminal cell fate 9 is reached 389.0 times
+2026-04-06 18:49:27.469442	Cluster or terminal cell fate 11 is reached 390.0 times
+2026-04-06 18:49:27.485304	Cluster or terminal cell fate 12 is reached 378.0 times
+2026-04-06 18:49:27.498282	Cluster or terminal cell fate 15 is reached 609.0 times
+2026-04-06 18:49:27.504756	There are (6) terminal clusters corresponding to unique lineages {7: 'NK-C7-CD160', 8: 'NK-C7-CD160', 9: 'NK-C1-FCGR3A', 11: 'NK-C1-FCGR3A', 12: 'NK-C1-FCGR3A', 15: 'NK-C5-CD69'}
+2026-04-06 18:49:27.504771	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:49:28.450115	Cluster graph layout based on forward biasing
+2026-04-06 18:49:28.450770	Starting make edgebundle viagraph...
+2026-04-06 18:49:28.450776	Make via clustergraph edgebundle
+2026-04-06 18:49:28.533593	Hammer dims: Nodes shape: (19, 2) Edges shape: (84, 3)
+2026-04-06 18:49:28.534084	Graph has 1 connected components before pruning
+2026-04-06 18:49:28.535006	Graph has 6 connected components after pruning
+2026-04-06 18:49:28.536857	Graph has 1 connected components after reconnecting
+2026-04-06 18:49:28.537112	54.8% links trimmed from local pruning relative to start
+2026-04-06 18:49:28.537122	70.2% links trimmed from global pruning relative to start
+initial links 84 and final_links_n 38
+2026-04-06 18:49:28.544458	Time elapsed 9.8 seconds
+2026-04-06 18:49:35.634717	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:49:35.634731	Knngraph has 30 neighbors
+2026-04-06 18:49:38.180629	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.4 % of edges. 
+2026-04-06 18:49:38.198285	Number of connected components used for clustergraph  is 1
+2026-04-06 18:49:38.367281	Commencing community detection
+2026-04-06 18:49:38.755045	Finished community detection. Found 100 clusters.
+2026-04-06 18:49:38.756045	Merging 82 very small clusters (<10)
+2026-04-06 18:49:38.757062	Finished detecting communities. Found 18 communities
+2026-04-06 18:49:38.757279	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:49:38.766099	Graph has 1 connected components before pruning
+2026-04-06 18:49:38.767062	Graph has 1 connected components after pruning
+2026-04-06 18:49:38.767118	Graph has 1 connected components after reconnecting
+2026-04-06 18:49:38.767361	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:49:38.767370	73.4% links trimmed from global pruning relative to start
+initial links 278 and final_links_n 278
+2026-04-06 18:49:38.768944	component number 0 out of  [0]
+2026-04-06 18:49:38.771303	The root index, 18 provided by the user belongs to cluster number 13 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:49:38.773185	Computing lazy-teleporting expected hitting times
+2026-04-06 18:49:39.136135	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]100%|██████████| 1300/1300 [00:02<00:00, 450.52it/s]100%|██████████| 1300/1300 [00:02<00:00, 450.49it/s]100%|██████████| 1300/1300 [00:02<00:00, 450.47it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:49:42.083342	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:49:42.083352	Closeness:[0, 1, 3, 7, 9, 11, 12, 13, 15]
+2026-04-06 18:49:42.083358	Betweenness:[0, 1, 3, 6, 7, 8, 9, 11, 13, 15]
+2026-04-06 18:49:42.083360	Out Degree:[1, 3, 6, 9, 10, 11, 12, 15]
+2026-04-06 18:49:42.083456	Cluster 1 had 3 or more neighboring terminal states [9, 11, 12] and so we removed cluster 1
+2026-04-06 18:49:42.083463	We removed cluster 3 from the shortlist of terminal states
+2026-04-06 18:49:42.083539	Terminal clusters corresponding to unique lineages in this component are [0, 7, 9, 11, 12, 15] 
+2026-04-06 18:49:42.083546	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 349.62it/s]100%|██████████| 1000/1000 [00:02<00:00, 349.60it/s]100%|██████████| 1000/1000 [00:02<00:00, 349.58it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:49:53,842 | INFO | __main__ | VIA ti_runner start | seed=19 | bootstrap_index=19 | rep_key=X_pca | rep_dims=None | via_use_user_labels=False
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+2026-04-06 18:49:44.970558	Cluster or terminal cell fate 0 is reached 758.0 times
+2026-04-06 18:49:44.982057	Cluster or terminal cell fate 7 is reached 696.0 times
+2026-04-06 18:49:44.997838	Cluster or terminal cell fate 9 is reached 447.0 times
+2026-04-06 18:49:45.013151	Cluster or terminal cell fate 11 is reached 443.0 times
+2026-04-06 18:49:45.028034	Cluster or terminal cell fate 12 is reached 424.0 times
+2026-04-06 18:49:45.039904	Cluster or terminal cell fate 15 is reached 733.0 times
+2026-04-06 18:49:45.045995	There are (6) terminal clusters corresponding to unique lineages {0: 'NK-C7-CD160', 7: 'NK-C7-CD160', 9: 'NK-C1-FCGR3A', 11: 'NK-C1-FCGR3A', 12: 'NK-C1-FCGR3A', 15: 'NK-C5-CD69'}
+2026-04-06 18:49:45.046009	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:49:45.976873	Cluster graph layout based on forward biasing
+2026-04-06 18:49:45.977445	Starting make edgebundle viagraph...
+2026-04-06 18:49:45.977450	Make via clustergraph edgebundle
+2026-04-06 18:49:46.056201	Hammer dims: Nodes shape: (18, 2) Edges shape: (74, 3)
+2026-04-06 18:49:46.056694	Graph has 1 connected components before pruning
+2026-04-06 18:49:46.057611	Graph has 5 connected components after pruning
+2026-04-06 18:49:46.059162	Graph has 1 connected components after reconnecting
+2026-04-06 18:49:46.059416	51.4% links trimmed from local pruning relative to start
+2026-04-06 18:49:46.059426	66.2% links trimmed from global pruning relative to start
+initial links 74 and final_links_n 36
+2026-04-06 18:49:46.066809	Time elapsed 9.4 seconds
+2026-04-06 18:49:53.844770	Running VIA over input data of 5765 (samples) x 30 (features)
+2026-04-06 18:49:53.844782	Knngraph has 30 neighbors
+2026-04-06 18:49:56.729615	Finished global pruning of 30-knn graph used for clustering at level of 0.15. Kept 50.1 % of edges. 
+2026-04-06 18:49:56.747348	Number of connected components used for clustergraph  is 1
+2026-04-06 18:49:56.911434	Commencing community detection
+2026-04-06 18:49:57.284359	Finished community detection. Found 121 clusters.
+2026-04-06 18:49:57.285404	Merging 103 very small clusters (<10)
+2026-04-06 18:49:57.286543	Finished detecting communities. Found 18 communities
+2026-04-06 18:49:57.286758	Making cluster graph. Global cluster graph pruning level: 0.15
+2026-04-06 18:49:57.295446	Graph has 1 connected components before pruning
+2026-04-06 18:49:57.296402	Graph has 1 connected components after pruning
+2026-04-06 18:49:57.296459	Graph has 1 connected components after reconnecting
+2026-04-06 18:49:57.296698	0.0% links trimmed from local pruning relative to start
+2026-04-06 18:49:57.296707	72.5% links trimmed from global pruning relative to start
+initial links 284 and final_links_n 284
+2026-04-06 18:49:57.298195	component number 0 out of  [0]
+2026-04-06 18:49:57.300453	The root index, 2707 provided by the user belongs to cluster number 12 and corresponds to cell type NK-C2-SELL
+2026-04-06 18:49:57.302231	Computing lazy-teleporting expected hitting times
+2026-04-06 18:49:57.662785	start computing walks with rw2 method
+  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:00<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:01<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]  0%|          | 0/1300 [00:02<?, ?it/s]100%|██████████| 1300/1300 [00:02<00:00, 443.80it/s]100%|██████████| 1300/1300 [00:02<00:00, 443.77it/s]100%|██████████| 1300/1300 [00:02<00:00, 443.76it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/pyVIA/core.py:176: UserWarning: WARNING: Implicitly set node IDs to the canonical node ordering due to missing IDs field in the raw CSR npz file. This warning message can be suppressed by setting implicit_ids to True in the read_npz function call, or by setting the --implicit_ids flag in the CLI
+  g.set_node_ids(node_ids=None,
+
+memory for rw2 hittings times  2. Using rw2 based pt
+2026-04-06 18:50:00.653010	Identifying terminal clusters corresponding to unique lineages...
+2026-04-06 18:50:00.653021	Closeness:[0, 1, 2, 9, 10, 11, 13, 15]
+2026-04-06 18:50:00.653025	Betweenness:[0, 1, 4, 6, 7, 8, 10, 12, 13, 15]
+2026-04-06 18:50:00.653028	Out Degree:[0, 2, 3, 6, 7, 8, 9, 10, 11, 13, 15]
+2026-04-06 18:50:00.653121	Cluster 0 had 3 or more neighboring terminal states [2, 6, 8, 15] and so we removed cluster 6
+2026-04-06 18:50:00.653130	We removed cluster 1 from the shortlist of terminal states
+2026-04-06 18:50:00.653138	Cluster 2 had 3 or more neighboring terminal states [0, 9, 10, 13] and so we removed cluster 0
+2026-04-06 18:50:00.653151	Cluster 9 had 3 or more neighboring terminal states [2, 10, 11] and so we removed cluster 10
+2026-04-06 18:50:00.653224	Terminal clusters corresponding to unique lineages in this component are [2, 8, 9, 11, 13, 15] 
+2026-04-06 18:50:00.653230	Calculating lineage probability at memory 5
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:01<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]  0%|          | 0/1000 [00:02<?, ?it/s]100%|██████████| 1000/1000 [00:02<00:00, 346.21it/s]100%|██████████| 1000/1000 [00:02<00:00, 346.19it/s]100%|██████████| 1000/1000 [00:02<00:00, 346.18it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scipy/sparse/_index.py:168: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_intXint(row, col, x.flat[0])
+2026-04-06 18:50:05,158 | INFO | TI_benchmark.plotting | Shared UMAP captured: shape=(7203, 2), x=[3.03, 18.68], y=[-2.07, 10.28]
+
+2026-04-06 18:50:03.569596	Cluster or terminal cell fate 2 is reached 698.0 times
+2026-04-06 18:50:03.582345	Cluster or terminal cell fate 8 is reached 677.0 times
+2026-04-06 18:50:03.596573	Cluster or terminal cell fate 9 is reached 513.0 times
+2026-04-06 18:50:03.610734	Cluster or terminal cell fate 11 is reached 421.0 times
+2026-04-06 18:50:03.624324	Cluster or terminal cell fate 13 is reached 716.0 times
+2026-04-06 18:50:03.637291	Cluster or terminal cell fate 15 is reached 547.0 times
+2026-04-06 18:50:03.642929	There are (6) terminal clusters corresponding to unique lineages {2: 'NK-C5-CD69', 8: 'NK-C7-CD160', 9: 'NK-C1-FCGR3A', 11: 'NK-C1-FCGR3A', 13: 'NK-C3-IFNG', 15: 'NK-C5-CD69'}
+2026-04-06 18:50:03.642943	Begin projection of pseudotime and lineage likelihood
+2026-04-06 18:50:04.564950	Cluster graph layout based on forward biasing
+2026-04-06 18:50:04.565573	Starting make edgebundle viagraph...
+2026-04-06 18:50:04.565578	Make via clustergraph edgebundle
+2026-04-06 18:50:04.645425	Hammer dims: Nodes shape: (18, 2) Edges shape: (78, 3)
+2026-04-06 18:50:04.645883	Graph has 1 connected components before pruning
+2026-04-06 18:50:04.646715	Graph has 6 connected components after pruning
+2026-04-06 18:50:04.648553	Graph has 1 connected components after reconnecting
+2026-04-06 18:50:04.648806	53.8% links trimmed from local pruning relative to start
+2026-04-06 18:50:04.648817	67.9% links trimmed from global pruning relative to start
+initial links 78 and final_links_n 36
+2026-04-06 18:50:04.656243	Time elapsed 9.8 seconds

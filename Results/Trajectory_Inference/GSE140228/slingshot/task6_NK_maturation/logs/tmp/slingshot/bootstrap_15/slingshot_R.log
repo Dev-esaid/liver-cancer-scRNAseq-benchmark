@@ -1,0 +1,11 @@
+# Command:
+/data1/esraa/miniconda3/envs/thesis-env/bin/Rscript /data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/R/slingshot_run.R --embedding /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/slingshot/task6_NK_maturation/logs/tmp/slingshot/bootstrap_15/embedding.csv --meta /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/slingshot/task6_NK_maturation/logs/tmp/slingshot/bootstrap_15/meta.csv --cluster_key celltype_sub --root_cluster NK-C2-SELL --seed 15 --out_dir /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/slingshot/task6_NK_maturation/logs/tmp/slingshot/bootstrap_15/r_out
+
+slingshot version: 2.10.0
+SingleCellExperiment version: 1.24.0
+igraph version: 2.2.2
+seed: 15
+n_cells: 5765
+n_clusters: 5
+root_cluster: NK-C2-SELL
+Slingshot completed successfully. Outputs written to: /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/slingshot/task6_NK_maturation/logs/tmp/slingshot/bootstrap_15/r_out

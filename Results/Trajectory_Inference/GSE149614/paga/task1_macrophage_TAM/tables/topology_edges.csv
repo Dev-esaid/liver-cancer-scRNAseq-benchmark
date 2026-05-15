@@ -1,0 +1,7 @@
+source,target,weight,directed
+TREM2+ macrophage,proliferative macrophage,0.8685384090852188,False
+TREM2+ macrophage,VEGFA+ macrophage,0.8324655700254253,False
+MMP9+ macrophage,proliferative macrophage,0.7506213649316331,False
+monocyte-derived macrophage,proliferative macrophage,0.5544050570959321,False
+patient-specific macrophage,proliferative macrophage,0.4324110971290082,False
+MARCO+ macrophage,patient-specific macrophage,0.32492988290346536,False

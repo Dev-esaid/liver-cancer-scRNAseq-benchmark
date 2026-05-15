@@ -1,0 +1,42 @@
+{
+  "batch_key": "dataset",
+  "label_key": "major_celltype_l1",
+  "exclude_datasets": [],
+  "combat_space": "expr",
+  "input_layer": null,
+  "require_hvg": true,
+  "hvg_key": "highly_variable",
+  "max_hvgs": 4000,
+  "hvg_flavor": "seurat_v3",
+  "n_pcs": 50,
+  "scale_before_pca": false,
+  "scale_max_value": 10.0,
+  "pca_solver": "arpack",
+  "covariates": null,
+  "neighbors_k": 50,
+  "umap_min_dist": 0.35,
+  "umap_spread": 1.0,
+  "leiden_resolution": 1.0,
+  "n_isolated": null,
+  "lisi_subsample": null,
+  "compute_trajectory": false,
+  "plot_subsample_n": 200000,
+  "plot_subsample_stratify_by": "dataset",
+  "plot_covariates": [
+    "dataset",
+    "major_celltype_l1",
+    "tumor_status",
+    "technology",
+    "cancer_type"
+  ],
+  "plot_extra_covariates": [
+    "platform",
+    "tissue",
+    "compartment",
+    "disease_group",
+    "donor_id"
+  ],
+  "run_tag": "combat_full_hvg_seed0",
+  "seed": 0,
+  "save_h5ad": true
+}

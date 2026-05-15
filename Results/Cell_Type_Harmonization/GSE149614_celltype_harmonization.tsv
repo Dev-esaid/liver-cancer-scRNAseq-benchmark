@@ -1,0 +1,33 @@
+cell_type_raw	major_celltype_l1	cell_subtype_raw	cell_subtype_L2	n_cells
+B	B cells	mature B cell	B cells	777
+B	B cells	plasma B cell	Plasma cells	2762
+Endothelial	Endothelial	FABP4+ endothelial	FABP4+ Endothelial	2111
+Endothelial	Endothelial	FCN3+ endothelial	FCN3+ Endothelial	1165
+Endothelial	Endothelial	SPARC+ endothelial	SPARC+ Endothelial	260
+Fibroblast	Fibroblast	ACTA2+ fibroblast	ACTA2+ Fibroblast	1059
+Fibroblast	Fibroblast	COL1A1+ fibroblast	COL1A1+ Fibroblast	1136
+Hepatocyte	Hepatocyte	cholangiocyte 	Cholangiocyte	337
+Hepatocyte	Hepatocyte	non-malignant hepatocyte	Non-malignant Hepatocyte	1113
+Hepatocyte	Hepatocyte	pro-metastatic hepatocyte	Pro-metastatic Hepatocyte	9195
+Hepatocyte	Hepatocyte	pro-tumorigenic hepatocyte	Pro-tumorigenic Hepatocyte	6020
+Myeloid	Myeloid	MARCO+ macrophage	MARCO+ Macrophage	2425
+Myeloid	Myeloid	MMP9+ macrophage	MMP9+ Macrophage	1435
+Myeloid	Myeloid	mastocyte	Mast cells	61
+Myeloid	Myeloid	monocyte-derived macrophage	Monocyte-derived Macrophage	3137
+Myeloid	Myeloid	patient-specific macropahge	Patient-specific Macrophage	2496
+Myeloid	Myeloid	proliferative macrophage	Proliferative Macrophage	298
+Myeloid	Myeloid	TREM2+ macrophage	TREM2+ Macrophage	2170
+Myeloid	Myeloid	VEGFA+ macrophage	VEGFA+ Macrophage	1535
+Myeloid	Myeloid	CD1C+ conventional dendritic cell	cDC2	2048
+Myeloid	Myeloid	IRF4+ plasmacytoid dendritic cell	pDC	115
+T/NK	T cells	central memory T	Central Memory T	1037
+T/NK	T cells	cytotoxic T lymphocytes	Cytotoxic T	3703
+T/NK	T cells	effector memory T	Effector Memory T	2001
+T/NK	T cells	intermediate T	Intermediate T	2016
+T/NK	T cells	mucosal-associated invariant T	MAIT cells	3282
+T/NK	T cells	natural killer cell	NK cells	6303
+T/NK	T cells	naïve T	Naive T	1616
+T/NK	T cells	proliferative CD4 T	Proliferative CD4 T	971
+T/NK	T cells	proliferative CD8 T	Proliferative CD8 T	128
+T/NK	T cells	regulatory T	Regulatory T	2078
+T/NK	T cells	tissue-resident memory T	Tissue-resident Memory T	1878

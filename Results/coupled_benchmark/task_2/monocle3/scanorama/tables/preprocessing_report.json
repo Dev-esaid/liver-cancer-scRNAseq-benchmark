@@ -1,0 +1,89 @@
+{
+  "n_cells_input": 299891,
+  "n_genes_input": 4000,
+  "n_cells_output": 32612,
+  "n_genes_output": 2279,
+  "steps": [
+    {
+      "step": "subset_cells",
+      "n_cells_before": 299891,
+      "include": {
+        "key": "cell_subtype_L2",
+        "n_values": 12,
+        "values": [
+          "Effector Memory T",
+          "Naive T",
+          "Cytotoxic T",
+          "Central Memory T",
+          "CD8 T (SELL+)",
+          "CD8 T (CX3CR1+)",
+          "CD8 T (PDCD1+)",
+          "Intermediate T",
+          "CD8 T (KLRD1+)",
+          "Tissue-resident Memory T",
+          "CD8 T (GZMK+)",
+          "Memory/Activated T"
+        ],
+        "n_kept_after_include": 32612
+      },
+      "exclude": null,
+      "n_cells_after": 32612,
+      "n_cells_removed": 267279
+    },
+    {
+      "step": "filter_min_cells",
+      "min_cells": 3,
+      "n_genes_before": 4000,
+      "n_genes_after": 4000,
+      "n_genes_removed": 0
+    },
+    {
+      "step": "filter_min_counts",
+      "min_counts": 1,
+      "n_genes_before": 4000,
+      "n_genes_after": 2279,
+      "n_genes_removed": 1721
+    },
+    {
+      "step": "select_highly_variable_genes",
+      "n_top_genes": 3000,
+      "flavor": "seurat",
+      "batch_key": null,
+      "subset": false,
+      "n_genes_before": 2279,
+      "n_hvg_selected": 2279,
+      "n_genes_after": 2279
+    }
+  ],
+  "params": {
+    "include_key": "cell_subtype_L2",
+    "include_values": [
+      "Naive T",
+      "CD8 T (SELL+)",
+      "CD8 T (GZMK+)",
+      "CD8 T (CX3CR1+)",
+      "CD8 T (KLRD1+)",
+      "Cytotoxic T",
+      "Intermediate T",
+      "Memory/Activated T",
+      "Central Memory T",
+      "Effector Memory T",
+      "Tissue-resident Memory T",
+      "CD8 T (PDCD1+)"
+    ],
+    "exclude_key": null,
+    "exclude_values": null,
+    "replace_labels_json": "{}",
+    "replace_labels_key": "cell_subtype_L2",
+    "min_cells": 3,
+    "min_counts": 1,
+    "n_top_genes": 3000,
+    "normalize": false,
+    "log1p": false,
+    "scale": false,
+    "target_sum": 10000.0,
+    "hvg_flavor": "seurat",
+    "hvg_subset": false,
+    "batch_key": null
+  }
+}

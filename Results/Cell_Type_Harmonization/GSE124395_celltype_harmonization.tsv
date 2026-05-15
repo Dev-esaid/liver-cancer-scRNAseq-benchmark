@@ -1,0 +1,31 @@
+cell_type_raw	major_celltype_l1	cell_subtype_raw	cell_subtype_L2	n_cells
+Cholangiocyte	Cholangiocyte	Cholangiocyte (KRT7+ FGFR2+)	Cholangiocyte	599
+Cholangiocyte	Cholangiocyte	Ductular reaction / progenitor (KRT19+ MMP7+)	Ductular Reaction/Progenitor	27
+Cholangiocyte	Cholangiocyte	Inflamed epithelial / cholangiocyte (CXCL8+ CCL20+)	Inflamed Cholangiocyte	17
+Cholangiocyte	Cholangiocyte	MUC6+ cholangiocyte / progenitor	MUC6+ Cholangiocyte	378
+Endothelial	Endothelial	Inflamed ACKR1+ endothelial	ACKR1+ Endothelial	3
+Endothelial	Endothelial	Activated endothelial (AKAP12+ FLT1+)	Activated Endothelial	174
+Endothelial	Endothelial	Capillary endothelial (VWF+ SPARCL1+)	Capillary Endothelial	333
+Endothelial	Endothelial	H19/IGF2+ endothelial-like	H19/IGF2+ Endothelial	107
+Endothelial	Endothelial	LSEC (FCN3+ CLEC4M+)	LSECs	1187
+Endothelial	Endothelial	Lymphatic endothelial (CCL21+ FLT4+)	Lymphatic Endothelial	19
+Erythroid	Erythroid	Erythroid / RBC	Erythroid	17
+Hepatocyte	Hepatocyte	Acute-phase hepatocyte (SAA1/2+ HP+)	Acute-phase Hepatocyte	655
+Hepatocyte	Hepatocyte	Hepatocyte (ALB+ APOH+ PCK1+)	Hepatocyte	1869
+Hepatocyte	Hepatocyte	Inflammatory hepatocyte (CRP+ TNFSF14+)	Inflammatory Hepatocyte	46
+Hepatocyte	Hepatocyte	Metabolic hepatocyte (CYP2E1+ CYP1A2+)	Metabolic Hepatocyte	383
+Mesenchymal	Mesenchymal	IGF2/H19+ fibroblast	IGF2/H19+ Fibroblast	7
+Mesenchymal	Mesenchymal	Matrix fibroblast (DCN+ COL1A1+)	Matrix Fibroblast	20
+Mesenchymal	Mesenchymal	Pericyte / stellate / VSMC (RGS5+ ACTA2+)	Pericyte/Stellate/vSMC	8
+Myeloid	Myeloid	AREG+ HLA-II APC	AREG+ Macrophage	92
+Myeloid	Myeloid	HLA-II+ macrophage/APC	HLA-II+ Macrophage	549
+Myeloid	Myeloid	Inflammatory monocyte (S100A8/S100A9+ VCAN+)	Inflammatory Monocyte	52
+Myeloid	Myeloid	Activated inflammatory myeloid (IL1B+ ITGAX+)	Inflammatory Myeloid	80
+Myeloid	Myeloid	Kupffer cell (C1QC+ MARCO+)	Kupffer cells	331
+B/Plasma	Plasma cells	B cell (MS4A1+ CD79A+)	B cells	28
+B/Plasma	Plasma cells	Plasma cell (JCHAIN+ MZB1+)	Plasma cells	176
+T/NK	T cells	Activated T/NK (TNFAIP3+ CXCR4+)	Activated T/NK	102
+T/NK	T cells	Cytotoxic NK/NKT (CCL5+ NKG7+)	Cytotoxic NK/NKT	1037
+T/NK	T cells	Effector NK (IL2RB+ XCL1+)	Effector NK	515
+T/NK	T cells	Memory / activated T (IL7R+ CD69+)	Memory/Activated T	1097
+T/NK	T cells	Stress-response NK/T (HSPA1A+ IFNG+)	Stress-response NK/T	232

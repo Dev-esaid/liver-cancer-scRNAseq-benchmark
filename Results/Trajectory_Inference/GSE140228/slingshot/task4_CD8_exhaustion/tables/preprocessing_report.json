@@ -1,0 +1,90 @@
+{
+  "n_cells_input": 63306,
+  "n_genes_input": 54574,
+  "n_cells_output": 23654,
+  "n_genes_output": 20775,
+  "steps": [
+    {
+      "step": "subset_cells",
+      "n_cells_before": 63306,
+      "include": {
+        "key": "celltype_sub",
+        "n_values": 7,
+        "values": [
+          "CD4/CD8-C1-CCR7",
+          "CD8-C5-SELL",
+          "CD8-C4-CX3CR1",
+          "CD8-C3-IL7R",
+          "CD8-C8-PDCD1",
+          "CD8-C7-KLRD1",
+          "CD8-C6-GZMK"
+        ],
+        "n_kept_after_include": 23654
+      },
+      "exclude": {
+        "key": "celltype_sub",
+        "n_values": 2,
+        "values": [
+          "CD4/CD8-C2-MKI67",
+          "CD8-C9-SLC4A10"
+        ],
+        "n_kept_after_exclude": 23654
+      },
+      "n_cells_after": 23654,
+      "n_cells_removed": 39652
+    },
+    {
+      "step": "filter_min_cells",
+      "min_cells": 3,
+      "n_genes_before": 54574,
+      "n_genes_after": 20775,
+      "n_genes_removed": 33799
+    },
+    {
+      "step": "filter_min_counts",
+      "min_counts": 1,
+      "n_genes_before": 20775,
+      "n_genes_after": 20775,
+      "n_genes_removed": 0
+    },
+    {
+      "step": "select_highly_variable_genes",
+      "n_top_genes": 3000,
+      "flavor": "seurat",
+      "batch_key": null,
+      "subset": false,
+      "n_genes_before": 20775,
+      "n_hvg_selected": 3000,
+      "n_genes_after": 20775
+    }
+  ],
+  "params": {
+    "include_key": "celltype_sub",
+    "include_values": [
+      "CD4/CD8-C1-CCR7",
+      "CD8-C5-SELL",
+      "CD8-C3-IL7R",
+      "CD8-C6-GZMK",
+      "CD8-C7-KLRD1",
+      "CD8-C8-PDCD1",
+      "CD8-C4-CX3CR1"
+    ],
+    "exclude_key": "celltype_sub",
+    "exclude_values": [
+      "CD8-C9-SLC4A10",
+      "CD4/CD8-C2-MKI67"
+    ],
+    "replace_labels_json": null,
+    "replace_labels_key": "celltype_sub",
+    "min_cells": 3,
+    "min_counts": 1,
+    "n_top_genes": 3000,
+    "normalize": false,
+    "log1p": false,
+    "scale": false,
+    "target_sum": 10000.0,
+    "hvg_flavor": "seurat",
+    "hvg_subset": false,
+    "batch_key": null
+  }
+}

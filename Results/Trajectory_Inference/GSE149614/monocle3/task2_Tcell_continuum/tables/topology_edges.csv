@@ -1,0 +1,22 @@
+source,target,weight,directed
+central memory T,cytotoxic T lymphocytes,1.0,False
+cytotoxic T lymphocytes,effector memory T,3.0,False
+central memory T,intermediate T,3.0,False
+cytotoxic T lymphocytes,intermediate T,15.0,False
+effector memory T,intermediate T,8.0,False
+central memory T,naïve T,3.0,False
+cytotoxic T lymphocytes,naïve T,2.0,False
+effector memory T,naïve T,2.0,False
+intermediate T,naïve T,6.0,False
+central memory T,proliferative CD4 T,1.0,False
+cytotoxic T lymphocytes,proliferative CD4 T,1.0,False
+proliferative CD4 T,proliferative CD8 T,2.0,False
+central memory T,regulatory T,3.0,False
+cytotoxic T lymphocytes,regulatory T,1.0,False
+proliferative CD4 T,regulatory T,4.0,False
+central memory T,tissue-resident memory T,3.0,False
+cytotoxic T lymphocytes,tissue-resident memory T,7.0,False
+effector memory T,tissue-resident memory T,11.0,False
+intermediate T,tissue-resident memory T,2.0,False
+naïve T,tissue-resident memory T,3.0,False
+regulatory T,tissue-resident memory T,1.0,False

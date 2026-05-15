@@ -1,0 +1,11 @@
+# Command:
+/data1/esraa/miniconda3/envs/thesis-env/bin/Rscript /data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/R/slingshot_run.R --embedding /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/slingshot/task3_myeloid_monocyte_to_TAM/logs/tmp/slingshot/bootstrap_4/embedding.csv --meta /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/slingshot/task3_myeloid_monocyte_to_TAM/logs/tmp/slingshot/bootstrap_4/meta.csv --cluster_key celltype_sub --root_cluster Mono-C1-CD14 --seed 4 --out_dir /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/slingshot/task3_myeloid_monocyte_to_TAM/logs/tmp/slingshot/bootstrap_4/r_out
+
+slingshot version: 2.10.0
+SingleCellExperiment version: 1.24.0
+igraph version: 2.2.2
+seed: 4
+n_cells: 5617
+n_clusters: 7
+root_cluster: Mono-C1-CD14
+Slingshot completed successfully. Outputs written to: /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/slingshot/task3_myeloid_monocyte_to_TAM/logs/tmp/slingshot/bootstrap_4/r_out

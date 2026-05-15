@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_benchmark/method_runner.py", line 1160, in run_benchmark
+    ti_output = ti_runner(
+  File "/data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/monocle3.py", line 345, in ti_runner
+    _run_rscript(
+  File "/data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/monocle3.py", line 122, in _run_rscript
+    raise RuntimeError(f"Monocle3 R step failed (exit={p.returncode}). See log: {log_path}")
+RuntimeError: Monocle3 R step failed (exit=1). See log: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/monocle3/scgen/logs/tmp/monocle3/main/monocle3_R.log

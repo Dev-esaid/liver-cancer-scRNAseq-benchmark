@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "dataset_name": "GSE149614",
+    "task_name": "task1_macrophage_TAM",
+    "method_name": "monocle3",
+    "n_cells": 13496,
+    "n_genes": 20377
+  },
+  "pseudotime_sanity_raw": {
+    "status": "ok",
+    "value": {
+      "n_cells": 13496,
+      "n_finite": 13496,
+      "finite_fraction": 1.0,
+      "min": 0.0,
+      "max": 32.8317129238731,
+      "mean": 13.928512712207409,
+      "std": 7.725665343128734,
+      "n_unique": 13495,
+      "tie_fraction": 7.409602845287466e-05
+    },
+    "reason": null
+  },
+  "marker_concordance": {
+    "status": "ok",
+    "value": [
+      {
+        "program": "MARCO+ macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.17855021147054723,
+        "spearman_rho_aligned": 0.17855021147054723,
+        "spearman_p": 4.444777520715583e-97,
+        "n_used": 13496,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "TREM2+ macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.15615205752632022,
+        "spearman_rho_aligned": 0.15615205752632022,
+        "spearman_p": 2.03458460648252e-74,
+        "n_used": 13496,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "monocyte-derived macrophage",
+        "expected_direction": "either",
+        "used_for_root": true,
+        "spearman_rho_raw": -0.15191134356923625,
+        "spearman_rho_aligned": 0.15191134356923625,
+        "spearman_p": 1.743521834054588e-70,
+        "n_used": 13496,
+        "genes_requested": 17,
+        "genes_present": 17,
+        "genes_missing": 0
+      },
+      {
+        "program": "VEGFA+ macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.09106403546693623,
+        "spearman_rho_aligned": 0.09106403546693623,
+        "spearman_p": 2.9744956325027195e-26,
+        "n_used": 13496,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "MMP9+ macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.07872230654768457,
+        "spearman_rho_aligned": 0.07872230654768457,
+        "spearman_p": 5.251717228173711e-20,
+        "n_used": 13496,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "patient-specific macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.18713199044358747,
+        "spearman_rho_aligned": 0.18713199044358747,
+        "spearman_p": 1.2995655505944014e-106,
+        "n_used": 13496,
+        "genes_requested": 27,
+        "genes_present": 27,
+        "genes_missing": 0
+      },
+      {
+        "program": "proliferative macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.03669523356402743,
+        "spearman_rho_aligned": 0.03669523356402743,
+        "spearman_p": 2.0079018374415344e-05,
+        "n_used": 13496,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      }
+    ],
+    "reason": null
+  },
+  "marker_monotonicity": {
+    "status": "ok",
+    "value": [
+      {
+        "program": "MARCO+ macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5263157894736843,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "TREM2+ macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5263157894736843,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "monocyte-derived macrophage",
+        "expected_direction": "either",
+        "used_for_root": true,
+        "binned_monotonicity": 0.5263157894736843,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 17
+      },
+      {
+        "program": "VEGFA+ macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5263157894736843,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "MMP9+ macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5789473684210527,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "patient-specific macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.631578947368421,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 27
+      },
+      {
+        "program": "proliferative macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5789473684210527,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 10
+      }
+    ],
+    "reason": null
+  },
+  "knn_smoothness": {
+    "status": "ok",
+    "value": {
+      "mean_abs_deviation_to_neighbor_mean": 0.012948260206010902,
+      "n_zero_degree": 0,
+      "mean_row_sum": 10.177417486040424
+    },
+    "reason": null
+  },
+  "root_purity": {
+    "status": "ok",
+    "value": {
+      "group_key": "cluster_annotation",
+      "root_label": "monocyte-derived macrophage",
+      "alpha": 0.1,
+      "n_tail": 1350,
+      "root_purity": 0.605925925925926,
+      "baseline_fraction": 0.23243924125666865,
+      "fold_enrichment": 2.606814248102103
+    },
+    "reason": null
+  },
+  "topology_pseudotime_consistency": {
+    "status": "ok",
+    "value": {
+      "group_key": "cluster_annotation",
+      "root_group": "monocyte-derived macrophage",
+      "distance_transform": "inverse_weight",
+      "force_undirected": true,
+      "spearman_rho": -0.642857142857143,
+      "spearman_rho_abs": 0.642857142857143,
+      "spearman_p": 0.11939237342741094,
+      "n_clusters_used": 7,
+      "n_nodes_graph": 7,
+      "n_nodes_reachable": 7,
+      "graph_build_report": {
+        "status": "ok",
+        "n_rows": 14,
+        "n_edges_used": 14,
+        "n_edges_skipped": 0,
+        "distance_transform": "inverse_weight",
+        "force_undirected": true,
+        "has_weight": true,
+        "has_directed": true,
+        "n_nodes": 7
+      }
+    },
+    "reason": null
+  }
+}

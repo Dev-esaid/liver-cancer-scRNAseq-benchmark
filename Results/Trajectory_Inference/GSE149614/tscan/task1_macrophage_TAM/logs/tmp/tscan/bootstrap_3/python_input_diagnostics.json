@@ -1,0 +1,48 @@
+{
+  "method": "tscan",
+  "tag": "bootstrap_3",
+  "n_cells": 10798,
+  "n_dims_written": 30,
+  "rep_key": "X_pca",
+  "group_key": "cluster_annotation",
+  "root_cell_id": "13027",
+  "root_cluster": "monocyte-derived macrophage",
+  "embedding_csv": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/tscan/task1_macrophage_TAM/logs/tmp/tscan/bootstrap_3/embedding.csv",
+  "meta_csv": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/tscan/task1_macrophage_TAM/logs/tmp/tscan/bootstrap_3/meta.csv",
+  "embedding_index_head": [
+    "1",
+    "6",
+    "7",
+    "9",
+    "14",
+    "15",
+    "16",
+    "17",
+    "20",
+    "23"
+  ],
+  "meta_cell_id_head": [
+    "1",
+    "6",
+    "7",
+    "9",
+    "14",
+    "15",
+    "16",
+    "17",
+    "20",
+    "23"
+  ],
+  "group_head": [
+    "monocyte-derived macrophage",
+    "VEGFA+ macrophage",
+    "VEGFA+ macrophage",
+    "TREM2+ macrophage",
+    "TREM2+ macrophage",
+    "VEGFA+ macrophage",
+    "VEGFA+ macrophage",
+    "TREM2+ macrophage",
+    "VEGFA+ macrophage",
+    "VEGFA+ macrophage"
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "meta": {
+    "ti_method": "tscan",
+    "task_name": "task2_CD8_Tcell_differentiation",
+    "n_integration_methods": 10,
+    "n_successful_runs": 10,
+    "n_failed_runs": 0,
+    "integration_methods": [
+      "bbknn",
+      "combat",
+      "fastmnn",
+      "harmony",
+      "liger",
+      "scanorama",
+      "scanvi",
+      "scgen",
+      "scvi",
+      "seurat"
+    ]
+  },
+  "kendalls_w": {
+    "status": "ok",
+    "value": {
+      "W": 0.490345,
+      "n_rankers": 10,
+      "n_cells_common": 32612,
+      "S": 141727005056500.5,
+      "chi2": 159906.3358,
+      "df": 32611,
+      "p_value": 0.0,
+      "integration_methods": [
+        "bbknn",
+        "combat",
+        "fastmnn",
+        "harmony",
+        "liger",
+        "scanorama",
+        "scanvi",
+        "scgen",
+        "scvi",
+        "seurat"
+      ]
+    },
+    "reason": null
+  },
+  "topology_jaccard": {
+    "status": "ok",
+    "value": {
+      "jaccard_mean": 0.283395,
+      "jaccard_std": 0.118685,
+      "jaccard_min": 0.0,
+      "jaccard_max": 0.571429,
+      "n_pairs": 45,
+      "n_topology_ok": 10,
+      "pairwise_values": [
+        0.294118,
+        0.222222,
+        0.222222,
+        0.157895,
+        0.375,
+        0.375,
+        0.375,
+        0.294118,
+        0.375,
+        0.466667,
+        0.157895,
+        0.294118,
+        0.375,
+        0.222222,
+        0.294118,
+        0.222222,
+        0.222222,
+        0.157895,
+        0.222222,
+        0.294118,
+        0.157895,
+        0.222222,
+        0.294118,
+        0.157895,
+        0.0,
+        0.294118,
+        0.294118,
+        0.375,
+        0.222222,
+        0.466667,
+        0.157895,
+        0.1,
+        0.157895,
+        0.157895,
+        0.157895,
+        0.294118,
+        0.466667,
+        0.571429,
+        0.466667,
+        0.466667,
+        0.222222,
+        0.294118,
+        0.375,
+        0.466667,
+        0.294118
+      ],
+      "pair_labels": [
+        [
+          "bbknn",
+          "combat"
+        ],
+        [
+          "bbknn",
+          "fastmnn"
+        ],
+        [
+          "bbknn",
+          "harmony"
+        ],
+        [
+          "bbknn",
+          "liger"
+        ],
+        [
+          "bbknn",
+          "scanorama"
+        ],
+        [
+          "bbknn",
+          "scanvi"
+        ],
+        [
+          "bbknn",
+          "scgen"
+        ],
+        [
+          "bbknn",
+          "scvi"
+        ],
+        [
+          "bbknn",
+          "seurat"
+        ],
+        [
+          "combat",
+          "fastmnn"
+        ],
+        [
+          "combat",
+          "harmony"
+        ],
+        [
+          "combat",
+          "liger"
+        ],
+        [
+          "combat",
+          "scanorama"
+        ],
+        [
+          "combat",
+          "scanvi"
+        ],
+        [
+          "combat",
+          "scgen"
+        ],
+        [
+          "combat",
+          "scvi"
+        ],
+        [
+          "combat",
+          "seurat"
+        ],
+        [
+          "fastmnn",
+          "harmony"
+        ],
+        [
+          "fastmnn",
+          "liger"
+        ],
+        [
+          "fastmnn",
+          "scanorama"
+        ],
+        [
+          "fastmnn",
+          "scanvi"
+        ],
+        [
+          "fastmnn",
+          "scgen"
+        ],
+        [
+          "fastmnn",
+          "scvi"
+        ],
+        [
+          "fastmnn",
+          "seurat"
+        ],
+        [
+          "harmony",
+          "liger"
+        ],
+        [
+          "harmony",
+          "scanorama"
+        ],
+        [
+          "harmony",
+          "scanvi"
+        ],
+        [
+          "harmony",
+          "scgen"
+        ],
+        [
+          "harmony",
+          "scvi"
+        ],
+        [
+          "harmony",
+          "seurat"
+        ],
+        [
+          "liger",
+          "scanorama"
+        ],
+        [
+          "liger",
+          "scanvi"
+        ],
+        [
+          "liger",
+          "scgen"
+        ],
+        [
+          "liger",
+          "scvi"
+        ],
+        [
+          "liger",
+          "seurat"
+        ],
+        [
+          "scanorama",
+          "scanvi"
+        ],
+        [
+          "scanorama",
+          "scgen"
+        ],
+        [
+          "scanorama",
+          "scvi"
+        ],
+        [
+          "scanorama",
+          "seurat"
+        ],
+        [
+          "scanvi",
+          "scgen"
+        ],
+        [
+          "scanvi",
+          "scvi"
+        ],
+        [
+          "scanvi",
+          "seurat"
+        ],
+        [
+          "scgen",
+          "scvi"
+        ],
+        [
+          "scgen",
+          "seurat"
+        ],
+        [
+          "scvi",
+          "seurat"
+        ]
+      ]
+    },
+    "reason": null
+  },
+  "branch_count_variance": {
+    "status": "ok",
+    "value": {
+      "leaves": {
+        "values": [
+          5,
+          8,
+          5,
+          6,
+          6,
+          5,
+          5,
+          6,
+          5,
+          4
+        ],
+        "mean": 5.5,
+        "std": 1.0247,
+        "min": 4,
+        "max": 8,
+        "cv": 0.1863
+      },
+      "branchpoints": {
+        "values": [
+          3,
+          3,
+          2,
+          2,
+          4,
+          2,
+          3,
+          4,
+          3,
+          2
+        ],
+        "mean": 2.8,
+        "std": 0.7483,
+        "min": 2,
+        "max": 4,
+        "cv": 0.2673
+      },
+      "n_topology_ok": 10,
+      "per_method": [
+        {
+          "integration_method": "bbknn",
+          "n_leaves": 5,
+          "n_branchpoints": 3
+        },
+        {
+          "integration_method": "combat",
+          "n_leaves": 8,
+          "n_branchpoints": 3
+        },
+        {
+          "integration_method": "fastmnn",
+          "n_leaves": 5,
+          "n_branchpoints": 2
+        },
+        {
+          "integration_method": "harmony",
+          "n_leaves": 6,
+          "n_branchpoints": 2
+        },
+        {
+          "integration_method": "liger",
+          "n_leaves": 6,
+          "n_branchpoints": 4
+        },
+        {
+          "integration_method": "scanorama",
+          "n_leaves": 5,
+          "n_branchpoints": 2
+        },
+        {
+          "integration_method": "scanvi",
+          "n_leaves": 5,
+          "n_branchpoints": 3
+        },
+        {
+          "integration_method": "scgen",
+          "n_leaves": 6,
+          "n_branchpoints": 4
+        },
+        {
+          "integration_method": "scvi",
+          "n_leaves": 5,
+          "n_branchpoints": 3
+        },
+        {
+          "integration_method": "seurat",
+          "n_leaves": 4,
+          "n_branchpoints": 2
+        }
+      ]
+    },
+    "reason": null
+  },
+  "root_placement_consistency": {
+    "status": "ok",
+    "value": {
+      "consistency_rate_total": 1.0,
+      "consistency_rate_evaluable": 1.0,
+      "n_correct": 10,
+      "n_evaluable": 10,
+      "n_total_runs": 10,
+      "n_failed_runs": 0,
+      "root_group_expected": "Naive T",
+      "group_key": "cell_subtype_L2",
+      "per_method": [
+        {
+          "integration_method": "bbknn",
+          "root_cell_id": "48068",
+          "root_assigned_group": "Naive T",
+          "root_group_expected": "Naive T",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "combat",
+          "root_cell_id": "66077",
+          "root_assigned_group": "Naive T",
+          "root_group_expected": "Naive T",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "fastmnn",
+          "root_cell_id": "54896",
+          "root_assigned_group": "Naive T",
+          "root_group_expected": "Naive T",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "harmony",
+          "root_cell_id": "65694",
+          "root_assigned_group": "Naive T",
+          "root_group_expected": "Naive T",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "liger",
+          "root_cell_id": "16919",
+          "root_assigned_group": "Naive T",
+          "root_group_expected": "Naive T",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "scanorama",
+          "root_cell_id": "13067",
+          "root_assigned_group": "Naive T",
+          "root_group_expected": "Naive T",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "scanvi",
+          "root_cell_id": "14118",
+          "root_assigned_group": "Naive T",
+          "root_group_expected": "Naive T",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "scgen",
+          "root_cell_id": "46989",
+          "root_assigned_group": "Naive T",
+          "root_group_expected": "Naive T",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "scvi",
+          "root_cell_id": "48117",
+          "root_assigned_group": "Naive T",
+          "root_group_expected": "Naive T",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "seurat",
+          "root_cell_id": "56567",
+          "root_assigned_group": "Naive T",
+          "root_group_expected": "Naive T",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        }
+      ]
+    },
+    "reason": null
+  },
+  "integration_sensitivity_score": {
+    "status": "ok",
+    "value": {
+      "ISS": 0.545326,
+      "components_used": [
+        "kendalls_w",
+        "topology_jaccard",
+        "root_consistency"
+      ],
+      "components_available": {
+        "kendalls_w": true,
+        "topology_jaccard": true,
+        "root_consistency": true
+      },
+      "component_scores": {
+        "kendalls_w": 0.490345,
+        "topology_jaccard": 0.283395,
+        "root_consistency": 1.0
+      },
+      "weights_used": {
+        "kendalls_w": 0.4,
+        "topology_jaccard": 0.35,
+        "root_consistency": 0.25
+      },
+      "weights_renormalised": false
+    },
+    "reason": null
+  }
+}

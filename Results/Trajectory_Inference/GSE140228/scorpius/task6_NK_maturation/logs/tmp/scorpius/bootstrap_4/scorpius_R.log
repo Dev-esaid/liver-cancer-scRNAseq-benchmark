@@ -1,0 +1,9 @@
+# Command:
+Rscript /data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/R/scorpius_run.R --embedding /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/scorpius/task6_NK_maturation/logs/tmp/scorpius/bootstrap_4/embedding.csv --seed 4 --out_dir /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/scorpius/task6_NK_maturation/logs/tmp/scorpius/bootstrap_4/r_out --edge_mode group --n_waypoints 50 --weight_mode unit --directed 0 --require_groups 1 --meta_csv /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/scorpius/task6_NK_maturation/logs/tmp/scorpius/bootstrap_4/meta.csv --group_key celltype_sub
+
+TSP patch: injected local %||% into 2 function(s).
+SCORPIUS R-orientation: no root_cell_id provided — skipping.
+SCORPIUS completed successfully.
+Pseudotime orientation flipped (R layer): FALSE
+Pseudotime: 5765 cells -> /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/scorpius/task6_NK_maturation/logs/tmp/scorpius/bootstrap_4/r_out/pseudotime.csv
+Edges: 4 rows (mode=group, weight=unit, directed=0) -> /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/scorpius/task6_NK_maturation/logs/tmp/scorpius/bootstrap_4/r_out/edges.csv

@@ -1,0 +1,21 @@
+cell_type_raw	major_celltype_l1	cell_subtype_raw	cell_subtype_L2	n_cells
+Mature_B_Cells	B cells	Mature_B_Cells	B cells	129
+Cholangiocytes	Cholangiocyte	Cholangiocytes	Cholangiocyte	119
+Portal_endothelial_Cells	Endothelial	Portal_endothelial_Cells	Portal Endothelial	205
+Erythroid_Cells	Erythroid	Erythroid_Cells	Erythroid	58
+Hepatocyte_1	Hepatocyte	Hepatocyte_1	Hepatocyte	1005
+Hepatocyte_2	Hepatocyte	Hepatocyte_2	Hepatocyte	909
+Hepatocyte_3	Hepatocyte	Hepatocyte_3	Hepatocyte	628
+Hepatocyte_4	Hepatocyte	Hepatocyte_4	Hepatocyte	600
+Hepatocyte_5	Hepatocyte	Hepatocyte_5	Hepatocyte	195
+Hepatocyte_6	Hepatocyte	Hepatocyte_6	Hepatocyte	145
+Central_venous_LSECs	LSECs	Central_venous_LSECs	Central Venous LSECs	306
+Periportal_LSECs	LSECs	Periportal_LSECs	Periportal LSECs	326
+Inflammatory_Macrophage	Myeloid	Inflammatory_Macrophage	Inflammatory Macrophage	809
+Non-inflammatory_Macrophage	Myeloid	Non-inflammatory_Macrophage	Non-inflammatory Macrophage	374
+NK-like_Cells	NK cells	NK-like_Cells	NK cells	488
+Plasma_Cells	Plasma cells	Plasma_Cells	Plasma cells	486
+Hepatic_Stellate_Cells	Stellate Cells	Hepatic_Stellate_Cells	Stellate Cells	36
+alpha-beta_T_Cells	T cells	alpha-beta_T_Cells	αβ T cells	959
+gamma-delta_T_Cells_1	T cells	gamma-delta_T_Cells_1	γδ T cells	464
+gamma-delta_T_Cells_2	T cells	gamma-delta_T_Cells_2	γδ T cells	105

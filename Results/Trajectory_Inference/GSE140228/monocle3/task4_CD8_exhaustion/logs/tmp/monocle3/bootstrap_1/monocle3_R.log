@@ -1,0 +1,17 @@
+# Command:
+Rscript /data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/R/monocle3_run.R --expr_mtx /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/monocle3/task4_CD8_exhaustion/logs/tmp/monocle3/bootstrap_1/bundle/expr.mtx --genes_csv /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/monocle3/task4_CD8_exhaustion/logs/tmp/monocle3/bootstrap_1/bundle/genes.csv --cells_csv /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/monocle3/task4_CD8_exhaustion/logs/tmp/monocle3/bootstrap_1/bundle/cells.csv --meta_csv /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/monocle3/task4_CD8_exhaustion/logs/tmp/monocle3/bootstrap_1/meta.csv --umap_csv /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/monocle3/task4_CD8_exhaustion/logs/tmp/monocle3/bootstrap_1/umap.csv --group_key celltype_sub --root_cell_id GSE140228_CCGTGGAGTAATAGCA-1-D20171215_B --use_partition FALSE --seed 1 --out_dir /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/monocle3/task4_CD8_exhaustion/logs/tmp/monocle3/bootstrap_1/r_out
+
+monocle3 version            : 1.4.26
+SingleCellExperiment version: 1.24.0
+SummarizedExperiment version: 1.32.0
+igraph version              : 2.2.2
+seed                        : 1
+use_partition               : FALSE
+close_loop                  : FALSE  [Fix 3 — acyclic biology]
+build_group_edges           : majority-label per vertex [Fix 5]
+'as(<dgTMatrix>, "dgCMatrix")' is deprecated.
+Use 'as(., "CsparseMatrix")' instead.
+See help("Deprecated") and help("Matrix-deprecated").
+build_group_edges [Fix 5]: 145 / 145 principal vertices assigned a majority label.
+build_group_edges [Fix 5]: 7 group-level edges written (expected ~6 for spanning tree).
+Monocle3 completed. Outputs written to: /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/monocle3/task4_CD8_exhaustion/logs/tmp/monocle3/bootstrap_1/r_out

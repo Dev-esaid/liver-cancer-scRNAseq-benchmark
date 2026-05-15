@@ -1,0 +1,15 @@
+# Command:
+/data1/esraa/miniconda3/envs/thesis-env/bin/Rscript /data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/R/tscan_run.R --embedding /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/tscan/task1_macrophage_TAM/logs/tmp/tscan/bootstrap_7/embedding.csv --meta /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/tscan/task1_macrophage_TAM/logs/tmp/tscan/bootstrap_7/meta.csv --cluster_key cluster_annotation --root_cluster "monocyte-derived macrophage" --seed 7 --out_dir /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/tscan/task1_macrophage_TAM/logs/tmp/tscan/bootstrap_7/r_out
+
+TSCAN version: 1.40.0
+igraph version: 2.2.2
+seed: 7
+root_cluster label: monocyte-derived macrophage
+n_clusters: 7
+MST vertex names (first 20): MARCO+ macrophage, MMP9+ macrophage, monocyte-derived macrophage, patient-specific macrophage, proliferative macrophage, TREM2+ macrophage, VEGFA+ macrophage
+MST connected components: 1
+Start clusters used (per component): monocyte-derived macrophage
+orderCells return class: PseudotimeOrdering
+pseudotime matrix dim: 10798x3
+Finite pseudotime values: 10798 / 10798
+TSCAN completed successfully. Outputs written to: /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/tscan/task1_macrophage_TAM/logs/tmp/tscan/bootstrap_7/r_out

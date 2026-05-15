@@ -1,0 +1,144 @@
+{
+  "n_cells_input": 66668,
+  "n_genes_input": 25712,
+  "n_cells_output": 13496,
+  "n_genes_output": 20377,
+  "steps": [
+    {
+      "step": "replace_labels",
+      "key": "cluster_annotation",
+      "n_changed": 2496,
+      "mapping": {
+        "patient-specific macropahge": "patient-specific macrophage"
+      },
+      "counts_before_top": {
+        "pro-metastatic hepatocyte": 9195,
+        "natural killer cell": 6303,
+        "pro-tumorigenic hepatocyte": 6020,
+        "cytotoxic T lymphocytes": 3703,
+        "mucosal-associated invariant T": 3282,
+        "monocyte-derived macrophage": 3137,
+        "plasma B cell": 2762,
+        "patient-specific macropahge": 2496,
+        "MARCO+ macrophage": 2425,
+        "TREM2+ macrophage": 2170,
+        "FABP4+ endothelial": 2111,
+        "regulatory T": 2078,
+        "CD1C+ conventional dendritic cell": 2048,
+        "intermediate T": 2016,
+        "effector memory T": 2001,
+        "tissue-resident memory T": 1878,
+        "na\u00efve T": 1616,
+        "VEGFA+ macrophage": 1535,
+        "MMP9+ macrophage": 1435,
+        "FCN3+ endothelial": 1165
+      },
+      "counts_after_top": {
+        "pro-metastatic hepatocyte": 9195,
+        "natural killer cell": 6303,
+        "pro-tumorigenic hepatocyte": 6020,
+        "cytotoxic T lymphocytes": 3703,
+        "mucosal-associated invariant T": 3282,
+        "monocyte-derived macrophage": 3137,
+        "plasma B cell": 2762,
+        "patient-specific macrophage": 2496,
+        "MARCO+ macrophage": 2425,
+        "TREM2+ macrophage": 2170,
+        "FABP4+ endothelial": 2111,
+        "regulatory T": 2078,
+        "CD1C+ conventional dendritic cell": 2048,
+        "intermediate T": 2016,
+        "effector memory T": 2001,
+        "tissue-resident memory T": 1878,
+        "na\u00efve T": 1616,
+        "VEGFA+ macrophage": 1535,
+        "MMP9+ macrophage": 1435,
+        "FCN3+ endothelial": 1165
+      }
+    },
+    {
+      "step": "subset_cells",
+      "n_cells_before": 66668,
+      "include": {
+        "key": "cluster_annotation",
+        "n_values": 7,
+        "values": [
+          "monocyte-derived macrophage",
+          "MARCO+ macrophage",
+          "proliferative macrophage",
+          "MMP9+ macrophage",
+          "VEGFA+ macrophage",
+          "TREM2+ macrophage",
+          "patient-specific macrophage"
+        ],
+        "n_kept_after_include": 13496
+      },
+      "exclude": {
+        "key": "cluster_annotation",
+        "n_values": 3,
+        "values": [
+          "IRF4+ plasmacytoid dendritic cell",
+          "mastocyte",
+          "CD1C+ conventional dendritic cell"
+        ],
+        "n_kept_after_exclude": 13496
+      },
+      "n_cells_after": 13496,
+      "n_cells_removed": 53172
+    },
+    {
+      "step": "filter_min_cells",
+      "min_cells": 3,
+      "n_genes_before": 25712,
+      "n_genes_after": 20377,
+      "n_genes_removed": 5335
+    },
+    {
+      "step": "filter_min_counts",
+      "min_counts": 1,
+      "n_genes_before": 20377,
+      "n_genes_after": 20377,
+      "n_genes_removed": 0
+    },
+    {
+      "step": "select_highly_variable_genes",
+      "n_top_genes": 3000,
+      "flavor": "seurat",
+      "batch_key": null,
+      "subset": false,
+      "n_genes_before": 20377,
+      "n_hvg_selected": 3000,
+      "n_genes_after": 20377
+    }
+  ],
+  "params": {
+    "include_key": "cluster_annotation",
+    "include_values": [
+      "monocyte-derived macrophage",
+      "TREM2+ macrophage",
+      "VEGFA+ macrophage",
+      "MMP9+ macrophage",
+      "MARCO+ macrophage",
+      "proliferative macrophage",
+      "patient-specific macrophage"
+    ],
+    "exclude_key": "cluster_annotation",
+    "exclude_values": [
+      "CD1C+ conventional dendritic cell",
+      "IRF4+ plasmacytoid dendritic cell",
+      "mastocyte"
+    ],
+    "replace_labels_json": "{\"patient-specific macropahge\":\"patient-specific macrophage\"}",
+    "replace_labels_key": "cluster_annotation",
+    "min_cells": 3,
+    "min_counts": 1,
+    "n_top_genes": 3000,
+    "normalize": false,
+    "log1p": false,
+    "scale": false,
+    "target_sum": 10000.0,
+    "hvg_flavor": "seurat",
+    "hvg_subset": false,
+    "batch_key": null
+  }
+}

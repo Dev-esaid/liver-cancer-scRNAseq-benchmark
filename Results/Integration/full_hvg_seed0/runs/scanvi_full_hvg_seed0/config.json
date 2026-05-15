@@ -1,0 +1,52 @@
+{
+  "batch_key": "dataset",
+  "label_key": "major_celltype_l1",
+  "counts_layer": "counts",
+  "unlabeled_category": "Unclassified",
+  "train_progress_bar": true,
+  "exclude_datasets_no_counts": [],
+  "n_latent": 50,
+  "n_hidden": 128,
+  "n_layers": 2,
+  "gene_likelihood": "nb",
+  "use_gpu": true,
+  "batch_size": 2048,
+  "max_epochs": 200,
+  "early_stopping": true,
+  "early_stopping_patience": 10,
+  "num_workers": 4,
+  "pin_memory": false,
+  "neighbors_k": 50,
+  "umap_min_dist": 0.35,
+  "umap_spread": 1.0,
+  "leiden_resolution": 1.0,
+  "n_isolated": null,
+  "lisi_subsample": null,
+  "compute_trajectory": false,
+  "categorical_covariates": [
+    "donor_id",
+    "technology",
+    "platform",
+    "tissue",
+    "tumor_status"
+  ],
+  "run_tag": "scanvi_full_hvg_seed0",
+  "seed": 0,
+  "plot_covariates": [
+    "dataset",
+    "major_celltype_l1",
+    "tumor_status",
+    "technology",
+    "cancer_type"
+  ],
+  "plot_extra_covariates": [
+    "platform",
+    "tissue",
+    "compartment",
+    "disease_group",
+    "donor_id"
+  ],
+  "plot_subsample_n": 200000,
+  "plot_subsample_stratify_by": "dataset",
+  "save_h5ad": true
+}

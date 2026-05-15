@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "dataset_name": "GSE140228",
+    "task_name": "task6_NK_maturation",
+    "method_name": "monocle3",
+    "n_cells": 7203,
+    "n_genes": 17199
+  },
+  "pseudotime_sanity_raw": {
+    "status": "ok",
+    "value": {
+      "n_cells": 7203,
+      "n_finite": 7203,
+      "finite_fraction": 1.0,
+      "min": 0.0,
+      "max": 25.3573061506806,
+      "mean": 12.788686369679356,
+      "std": 7.0447438119748735,
+      "n_unique": 7203,
+      "tie_fraction": 0.0
+    },
+    "reason": null
+  },
+  "marker_concordance": {
+    "status": "ok",
+    "value": [
+      {
+        "program": "NK-C2-SELL",
+        "expected_direction": "either",
+        "used_for_root": true,
+        "spearman_rho_raw": -0.017419226264322733,
+        "spearman_rho_aligned": 0.017419226264322733,
+        "spearman_p": 0.13934520166640557,
+        "n_used": 7203,
+        "genes_requested": 6,
+        "genes_present": 6,
+        "genes_missing": 0
+      },
+      {
+        "program": "NK-C5-CD69",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.08838840390471221,
+        "spearman_rho_aligned": 0.08838840390471221,
+        "spearman_p": 5.692108888530514e-14,
+        "n_used": 7203,
+        "genes_requested": 3,
+        "genes_present": 3,
+        "genes_missing": 0
+      },
+      {
+        "program": "NK-C1-FCGR3A",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.37796666838795895,
+        "spearman_rho_aligned": 0.37796666838795895,
+        "spearman_p": 2.241147763369263e-243,
+        "n_used": 7203,
+        "genes_requested": 6,
+        "genes_present": 6,
+        "genes_missing": 0
+      },
+      {
+        "program": "NK-C7-CD160",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.018295327987769137,
+        "spearman_rho_aligned": 0.018295327987769137,
+        "spearman_p": 0.12052018460069201,
+        "n_used": 7203,
+        "genes_requested": 8,
+        "genes_present": 8,
+        "genes_missing": 0
+      },
+      {
+        "program": "NK-C3-IFNG",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.2965380238505095,
+        "spearman_rho_aligned": 0.2965380238505095,
+        "spearman_p": 3.747368266887127e-146,
+        "n_used": 7203,
+        "genes_requested": 6,
+        "genes_present": 6,
+        "genes_missing": 0
+      }
+    ],
+    "reason": null
+  },
+  "marker_monotonicity": {
+    "status": "ok",
+    "value": [
+      {
+        "program": "NK-C2-SELL",
+        "expected_direction": "either",
+        "used_for_root": true,
+        "binned_monotonicity": 0.5789473684210527,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 6
+      },
+      {
+        "program": "NK-C5-CD69",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5263157894736843,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 3
+      },
+      {
+        "program": "NK-C1-FCGR3A",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5263157894736843,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 6
+      },
+      {
+        "program": "NK-C7-CD160",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5263157894736843,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 8
+      },
+      {
+        "program": "NK-C3-IFNG",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5263157894736843,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 6
+      }
+    ],
+    "reason": null
+  },
+  "knn_smoothness": {
+    "status": "ok",
+    "value": {
+      "mean_abs_deviation_to_neighbor_mean": 0.021929059295327583,
+      "n_zero_degree": 0,
+      "mean_row_sum": 8.966492134085236
+    },
+    "reason": null
+  },
+  "root_purity": {
+    "status": "ok",
+    "value": {
+      "group_key": "celltype_sub",
+      "root_label": "NK-C2-SELL",
+      "alpha": 0.1,
+      "n_tail": 721,
+      "root_purity": 0.2843273231622746,
+      "baseline_fraction": 0.038733860891295296,
+      "fold_enrichment": 7.340536590458293
+    },
+    "reason": null
+  },
+  "topology_pseudotime_consistency": {
+    "status": "ok",
+    "value": {
+      "group_key": "celltype_sub",
+      "root_group": "NK-C2-SELL",
+      "distance_transform": "inverse_weight",
+      "force_undirected": true,
+      "spearman_rho": 0.05129891760425771,
+      "spearman_rho_abs": 0.05129891760425771,
+      "spearman_p": 0.934712848108234,
+      "n_clusters_used": 5,
+      "n_nodes_graph": 5,
+      "n_nodes_reachable": 5,
+      "graph_build_report": {
+        "status": "ok",
+        "n_rows": 6,
+        "n_edges_used": 6,
+        "n_edges_skipped": 0,
+        "distance_transform": "inverse_weight",
+        "force_undirected": true,
+        "has_weight": true,
+        "has_directed": true,
+        "n_nodes": 5
+      }
+    },
+    "reason": null
+  }
+}

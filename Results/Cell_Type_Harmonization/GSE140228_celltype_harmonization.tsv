@@ -1,0 +1,55 @@
+cell_type_raw	major_celltype_l1	cell_subtype_raw	cell_subtype_L2	n_cells
+Lymphoid-B	B cells	Lymphoid-B	B cells	3542
+Myeloid	Myeloid	Mφ-C3-APOE	APOE+ Macrophage	63
+Myeloid	Myeloid	Mφ-C2-C1QA	C1QA+ Macrophage	1959
+Myeloid	Myeloid	Mono-C1-CD14	CD14+ Monocyte	275
+Myeloid	Myeloid	Mono-C2-FCGR3A	FCGR3A+ Monocyte	730
+Myeloid	Myeloid	DC-C4-LAMP3	LAMP3+ DC	164
+Myeloid	Myeloid	Mφ-C6-MARCO	MARCO+ Macrophage	1536
+Myeloid-Mast	Myeloid	Mast-C1-IL7R	Mast cells	244
+Myeloid-Mast	Myeloid	Mast-C2-CPA3	Mast cells	128
+Myeloid	Myeloid	Mast-C2-CPA3	Mast cells	35
+Myeloid	Myeloid	Mφ-C1-THBS1	THBS1+ Macrophage	1225
+Myeloid	Myeloid	Mφ-C5-VCAN	VCAN+ Macrophage	1231
+Myeloid	Myeloid	DC-C3-CLEC9A	cDC1	397
+Myeloid	Myeloid	DC-C1-CD1C	cDC2	1453
+Myeloid	Myeloid	DC-C2-FCER1A	cDC2	591
+Lymphoid-NK	NK cells	CD4-C4-IL7R	CD4 T (IL7R+)	2
+Lymphoid-NK	NK cells	CD4-C5-TCF7	CD4 T (TCF7+)	6
+Lymphoid-NK	NK cells	CD8-C4-CX3CR1	CD8 T (CX3CR1+)	3718
+Lymphoid-NK	NK cells	CD8-C6-GZMK	CD8 T (GZMK+)	352
+Lymphoid-NK	NK cells	CD8-C3-IL7R	CD8 T (IL7R+)	6
+Lymphoid-NK	NK cells	CD8-C7-KLRD1	CD8 T (KLRD1+)	156
+Lymphoid-NK	NK cells	CD8-C8-PDCD1	CD8 T (PDCD1+)	2
+Lymphoid-NK	NK cells	CD8-C5-SELL	CD8 T (SELL+)	56
+ILCs	NK cells	ILCs	ILCs	198
+Lymphoid-NK	NK cells	CD8-C9-SLC4A10	MAIT cells	6
+Lymphoid-NK	NK cells	NK-C8-CD160-HSPA1A	NK (CD160+ HSPA1A+)	443
+Lymphoid-NK	NK cells	NK-C7-CD160	NK (CD160+)	2293
+Lymphoid-NK	NK cells	NK-C5-CD69	NK (CD69+)	1819
+Lymphoid-NK	NK cells	NK-C1-FCGR3A	NK (FCGR3A+)	2078
+Lymphoid-NK	NK cells	NK-C4-IFNG-HSPA1A	NK (IFNG+ HSPA1A+)	580
+Lymphoid-NK	NK cells	NK-C3-IFNG	NK (IFNG+)	601
+Lymphoid-NK	NK cells	NK-C6-IL7R	NK (IL7R+)	195
+Lymphoid-NK	NK cells	NK-C2-SELL	NK (SELL+)	278
+Lymphoid-B-Plasma	Plasma cells	Lymphoid-B-Plasma	Plasma cells	1113
+Lymphoid-T	T cells	CD4-C3-ANXA1	CD4 T (ANXA1+)	2599
+Lymphoid-T	T cells	CD4-C6-CXCL13	CD4 T (CXCL13+)	733
+Lymphoid-T	T cells	CD4-C4-IL7R	CD4 T (IL7R+)	2735
+Lymphoid-T	T cells	CD4-C5-TCF7	CD4 T (TCF7+)	5274
+Lymphoid-T	T cells	CD4/CD8-C1-CCR7	CD4/CD8 T (CCR7+)	3418
+Lymphoid-T	T cells	CD8-C4-CX3CR1	CD8 T (CX3CR1+)	210
+Lymphoid-T	T cells	CD8-C6-GZMK	CD8 T (GZMK+)	7860
+Lymphoid-T	T cells	CD8-C3-IL7R	CD8 T (IL7R+)	966
+Lymphoid-T	T cells	CD8-C7-KLRD1	CD8 T (KLRD1+)	3591
+Lymphoid-T	T cells	CD8-C8-PDCD1	CD8 T (PDCD1+)	1186
+Lymphoid-T	T cells	CD8-C5-SELL	CD8 T (SELL+)	2133
+Lymphoid-T	T cells	CD8-C9-SLC4A10	MAIT cells	3103
+Lymphoid-T	T cells	NK-C8-CD160-HSPA1A	NK (CD160+ HSPA1A+)	5
+Lymphoid-T	T cells	NK-C7-CD160	NK (CD160+)	59
+Lymphoid-T	T cells	NK-C5-CD69	NK (CD69+)	73
+Lymphoid-T	T cells	NK-C4-IFNG-HSPA1A	NK (IFNG+ HSPA1A+)	4
+Lymphoid-T	T cells	NK-C3-IFNG	NK (IFNG+)	1
+Lymphoid-T	T cells	NK-C6-IL7R	NK (IL7R+)	1
+Lymphoid-T	T cells	NK-C2-SELL	NK (SELL+)	1
+Lymphoid-T	T cells	CD4-C7-FOXP3	Regulatory T	1879

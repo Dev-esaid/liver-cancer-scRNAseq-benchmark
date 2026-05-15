@@ -1,0 +1,11 @@
+{
+  "n_pseudotime_rows_raw": 26095,
+  "n_pseudotime_ids_unique": 26095,
+  "n_common_ids": 26095,
+  "n_finite_pseudotime_after_reindex": 26095,
+  "n_edges": 11,
+  "n_topology_nodes": 12,
+  "r_log": "/data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/tscan/bbknn/logs/tmp/tscan/bootstrap_16/tscan_R.log",
+  "pseudotime_csv": "/data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/tscan/bbknn/logs/tmp/tscan/bootstrap_16/r_out/pseudotime.csv",
+  "edges_csv": "/data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/tscan/bbknn/logs/tmp/tscan/bootstrap_16/r_out/edges.csv"
+}

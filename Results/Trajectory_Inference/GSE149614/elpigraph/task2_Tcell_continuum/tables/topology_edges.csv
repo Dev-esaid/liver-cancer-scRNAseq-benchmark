@@ -1,0 +1,9 @@
+source,target,weight,directed
+naïve T,central memory T,1.0,True
+naïve T,cytotoxic T lymphocytes,1.0,True
+naïve T,effector memory T,1.0,True
+naïve T,intermediate T,1.0,True
+naïve T,proliferative CD4 T,1.0,True
+naïve T,proliferative CD8 T,1.0,True
+naïve T,regulatory T,1.0,True
+naïve T,tissue-resident memory T,1.0,True

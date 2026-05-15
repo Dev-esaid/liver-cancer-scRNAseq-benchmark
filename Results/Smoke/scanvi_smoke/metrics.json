@@ -1,0 +1,17 @@
+{
+  "NMI": 0.6313228335799947,
+  "ARI": 0.35710578166423895,
+  "cell_type_ASW": 0.5540353879332542,
+  "isolated_label_F1": 0.09045226130653267,
+  "isolated_label_ASW": 0.8051745891571045,
+  "cell_cycle_conservation": 0.5828363879688867,
+  "hvg_conservation": 1.0,
+  "trajectory_conservation": NaN,
+  "trajectory_conservation_note": "compute_trajectory=False",
+  "batch_ASW": 0.7647150634587988,
+  "pcr_comparison": 0.3338246658348847,
+  "kBET": 0.41617884892041057,
+  "graph_connectivity": 0.9265612686203135,
+  "iLISI": 0.23513019098733645,
+  "cLISI": 0.995991976351708
+}

@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "dataset_name": "integrated_liver_atlas_9datasets",
+    "task_name": "task1_Monocyte_macrophage_TAM",
+    "method_name": "tscan",
+    "n_cells": 21164,
+    "n_genes": 3982
+  },
+  "pseudotime_sanity_raw": {
+    "status": "ok",
+    "value": {
+      "n_cells": 21164,
+      "n_finite": 21164,
+      "finite_fraction": 1.0,
+      "min": 0.0,
+      "max": 43.8160363705195,
+      "mean": 21.349733994975278,
+      "std": 15.105021495745339,
+      "n_unique": 10577,
+      "tie_fraction": 0.5002362502362503
+    },
+    "reason": null
+  },
+  "marker_concordance": {
+    "status": "ok",
+    "value": [
+      {
+        "program": "Tissue Monocyte",
+        "expected_direction": "either",
+        "used_for_root": true,
+        "spearman_rho_raw": -0.4291917730881418,
+        "spearman_rho_aligned": 0.4291917730881418,
+        "spearman_p": 0.0,
+        "n_used": 21164,
+        "genes_requested": 10,
+        "genes_present": 9,
+        "genes_missing": 1
+      },
+      {
+        "program": "CD14+ Monocyte",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.5162948555321026,
+        "spearman_rho_aligned": 0.5162948555321026,
+        "spearman_p": 0.0,
+        "n_used": 21164,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "FCGR3A+ Monocyte",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.14662775268494052,
+        "spearman_rho_aligned": 0.14662775268494052,
+        "spearman_p": 4.983936884505286e-102,
+        "n_used": 21164,
+        "genes_requested": 10,
+        "genes_present": 8,
+        "genes_missing": 2
+      },
+      {
+        "program": "Monocyte-derived Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.44461398143088027,
+        "spearman_rho_aligned": 0.44461398143088027,
+        "spearman_p": 0.0,
+        "n_used": 21164,
+        "genes_requested": 12,
+        "genes_present": 10,
+        "genes_missing": 2
+      },
+      {
+        "program": "Transitional Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.08070796304308396,
+        "spearman_rho_aligned": 0.08070796304308396,
+        "spearman_p": 6.290668974495697e-32,
+        "n_used": 21164,
+        "genes_requested": 10,
+        "genes_present": 9,
+        "genes_missing": 1
+      },
+      {
+        "program": "Inflammatory Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.09677732595987248,
+        "spearman_rho_aligned": 0.09677732595987248,
+        "spearman_p": 3.234539991481574e-45,
+        "n_used": 21164,
+        "genes_requested": 10,
+        "genes_present": 8,
+        "genes_missing": 2
+      },
+      {
+        "program": "MARCO+ Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.6614270671705802,
+        "spearman_rho_aligned": 0.6614270671705802,
+        "spearman_p": 0.0,
+        "n_used": 21164,
+        "genes_requested": 10,
+        "genes_present": 8,
+        "genes_missing": 2
+      },
+      {
+        "program": "TREM2+ Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.7122555360951577,
+        "spearman_rho_aligned": 0.7122555360951577,
+        "spearman_p": 0.0,
+        "n_used": 21164,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "C1QA+ Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.6533935104699473,
+        "spearman_rho_aligned": 0.6533935104699473,
+        "spearman_p": 0.0,
+        "n_used": 21164,
+        "genes_requested": 10,
+        "genes_present": 8,
+        "genes_missing": 2
+      },
+      {
+        "program": "MMP9+ Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.4403592269427444,
+        "spearman_rho_aligned": 0.4403592269427444,
+        "spearman_p": 0.0,
+        "n_used": 21164,
+        "genes_requested": 10,
+        "genes_present": 7,
+        "genes_missing": 3
+      },
+      {
+        "program": "VEGFA+ Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.26857117760122085,
+        "spearman_rho_aligned": 0.26857117760122085,
+        "spearman_p": 0.0,
+        "n_used": 21164,
+        "genes_requested": 10,
+        "genes_present": 6,
+        "genes_missing": 4
+      },
+      {
+        "program": "THBS1+ Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.4177271549426189,
+        "spearman_rho_aligned": 0.4177271549426189,
+        "spearman_p": 0.0,
+        "n_used": 21164,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "HLA-II+ Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.22367363422966258,
+        "spearman_rho_aligned": 0.22367363422966258,
+        "spearman_p": 3.451549464042708e-238,
+        "n_used": 21164,
+        "genes_requested": 10,
+        "genes_present": 9,
+        "genes_missing": 1
+      }
+    ],
+    "reason": null
+  },
+  "marker_monotonicity": {
+    "status": "ok",
+    "value": [
+      {
+        "program": "Tissue Monocyte",
+        "expected_direction": "either",
+        "used_for_root": true,
+        "binned_monotonicity": 0.6470588235294117,
+        "n_bins_requested": 20,
+        "n_bins_used": 18,
+        "tol": 0.0,
+        "genes_present": 9
+      },
+      {
+        "program": "CD14+ Monocyte",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5294117647058824,
+        "n_bins_requested": 20,
+        "n_bins_used": 18,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "FCGR3A+ Monocyte",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.6470588235294117,
+        "n_bins_requested": 20,
+        "n_bins_used": 18,
+        "tol": 0.0,
+        "genes_present": 8
+      },
+      {
+        "program": "Monocyte-derived Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5882352941176471,
+        "n_bins_requested": 20,
+        "n_bins_used": 18,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "Transitional Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5294117647058824,
+        "n_bins_requested": 20,
+        "n_bins_used": 18,
+        "tol": 0.0,
+        "genes_present": 9
+      },
+      {
+        "program": "Inflammatory Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5882352941176471,
+        "n_bins_requested": 20,
+        "n_bins_used": 18,
+        "tol": 0.0,
+        "genes_present": 8
+      },
+      {
+        "program": "MARCO+ Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.6470588235294117,
+        "n_bins_requested": 20,
+        "n_bins_used": 18,
+        "tol": 0.0,
+        "genes_present": 8
+      },
+      {
+        "program": "TREM2+ Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5294117647058824,
+        "n_bins_requested": 20,
+        "n_bins_used": 18,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "C1QA+ Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5294117647058824,
+        "n_bins_requested": 20,
+        "n_bins_used": 18,
+        "tol": 0.0,
+        "genes_present": 8
+      },
+      {
+        "program": "MMP9+ Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5294117647058824,
+        "n_bins_requested": 20,
+        "n_bins_used": 18,
+        "tol": 0.0,
+        "genes_present": 7
+      },
+      {
+        "program": "VEGFA+ Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.6470588235294117,
+        "n_bins_requested": 20,
+        "n_bins_used": 18,
+        "tol": 0.0,
+        "genes_present": 6
+      },
+      {
+        "program": "THBS1+ Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5882352941176471,
+        "n_bins_requested": 20,
+        "n_bins_used": 18,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "HLA-II+ Macrophage",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5882352941176471,
+        "n_bins_requested": 20,
+        "n_bins_used": 18,
+        "tol": 0.0,
+        "genes_present": 9
+      }
+    ],
+    "reason": null
+  },
+  "knn_smoothness": {
+    "status": "ok",
+    "value": {
+      "mean_abs_deviation_to_neighbor_mean": 0.07725792765026994,
+      "n_zero_degree": 0,
+      "mean_row_sum": 8.193818293904744
+    },
+    "reason": null
+  },
+  "root_purity": {
+    "status": "ok",
+    "value": {
+      "group_key": "cell_subtype_L2",
+      "root_label": "Tissue Monocyte",
+      "alpha": 0.1,
+      "n_tail": 2859,
+      "root_purity": 0.8457502623294858,
+      "baseline_fraction": 0.142978642978643,
+      "fold_enrichment": 5.9152209358695425
+    },
+    "reason": null
+  },
+  "topology_pseudotime_consistency": {
+    "status": "ok",
+    "value": {
+      "group_key": "cell_subtype_L2",
+      "root_group": "Tissue Monocyte",
+      "distance_transform": "inverse_weight",
+      "force_undirected": true,
+      "spearman_rho": 0.9835164835164836,
+      "spearman_rho_abs": 0.9835164835164836,
+      "spearman_p": 1.611214573209521e-09,
+      "n_clusters_used": 13,
+      "n_nodes_graph": 13,
+      "n_nodes_reachable": 13,
+      "graph_build_report": {
+        "status": "ok",
+        "n_rows": 12,
+        "n_edges_used": 12,
+        "n_edges_skipped": 0,
+        "distance_transform": "inverse_weight",
+        "force_undirected": true,
+        "has_weight": true,
+        "has_directed": true,
+        "n_nodes": 13
+      }
+    },
+    "reason": null
+  }
+}

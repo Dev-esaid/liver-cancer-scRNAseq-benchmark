@@ -1,0 +1,68 @@
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+2026-04-07 02:39:11,277 | INFO | TI_benchmark.method_runner | Loading adata from /data1/esraa/Thesis-Project/Data/Processed_data/post_norm_log1p/adata_140228.h5ad
+2026-04-07 02:39:15,460 | INFO | TI_benchmark.method_runner | Loaded adata: 63306 cells × 54574 genes
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:39:41,009 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:40:26,801 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:41:02,322 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:41:43,380 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:42:25,592 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:43:09,274 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:43:54,078 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:44:34,049 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:45:20,403 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:46:03,769 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:46:43,905 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:47:35,750 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:48:20,885 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:48:59,466 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:49:41,289 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:50:22,556 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:51:05,766 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:51:43,998 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:52:24,264 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:53:07,594 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-07 02:53:53,458 | INFO | __main__ | Fitting ElPiGraph principal tree: NumNodes=50 Lambda=0.01 Mu=0.1 nReps=1
+2026-04-07 02:54:31,190 | INFO | TI_benchmark.plotting | Shared UMAP captured: shape=(7019, 2), x=[14.77, 29.96], y=[2.50, 11.71]

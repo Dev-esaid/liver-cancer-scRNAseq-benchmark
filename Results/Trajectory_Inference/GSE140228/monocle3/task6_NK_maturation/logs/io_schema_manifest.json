@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "artifacts": {
+    "cell_pseudotime": {
+      "path": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/monocle3/task6_NK_maturation/tables/cell_pseudotime.csv",
+      "status": "ok",
+      "n_rows": 7203,
+      "n_cols": 3,
+      "reason": null,
+      "notes": null
+    },
+    "group_summary_pseudotime": {
+      "path": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/monocle3/task6_NK_maturation/tables/group_summary_pseudotime.csv",
+      "status": "ok",
+      "n_rows": 5,
+      "n_cols": 7,
+      "reason": null,
+      "notes": null
+    },
+    "topology_edges": {
+      "path": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/monocle3/task6_NK_maturation/tables/topology_edges.csv",
+      "status": "ok",
+      "n_rows": 6,
+      "n_cols": 4,
+      "reason": null,
+      "notes": null
+    },
+    "cell_branch_labels": {
+      "path": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/monocle3/task6_NK_maturation/tables/cell_branch_labels.csv",
+      "status": "skipped",
+      "n_rows": 0,
+      "n_cols": 2,
+      "reason": "branch_labels not provided",
+      "notes": null
+    },
+    "terminal_probabilities": {
+      "path": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/monocle3/task6_NK_maturation/tables/terminal_probabilities.csv",
+      "status": "skipped",
+      "n_rows": 0,
+      "n_cols": 1,
+      "reason": "terminal_probabilities not provided",
+      "notes": null
+    }
+  },
+  "global_notes": {
+    "topology_edges_notes": {
+      "validation": {
+        "n_rows_in": 6,
+        "n_rows_out": 6,
+        "n_dropped": 0,
+        "columns": [
+          "source",
+          "target",
+          "weight",
+          "directed"
+        ],
+        "allow_self_loops": false
+      }
+    },
+    "branch_labels_notes": {
+      "skipped_reason": "branch_labels not provided"
+    },
+    "terminal_probabilities_notes": {
+      "skipped_reason": "terminal_probabilities not provided"
+    }
+  }
+}

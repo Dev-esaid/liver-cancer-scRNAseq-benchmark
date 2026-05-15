@@ -1,0 +1,15 @@
+# Command:
+Rscript /data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/R/tscan_run.R --embedding /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/tscan/task3_myeloid_monocyte_to_TAM/logs/tmp/tscan/bootstrap_13/embedding.csv --meta /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/tscan/task3_myeloid_monocyte_to_TAM/logs/tmp/tscan/bootstrap_13/meta.csv --cluster_key celltype_sub --root_cluster Mono-C1-CD14 --seed 13 --out_dir /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/tscan/task3_myeloid_monocyte_to_TAM/logs/tmp/tscan/bootstrap_13/r_out
+
+TSCAN version: 1.40.0
+igraph version: 2.2.2
+seed: 13
+root_cluster label: Mono-C1-CD14
+n_clusters: 7
+MST vertex names (first 20): Mono-C1-CD14, Mono-C2-FCGR3A, Mφ-C1-THBS1, Mφ-C2-C1QA, Mφ-C3-APOE, Mφ-C5-VCAN, Mφ-C6-MARCO
+MST connected components: 1
+Start clusters used (per component): Mono-C1-CD14
+orderCells return class: PseudotimeOrdering
+pseudotime matrix dim: 5617x3
+Finite pseudotime values: 5617 / 5617
+TSCAN completed successfully. Outputs written to: /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/tscan/task3_myeloid_monocyte_to_TAM/logs/tmp/tscan/bootstrap_13/r_out

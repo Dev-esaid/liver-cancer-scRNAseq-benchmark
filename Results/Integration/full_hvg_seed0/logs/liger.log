@@ -1,0 +1,578 @@
+==== liger START 07 أبر, 2026 +04 16:17:18 ====
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+=== RUNNING liger ===
+  outdir: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0
+  run_tag: full_hvg_seed0
+  atlas: /data1/esraa/Thesis-Project/Data/Processed_data/post_HVG_intersection/concatenated_hvg.h5ad
+  CUDA_VISIBLE_DEVICES: None
+  METHOD_THREADS: 2
+  OMP_NUM_THREADS: 1
+  OPENBLAS_NUM_THREADS: 1
+  MKL_NUM_THREADS: 1
+[Python] Using raw counts from layer 'counts'
+[Python] Dropping 8346 cells with zero total raw counts before LIGER
+[Python] Example dropped cells: GSE115469_P1TLH_AAACCTGAGCAGCCTC_1, GSE115469_P1TLH_AAACCTGTCCTCATTA_1, GSE115469_P1TLH_AAACCTGTCTAAGCCA_1, GSE115469_P1TLH_AAACGGGAGTAGGCCA_1, GSE115469_P1TLH_AAACGGGGTTCGGGCT_1, GSE115469_P1TLH_AAAGCAACAGTAAGAT_1, GSE115469_P1TLH_AAAGCAAGTCGCGTGT_1, GSE115469_P1TLH_AAAGCAAGTGTTTGTG_1, GSE115469_P1TLH_AAAGCAAGTTGATTCG_1, GSE115469_P1TLH_AAAGTAGCAGACGTAG_1
+[Python] Using raw counts from layer 'counts'
+[Python] Raw-count validation passed (min=1.000, zero_count_cells=0)
+[Python] Writing compact temporary H5AD for R: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0/adata_for_liger_liger_full_hvg_seed0.h5ad
+[Python] Using all 4000 externally supplied HVGs
+[Python] HVG list written: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0/liger_genes_liger_full_hvg_seed0.txt (n=4000)
+[Python] Calling R LIGER with: Rscript --vanilla /data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/R/run_liger.R /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0/adata_for_liger_liger_full_hvg_seed0.h5ad dataset /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0/liger_full_hvg_seed0 50 3.0 50 /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0/liger_genes_liger_full_hvg_seed0.txt 0 centroidAlign 2 1
+[R] [LIGER R] Forced BLAS/OMP threads to 1 via RhpcBLASctl
+[R] [LIGER R] Reading H5AD: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0/adata_for_liger_liger_full_hvg_seed0.h5ad
+==== liger START 07 أبر, 2026 +04 16:20:01 ====
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+=== RUNNING liger ===
+  outdir: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0
+  run_tag: full_hvg_seed0
+  atlas: /data1/esraa/Thesis-Project/Data/Processed_data/post_HVG_intersection/concatenated_hvg.h5ad
+  CUDA_VISIBLE_DEVICES: None
+  METHOD_THREADS: 2
+  OMP_NUM_THREADS: 1
+  OPENBLAS_NUM_THREADS: 1
+  MKL_NUM_THREADS: 1
+[Python] Using raw counts from layer 'counts'
+[Python] Dropping 8346 cells with zero total raw counts before LIGER
+[Python] Example dropped cells: GSE115469_P1TLH_AAACCTGAGCAGCCTC_1, GSE115469_P1TLH_AAACCTGTCCTCATTA_1, GSE115469_P1TLH_AAACCTGTCTAAGCCA_1, GSE115469_P1TLH_AAACGGGAGTAGGCCA_1, GSE115469_P1TLH_AAACGGGGTTCGGGCT_1, GSE115469_P1TLH_AAAGCAACAGTAAGAT_1, GSE115469_P1TLH_AAAGCAAGTCGCGTGT_1, GSE115469_P1TLH_AAAGCAAGTGTTTGTG_1, GSE115469_P1TLH_AAAGCAAGTTGATTCG_1, GSE115469_P1TLH_AAAGTAGCAGACGTAG_1
+[Python] Using raw counts from layer 'counts'
+[Python] Raw-count validation passed (min=1.000, zero_count_cells=0)
+[Python] Writing compact temporary H5AD for R: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0/adata_for_liger_liger_full_hvg_seed0.h5ad
+[Python] Using all 4000 externally supplied HVGs
+[Python] HVG list written: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0/liger_genes_liger_full_hvg_seed0.txt (n=4000)
+[Python] Calling R LIGER with: Rscript --vanilla /data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/R/run_liger.R /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0/adata_for_liger_liger_full_hvg_seed0.h5ad dataset /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0/liger_full_hvg_seed0 50 3.0 50 /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0/liger_genes_liger_full_hvg_seed0.txt 0 centroidAlign 2 1
+[R] [LIGER R] Forced BLAS/OMP threads to 1 via RhpcBLASctl
+[R] [LIGER R] Reading H5AD: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0/adata_for_liger_liger_full_hvg_seed0.h5ad
+[R] ℹ Using stored X_name value 'counts'
+[R] [LIGER R] assays: counts
+[R] [LIGER R] Using assay: counts
+[R] [LIGER R] Raw counts OK (min=1)
+[R] [LIGER R] Full matrix: genes=4000 cells=291545 sparse=TRUE
+[R] [LIGER R] External HVGs: input=4000 present=4000
+[R] [LIGER R] Creating liger object from full raw matrix ...
+[R] ! No human mitochondrial gene found in the union of dataset "GSE124395"
+[R] ℹ calculating QC for dataset "GSE124395"
+[R] ℹ Updated QC variables: "nUMI", "nGene", "mito", "ribo", and "hemo"
+[R] ℹ calculating QC for dataset "GSE124395"
+[R] ✔ calculating QC for dataset "GSE124395" ... done
+[R] 
+[R] ! No human mitochondrial gene found in the union of dataset "GSE125449"
+[R] ℹ calculating QC for dataset "GSE125449"
+[R] ℹ Updated QC variables: "nUMI", "nGene", "mito", "ribo", and "hemo"
+[R] ℹ calculating QC for dataset "GSE125449"
+[R] ✔ calculating QC for dataset "GSE125449" ... done
+[R] 
+[R] ! No human mitochondrial gene found in the union of dataset "GSE136103"
+[R] ℹ calculating QC for dataset "GSE136103"
+[R] ℹ Updated QC variables: "nUMI", "nGene", "mito", "ribo", and "hemo"
+[R] ℹ calculating QC for dataset "GSE136103"
+[R] ✔ calculating QC for dataset "GSE136103" ... done
+[R] 
+[R] ! No human mitochondrial gene found in the union of dataset "GSE138709"
+[R] ℹ calculating QC for dataset "GSE138709"
+[R] ℹ Updated QC variables: "nUMI", "nGene", "mito", "ribo", and "hemo"
+[R] ℹ calculating QC for dataset "GSE138709"
+[R] ✔ calculating QC for dataset "GSE138709" ... done
+[R] 
+[R] ! No human mitochondrial gene found in the union of dataset "GSE140228"
+[R] ℹ calculating QC for dataset "GSE140228"
+[R] ℹ Updated QC variables: "nUMI", "nGene", "mito", "ribo", and "hemo"
+[R] ℹ calculating QC for dataset "GSE140228"
+[R] ✔ calculating QC for dataset "GSE140228" ... done
+[R] 
+[R] ! No human mitochondrial gene found in the union of dataset "GSE146409"
+[R] ℹ calculating QC for dataset "GSE146409"
+[R] ℹ Updated QC variables: "nUMI", "nGene", "mito", "ribo", and "hemo"
+[R] ℹ calculating QC for dataset "GSE146409"
+[R] ✔ calculating QC for dataset "GSE146409" ... done
+[R] 
+[R] ! No human mitochondrial gene found in the union of dataset "GSE149614"
+[R] ℹ calculating QC for dataset "GSE149614"
+[R] ℹ Updated QC variables: "nUMI", "nGene", "mito", "ribo", and "hemo"
+[R] ℹ calculating QC for dataset "GSE149614"
+[R] ✔ calculating QC for dataset "GSE149614" ... done
+[R] 
+[R] ! No human mitochondrial gene found in the union of dataset "GSE151530"
+[R] ℹ calculating QC for dataset "GSE151530"
+[R] ℹ Updated QC variables: "nUMI", "nGene", "mito", "ribo", and "hemo"
+[R] ℹ calculating QC for dataset "GSE151530"
+[R] ✔ calculating QC for dataset "GSE151530" ... done
+[R] 
+[R] [LIGER R] Setting external HVGs as varFeatures (n=4000)
+[R] [LIGER R] normalize() ...
+[R] ℹ Normalizing datasets "GSE124395"
+[R] ✔ Normalizing datasets "GSE124395" ... done
+[R] 
+[R] ℹ Normalizing datasets "GSE125449"
+[R] ✔ Normalizing datasets "GSE125449" ... done
+[R] 
+[R] ℹ Normalizing datasets "GSE136103"
+[R] ✔ Normalizing datasets "GSE136103" ... done
+[R] 
+[R] ℹ Normalizing datasets "GSE138709"
+[R] ✔ Normalizing datasets "GSE138709" ... done
+[R] 
+[R] ℹ Normalizing datasets "GSE140228"
+[R] ✔ Normalizing datasets "GSE140228" ... done
+[R] 
+[R] ℹ Normalizing datasets "GSE146409"
+[R] ✔ Normalizing datasets "GSE146409" ... done
+[R] 
+[R] ℹ Normalizing datasets "GSE149614"
+[R] ✔ Normalizing datasets "GSE149614" ... done
+[R] 
+[R] ℹ Normalizing datasets "GSE151530"
+[R] ✔ Normalizing datasets "GSE151530" ... done
+[R] 
+[R] [LIGER R] scaleNotCenter() on varFeatures only ...
+[R] ℹ Scaling dataset "GSE124395"
+[R] ✔ Scaling dataset "GSE124395" ... done
+[R] 
+[R] ℹ Scaling dataset "GSE125449"
+[R] ✔ Scaling dataset "GSE125449" ... done
+[R] 
+[R] ℹ Scaling dataset "GSE136103"
+[R] ✔ Scaling dataset "GSE136103" ... done
+[R] 
+[R] ℹ Scaling dataset "GSE138709"
+[R] ✔ Scaling dataset "GSE138709" ... done
+[R] 
+[R] ℹ Scaling dataset "GSE140228"
+[R] ✔ Scaling dataset "GSE140228" ... done
+[R] 
+[R] ℹ Scaling dataset "GSE146409"
+[R] ✔ Scaling dataset "GSE146409" ... done
+[R] 
+[R] ℹ Scaling dataset "GSE149614"
+[R] ✔ Scaling dataset "GSE149614" ... done
+[R] 
+[R] ℹ Scaling dataset "GSE151530"
+[R] ✔ Scaling dataset "GSE151530" ... done
+[R] 
+[R] [LIGER R] runIntegration(method='iNMF', k=50, lambda=3, nIteration=50, nCores=2) ...
+[R] INMF started, niter=50
+[R] 
+[R] [██                                                                                                  ] 1% [00m:00s<00m:00s] 
+[R] [████                                                                                                ] 3% [00m:21s<08m:24s] 
+[R] [██████                                                                                              ] 5% [00m:41s<10m:57s] 
+[R] [████████                                                                                            ] 7% [01m:03s<12m:07s] 
+[R] [██████████                                                                                          ] 10% [01m:24s<12m:43s] 
+[R] [████████████                                                                                        ] 11% [01m:46s<13m:02s] 
+[R] [██████████████                                                                                      ] 14% [02m:07s<13m:01s] 
+[R] [████████████████                                                                                    ] 15% [02m:27s<12m:53s] 
+[R] [██████████████████                                                                                  ] 18% [02m:46s<12m:38s] 
+[R] [████████████████████                                                                                ] 20% [03m:05s<12m:23s] 
+[R] [██████████████████████                                                                              ] 21% [03m:25s<12m:07s] 
+[R] [████████████████████████                                                                            ] 23% [03m:44s<11m:51s] 
+[R] [██████████████████████████                                                                          ] 25% [04m:04s<11m:35s] 
+[R] [████████████████████████████                                                                        ] 28% [04m:24s<11m:18s] 
+[R] [██████████████████████████████                                                                      ] 30% [04m:43s<11m:00s] 
+[R] [████████████████████████████████                                                                    ] 31% [05m:02s<10m:42s] 
+[R] [██████████████████████████████████                                                                  ] 34% [05m:21s<10m:24s] 
+[R] [████████████████████████████████████                                                                ] 36% [05m:41s<10m:07s] 
+[R] [██████████████████████████████████████                                                              ] 37% [06m:00s<09m:48s] 
+[R] [████████████████████████████████████████                                                            ] 40% [06m:19s<09m:29s] 
+[R] [██████████████████████████████████████████                                                          ] 41% [06m:39s<09m:11s] 
+[R] [████████████████████████████████████████████                                                        ] 43% [06m:58s<08m:52s] 
+[R] [██████████████████████████████████████████████                                                      ] 46% [07m:17s<08m:34s] 
+[R] [████████████████████████████████████████████████                                                    ] 47% [07m:37s<08m:15s] 
+[R] [██████████████████████████████████████████████████                                                  ] 50% [07m:56s<07m:56s] 
+[R] [████████████████████████████████████████████████████                                                ] 51% [08m:15s<07m:37s] 
+[R] [██████████████████████████████████████████████████████                                              ] 54% [08m:35s<07m:19s] 
+[R] [████████████████████████████████████████████████████████                                            ] 56% [08m:56s<07m:01s] 
+[R] [██████████████████████████████████████████████████████████                                          ] 57% [09m:17s<06m:43s] 
+[R] [████████████████████████████████████████████████████████████                                        ] 60% [09m:36s<06m:24s] 
+[R] [██████████████████████████████████████████████████████████████                                      ] 62% [09m:56s<06m:05s] 
+[R] [████████████████████████████████████████████████████████████████                                    ] 63% [10m:14s<05m:45s] 
+[R] [██████████████████████████████████████████████████████████████████                                  ] 66% [10m:31s<05m:25s] 
+[R] [████████████████████████████████████████████████████████████████████                                ] 68% [10m:48s<05m:05s] 
+[R] [██████████████████████████████████████████████████████████████████████                              ] 69% [11m:05s<04m:45s] 
+[R] [████████████████████████████████████████████████████████████████████████                            ] 72% [11m:21s<04m:25s] 
+[R] [██████████████████████████████████████████████████████████████████████████                          ] 74% [11m:38s<04m:05s] 
+[R] [████████████████████████████████████████████████████████████████████████████                        ] 75% [11m:55s<03m:45s] 
+[R] [██████████████████████████████████████████████████████████████████████████████                      ] 77% [12m:12s<03m:26s] 
+[R] [████████████████████████████████████████████████████████████████████████████████                    ] 80% [12m:29s<03m:07s] 
+[R] [██████████████████████████████████████████████████████████████████████████████████                  ] 81% [12m:46s<02m:48s] 
+[R] [████████████████████████████████████████████████████████████████████████████████████                ] 83% [13m:03s<02m:29s] 
+[R] [██████████████████████████████████████████████████████████████████████████████████████              ] 86% [13m:20s<02m:10s] 
+[R] [████████████████████████████████████████████████████████████████████████████████████████            ] 87% [13m:37s<01m:51s] 
+[R] [██████████████████████████████████████████████████████████████████████████████████████████          ] 89% [13m:54s<01m:32s] 
+[R] [████████████████████████████████████████████████████████████████████████████████████████████        ] 92% [14m:10s<01m:13s] 
+[R] [██████████████████████████████████████████████████████████████████████████████████████████████      ] 93% [14m:27s<00m:55s] 
+[R] [████████████████████████████████████████████████████████████████████████████████████████████████    ] 95% [14m:44s<00m:36s] 
+[R] [██████████████████████████████████████████████████████████████████████████████████████████████████  ] 98% [15m:00s<00m:18s] 
+[R] [████████████████████████████████████████████████████████████████████████████████████████████████████] 100% [15m:17s<00m:00s] Total time:      942 sec
+[R] Objective error: 9.95911e+08
+[R] INMF started, niter=50
+[R] 
+[R] [██                                                                                                  ] 1% [00m:00s<00m:00s] 
+[R] [████                                                                                                ] 3% [00m:17s<06m:57s] 
+[R] [██████                                                                                              ] 5% [00m:35s<09m:15s] 
+[R] [████████                                                                                            ] 7% [00m:54s<10m:30s] 
+[R] [██████████                                                                                          ] 10% [01m:14s<11m:13s] 
+[R] [████████████                                                                                        ] 11% [01m:32s<11m:17s] 
+[R] [██████████████                                                                                      ] 14% [01m:49s<11m:13s] 
+[R] [████████████████                                                                                    ] 15% [02m:06s<11m:06s] 
+[R] [██████████████████                                                                                  ] 18% [02m:23s<10m:55s] 
+[R] [████████████████████                                                                                ] 20% [02m:40s<10m:43s] 
+[R] [██████████████████████                                                                              ] 21% [02m:58s<10m:32s] 
+[R] [████████████████████████                                                                            ] 23% [03m:16s<10m:21s] 
+[R] [██████████████████████████                                                                          ] 25% [03m:34s<10m:10s] 
+[R] [████████████████████████████                                                                        ] 28% [03m:54s<10m:02s] 
+[R] [██████████████████████████████                                                                      ] 30% [04m:12s<09m:49s] 
+[R] [████████████████████████████████                                                                    ] 31% [04m:30s<09m:34s] 
+[R] [██████████████████████████████████                                                                  ] 34% [04m:47s<09m:18s] 
+[R] [████████████████████████████████████                                                                ] 36% [05m:05s<09m:02s] 
+[R] [██████████████████████████████████████                                                              ] 37% [05m:22s<08m:46s] 
+[R] [████████████████████████████████████████                                                            ] 40% [05m:39s<08m:29s] 
+[R] [██████████████████████████████████████████                                                          ] 41% [05m:56s<08m:12s] 
+[R] [████████████████████████████████████████████                                                        ] 43% [06m:14s<07m:56s] 
+[R] [██████████████████████████████████████████████                                                      ] 46% [06m:31s<07m:39s] 
+[R] [████████████████████████████████████████████████                                                    ] 47% [06m:48s<07m:22s] 
+[R] [██████████████████████████████████████████████████                                                  ] 50% [07m:05s<07m:05s] 
+[R] [████████████████████████████████████████████████████                                                ] 51% [07m:26s<06m:52s] 
+[R] [██████████████████████████████████████████████████████                                              ] 54% [07m:44s<06m:35s] 
+[R] [████████████████████████████████████████████████████████                                            ] 56% [08m:01s<06m:18s] 
+[R] [██████████████████████████████████████████████████████████                                          ] 57% [08m:19s<06m:02s] 
+[R] [████████████████████████████████████████████████████████████                                        ] 60% [08m:36s<05m:44s] 
+[R] [██████████████████████████████████████████████████████████████                                      ] 62% [08m:54s<05m:27s] 
+[R] [████████████████████████████████████████████████████████████████                                    ] 63% [09m:11s<05m:10s] 
+[R] [██████████████████████████████████████████████████████████████████                                  ] 66% [09m:28s<04m:52s] 
+[R] [████████████████████████████████████████████████████████████████████                                ] 68% [09m:45s<04m:35s] 
+[R] [██████████████████████████████████████████████████████████████████████                              ] 69% [10m:03s<04m:18s] 
+[R] [████████████████████████████████████████████████████████████████████████                            ] 72% [10m:20s<04m:01s] 
+[R] [██████████████████████████████████████████████████████████████████████████                          ] 74% [10m:37s<03m:44s] 
+[R] [████████████████████████████████████████████████████████████████████████████                        ] 75% [10m:55s<03m:26s] 
+[R] [██████████████████████████████████████████████████████████████████████████████                      ] 77% [11m:12s<03m:09s] 
+[R] [████████████████████████████████████████████████████████████████████████████████                    ] 80% [11m:29s<02m:52s] 
+[R] [██████████████████████████████████████████████████████████████████████████████████                  ] 81% [11m:46s<02m:35s] 
+[R] [████████████████████████████████████████████████████████████████████████████████████                ] 83% [12m:04s<02m:17s] 
+[R] [██████████████████████████████████████████████████████████████████████████████████████              ] 86% [12m:21s<02m:00s] 
+[R] [████████████████████████████████████████████████████████████████████████████████████████            ] 87% [12m:38s<01m:43s] 
+[R] [██████████████████████████████████████████████████████████████████████████████████████████          ] 89% [12m:56s<01m:26s] 
+[R] [████████████████████████████████████████████████████████████████████████████████████████████        ] 92% [13m:13s<01m:08s] 
+[R] [██████████████████████████████████████████████████████████████████████████████████████████████      ] 93% [13m:30s<00m:51s] 
+[R] [████████████████████████████████████████████████████████████████████████████████████████████████    ] 95% [13m:47s<00m:34s] 
+[R] [██████████████████████████████████████████████████████████████████████████████████████████████████  ] 98% [14m:04s<00m:17s] 
+[R] [████████████████████████████████████████████████████████████████████████████████████████████████████] 100% [14m:21s<00m:00s] Total time:      883 sec
+[R] Objective error: 9.95911e+08
+[R] [LIGER R] alignFactors(method='centroidAlign') ...
+[R] [LIGER R] Exporting aligned factors ...
+[R] [LIGER R] WARNING: H.norm rownames do not directly match input cell IDs.
+[R] [LIGER R] Attempting to restore original cell IDs from colnames(expr_mat)...
+[R] [LIGER R] Cell IDs restored by position (same count, assumed same order).
+[R] [LIGER R] Saved: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0/liger_full_hvg_seed0_liger_factors.csv (291545 cells x 50 factors)
+[R] [LIGER R] Saved: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/liger_full_hvg_seed0/liger_full_hvg_seed0_liger_integrated.rds
+[R] [LIGER R] DONE
+/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/liger.py:272: DtypeWarning: Columns (0) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(csv_path, index_col=0)
+/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/liger.py:285: RuntimeWarning: Embedding row names could not be matched to ad.obs_names exactly; falling back to raw row order.
+  warnings.warn(
+/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_benchmark/graph.py:232: FutureWarning: In the future, the default backend for leiden will be igraph instead of leidenalg.
+
+ To achieve the future defaults please pass: flavor="igraph" and n_iterations=2.  directed must also be False to work with igraph's implementation.
+  sc.tl.leiden(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/isolated_labels.py:311: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  batch_per_lab = tmp.groupby(label_key).agg({batch_key: "count"})
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/clustering.py:96: FutureWarning: In the future, the default backend for leiden will be igraph instead of leidenalg.
+
+ To achieve the future defaults please pass: flavor="igraph" and n_iterations=2.  directed must also be False to work with igraph's implementation.
+  cluster_function(adata, resolution=res, key_added=resolution_key, **kwargs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/isolated_labels.py:311: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  batch_per_lab = tmp.groupby(label_key).agg({batch_key: "count"})
+Recompute neighbors on rep X_liger_liger_full_hvg_seed0 instead of None
+Cluster for iso_label_0.2 with leiden
+Cluster for iso_label_0.4 with leiden
+Cluster for iso_label_0.6 with leiden
+Cluster for iso_label_0.8 with leiden
+Cluster for iso_label_1.0 with leiden
+Cluster for iso_label_1.2 with leiden
+Cluster for iso_label_1.4 with leiden
+Cluster for iso_label_1.6 with leiden
+Cluster for iso_label_1.8 with leiden
+Cluster for iso_label_2.0 with leiden
+Recompute neighbors on rep X_liger_liger_full_hvg_seed0 instead of None
+Cluster for iso_label_0.2 with leiden
+Cluster for iso_label_0.4 with leiden
+Cluster for iso_label_0.6 with leiden
+Cluster for iso_label_0.8 with leiden
+Cluster for iso_label_1.0 with leiden
+Cluster for iso_label_1.2 with leiden
+Cluster for iso_label_1.4 with leiden
+Cluster for iso_label_1.6 with leiden
+Cluster for iso_label_1.8 with leiden
+Cluster for iso_label_2.0 with leiden
+  0%|          | 0/8 [00:00<?, ?it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+ 12%|█▎        | 1/8 [00:01<00:09,  1.36s/it]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+ 25%|██▌       | 2/8 [00:02<00:06,  1.02s/it]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+ 38%|███▊      | 3/8 [00:02<00:03,  1.55it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+ 50%|█████     | 4/8 [00:03<00:03,  1.29it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+ 62%|██████▎   | 5/8 [00:03<00:01,  1.86it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+ 75%|███████▌  | 6/8 [00:03<00:01,  1.84it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+ 88%|████████▊ | 7/8 [00:04<00:00,  1.46it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+100%|██████████| 8/8 [00:05<00:00,  1.85it/s]100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:111: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  counts = adata_tmp.obs.groupby(label_key).agg(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+mean silhouette per group:                silhouette_score
+group                          
+B cells                0.920559
+CAFs                   0.934435
+Cholangiocyte          0.912172
+Endothelial            0.948020
+Fibroblast             0.973716
+Hepatocyte             0.939649
+Kupffer cells          0.753094
+LSECs                  0.928129
+Malignant              0.890248
+Mesenchymal            0.913935
+Myeloid                0.923683
+NK cells               0.919603
+Plasma cells           0.939387
+T cells                0.919860
+TAMs                   0.953454
+TECs                   0.921596
+2 labels consist of a single batch or is too small. Skip.
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 8
+Adding diffusion to step 9
+Adding diffusion to step 10
+Adding diffusion to step 11
+Adding diffusion to step 12
+Adding diffusion to step 13
+Adding diffusion to step 14
+Adding diffusion to step 15
+Adding diffusion to step 16
+Adding diffusion to step 17
+Adding diffusion to step 18
+Adding diffusion to step 19
+Adding diffusion to step 20
+Adding diffusion to step 21
+Adding diffusion to step 22
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 8
+Adding diffusion to step 9
+Adding diffusion to step 10
+Adding diffusion to step 11
+Adding diffusion to step 12
+Adding diffusion to step 13
+Adding diffusion to step 14
+Adding diffusion to step 15
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 8
+Adding diffusion to step 9
+Adding diffusion to step 10
+Adding diffusion to step 11
+Adding diffusion to step 12
+Adding diffusion to step 13
+Adding diffusion to step 14
+Adding diffusion to step 15
+Adding diffusion to step 16
+Adding diffusion to step 17
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 8
+Adding diffusion to step 9
+Adding diffusion to step 10
+Adding diffusion to step 11
+Adding diffusion to step 12
+Adding diffusion to step 13
+Adding diffusion to step 14
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 8
+Adding diffusion to step 9
+Adding diffusion to step 10
+Adding diffusion to step 11
+Adding diffusion to step 12
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 8
+Adding diffusion to step 9
+Adding diffusion to step 10
+Adding diffusion to step 11
+Adding diffusion to step 12
+Adding diffusion to step 13
+Adding diffusion to step 14
+Adding diffusion to step 15
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+=== DONE liger ===

@@ -1,0 +1,33 @@
+{
+  "n_adata_ids": 12346,
+  "n_pt_ids": 12346,
+  "n_common": 12346,
+  "frac_common_vs_adata": 1.0,
+  "frac_common_vs_pt": 1.0,
+  "adata_only_examples": [],
+  "pt_only_examples": [],
+  "adata_head": [
+    "0",
+    "18",
+    "21",
+    "31",
+    "36",
+    "72",
+    "74",
+    "81",
+    "82",
+    "89"
+  ],
+  "pt_head": [
+    "0",
+    "18",
+    "21",
+    "31",
+    "36",
+    "72",
+    "74",
+    "81",
+    "82",
+    "89"
+  ]
+}

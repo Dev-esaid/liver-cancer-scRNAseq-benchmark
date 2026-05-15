@@ -1,0 +1,48 @@
+{
+  "method": "tscan",
+  "tag": "bootstrap_0",
+  "n_cells": 16935,
+  "n_dims_written": 30,
+  "rep_key": "X_integrated",
+  "group_key": "cell_subtype_L2",
+  "root_cell_id": "GSM4041155_healthy3_cd45+_TGTATTCTCGGTGTCG-1",
+  "root_cluster": "Tissue Monocyte",
+  "embedding_csv": "/data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/tscan/combat/logs/tmp/tscan/bootstrap_0/embedding.csv",
+  "meta_csv": "/data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/tscan/combat/logs/tmp/tscan/bootstrap_0/meta.csv",
+  "embedding_index_head": [
+    "6",
+    "7",
+    "9",
+    "14",
+    "15",
+    "16",
+    "20",
+    "23",
+    "24",
+    "28"
+  ],
+  "meta_cell_id_head": [
+    "6",
+    "7",
+    "9",
+    "14",
+    "15",
+    "16",
+    "20",
+    "23",
+    "24",
+    "28"
+  ],
+  "group_head": [
+    "VEGFA+ Macrophage",
+    "VEGFA+ Macrophage",
+    "TREM2+ Macrophage",
+    "TREM2+ Macrophage",
+    "VEGFA+ Macrophage",
+    "VEGFA+ Macrophage",
+    "VEGFA+ Macrophage",
+    "VEGFA+ Macrophage",
+    "VEGFA+ Macrophage",
+    "VEGFA+ Macrophage"
+  ]
+}

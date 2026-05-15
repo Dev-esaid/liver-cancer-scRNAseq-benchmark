@@ -1,0 +1,89 @@
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+2026-04-06 18:12:40,208 | INFO | TI_benchmark.method_runner | Loading adata from /data1/esraa/Thesis-Project/Data/Processed_data/post_norm_log1p/adata_140228.h5ad
+2026-04-06 18:12:44,679 | INFO | TI_benchmark.method_runner | Loaded adata: 63306 cells × 54574 genes
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:13:08,209 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:13:08,211 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:13:17,119 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:13:17,120 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:13:24,418 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:13:24,419 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:13:31,547 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:13:31,548 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:13:38,768 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:13:38,769 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:13:47,112 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:13:47,112 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:13:55,374 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:13:55,375 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:14:02,626 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:14:02,626 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:14:09,856 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:14:09,857 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:14:17,482 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:14:17,483 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:14:24,929 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:14:24,930 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:14:32,175 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:14:32,176 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:14:39,373 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:14:39,374 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:14:46,571 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:14:46,572 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:14:54,017 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:14:54,018 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:15:01,277 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:15:01,278 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:15:08,601 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:15:08,602 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:15:16,176 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:15:16,177 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:15:23,432 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:15:23,433 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:15:30,661 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:15:30,662 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+2026-04-06 18:15:37,774 | INFO | __main__ | Using connectivities_tree for edge_list: 4 non-zero entries in upper triangle.
+2026-04-06 18:15:37,775 | INFO | __main__ | PAGA edge_list: 4 edges from 5 groups.
+2026-04-06 18:15:38,363 | INFO | TI_benchmark.plotting | Shared UMAP captured: shape=(7203, 2), x=[3.03, 18.68], y=[-2.07, 10.28]

@@ -1,0 +1,186 @@
+==== scanorama START 31 مار, 2026 +04 00:01:38 ====
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+==== scanorama START 31 مار, 2026 +04 01:00:25 ====
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+==== scanorama START 31 مار, 2026 +04 01:06:21 ====
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+Terminated
+Terminated
+==== scanorama START 31 مار, 2026 +04 01:25:01 ====
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+==== scanorama START 31 مار, 2026 +04 01:27:00 ====
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+==== scanorama START 31 مار, 2026 +04 05:31:36 ====
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+==== scanorama START 31 مار, 2026 +04 06:25:35 ====
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_benchmark/graph.py:226: FutureWarning: In the future, the default backend for leiden will be igraph instead of leidenalg.
+
+ To achieve the future defaults please pass: flavor="igraph" and n_iterations=2.  directed must also be False to work with igraph's implementation.
+  sc.tl.leiden(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:158: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  comp_size = pd.value_counts(labs)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/kbet.py:229: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()
+=== RUNNING scanorama ===
+  outdir: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/scanorama_full_hvg_seed0
+  run_tag: full_hvg_seed0
+  atlas: /data1/esraa/Thesis-Project/Data/Processed_data/post_HVG_intersection/concatenated_hvg.h5ad
+  METHOD_THREADS: 3
+  OMP_NUM_THREADS: 3
+  OPENBLAS_NUM_THREADS: 3
+  MKL_NUM_THREADS: 3
+2026-03-31 06:25:48 | [HVG] Input already appears HVG-restricted (4000 genes).
+2026-03-31 06:25:49 | [Scanorama] backend=scanorama | batches=9 | dimred=50, knn=30, alpha=0.1, sigma=20.0, approx=True, batch_size=5000
+Found 4000 genes among all datasets
+[[0.         0.35228475 0.11486737 0.27833693 0.33508672 0.03535989
+  0.3044163  0.12510638 0.0066075 ]
+ [0.         0.         0.99765577 0.38701174 0.35957097 0.25995807
+  0.14922972 0.44197447 0.0178501 ]
+ [0.         0.         0.         0.02743829 0.24848859 0.20838574
+  0.16668723 0.32498458 0.00581854]
+ [0.         0.         0.         0.         0.12784567 0.05679367
+  0.07248982 0.20632638 0.00850707]
+ [0.         0.         0.         0.         0.         0.05478686
+  0.19904142 0.55849367 0.09487179]
+ [0.         0.         0.         0.         0.         0.
+  0.00614955 0.23102725 0.38784067]
+ [0.         0.         0.         0.         0.         0.
+  0.         0.2369394  0.00591716]
+ [0.         0.         0.         0.         0.         0.
+  0.         0.         0.12978304]
+ [0.         0.         0.         0.         0.         0.
+  0.         0.         0.        ]]
+Processing datasets (1, 2)
+Processing datasets (4, 7)
+Processing datasets (1, 7)
+Processing datasets (5, 8)
+Processing datasets (1, 3)
+Processing datasets (1, 4)
+Processing datasets (0, 1)
+Processing datasets (0, 4)
+Processing datasets (2, 7)
+Processing datasets (0, 6)
+Processing datasets (0, 3)
+Processing datasets (1, 5)
+Processing datasets (2, 4)
+Processing datasets (6, 7)
+Processing datasets (5, 7)
+Processing datasets (2, 5)
+Processing datasets (3, 7)
+Processing datasets (4, 6)
+Processing datasets (2, 6)
+Processing datasets (1, 6)
+Processing datasets (7, 8)
+Processing datasets (3, 4)
+Processing datasets (0, 7)
+Processing datasets (0, 2)
+2026-03-31 09:41:09 | [Scanorama] embedding 'X_scanorama_scanorama_full_hvg_seed0' shape=(299891, 50)
+1 labels consist of a single batch or is too small. Skip.
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 8
+Adding diffusion to step 9
+Adding diffusion to step 10
+Adding diffusion to step 11
+Adding diffusion to step 4
+Adding diffusion to step 4
+Adding diffusion to step 4
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 4
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 4
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 6
+Adding diffusion to step 7
+Adding diffusion to step 4
+Adding diffusion to step 5
+Adding diffusion to step 4
+=== DONE scanorama ===
+==== scanorama START 05 أبر, 2026 +04 12:16:13 ====
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound

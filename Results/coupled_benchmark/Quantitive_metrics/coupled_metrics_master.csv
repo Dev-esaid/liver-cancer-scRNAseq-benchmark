@@ -1,0 +1,9 @@
+task,task_name,ti_method,n_integration_methods,n_successful_runs,n_failed_runs,kendalls_w,topology_jaccard_mean,branch_leaves_cv,branch_points_cv,root_consistency_total,root_consistency_evaluable,integration_sensitivity_score
+task_1,task1_Monocyte_macrophage_TAM,cellrank,10,10,0,0.953285,0.370358,0.2357,0.3525,1.0,1.0,0.760939
+task_1,task1_Monocyte_macrophage_TAM,monocle3,10,10,0,0.560759,0.422722,0.8576,0.1325,1.0,1.0,0.622256
+task_1,task1_Monocyte_macrophage_TAM,slingshot,10,9,1,0.389664,0.242474,0.1969,0.2369,0.9,1.0,0.465732
+task_1,task1_Monocyte_macrophage_TAM,tscan,10,10,0,0.666955,0.21736,0.1466,0.3043,1.0,1.0,0.592858
+task_2,task2_CD8_Tcell_differentiation,cellrank,10,10,0,0.914444,0.467728,0.2441,0.4372,1.0,1.0,0.779482
+task_2,task2_CD8_Tcell_differentiation,monocle3,10,10,0,0.353074,0.423502,0.9491,0.301,1.0,1.0,0.539455
+task_2,task2_CD8_Tcell_differentiation,slingshot,10,9,1,0.322303,0.397013,0.1159,0.2033,0.9,1.0,0.492876
+task_2,task2_CD8_Tcell_differentiation,tscan,10,10,0,0.490345,0.283395,0.1863,0.2673,1.0,1.0,0.545326

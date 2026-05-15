@@ -1,0 +1,15 @@
+# Command:
+Rscript /data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/R/tscan_run.R --embedding /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/tscan/task5_CD4_differentiation/logs/tmp/tscan/bootstrap_8/embedding.csv --meta /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/tscan/task5_CD4_differentiation/logs/tmp/tscan/bootstrap_8/meta.csv --cluster_key celltype_sub --root_cluster CD4-C5-TCF7 --seed 8 --out_dir /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/tscan/task5_CD4_differentiation/logs/tmp/tscan/bootstrap_8/r_out
+
+TSCAN version: 1.40.0
+igraph version: 2.2.2
+seed: 8
+root_cluster label: CD4-C5-TCF7
+n_clusters: 6
+MST vertex names (first 20): CD4-C3-ANXA1, CD4-C4-IL7R, CD4-C5-TCF7, CD4-C6-CXCL13, CD4-C7-FOXP3, CD4/CD8-C1-CCR7
+MST connected components: 1
+Start clusters used (per component): CD4-C5-TCF7
+orderCells return class: PseudotimeOrdering
+pseudotime matrix dim: 13320x2
+Finite pseudotime values: 13320 / 13320
+TSCAN completed successfully. Outputs written to: /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/tscan/task5_CD4_differentiation/logs/tmp/tscan/bootstrap_8/r_out

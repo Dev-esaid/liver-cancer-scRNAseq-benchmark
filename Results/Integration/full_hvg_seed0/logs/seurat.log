@@ -1,0 +1,362 @@
+============================================================
+==== seurat START 08 أبر, 2026 +04 07:23:05 ====
+outdir=/data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0
+gpu=CPU_ONLY
+threads=3
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/seurat.py:137: DtypeWarning: Columns (0) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(csv_path, index_col=0)
+/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_benchmark/graph.py:232: FutureWarning: In the future, the default backend for leiden will be igraph instead of leidenalg.
+
+ To achieve the future defaults please pass: flavor="igraph" and n_iterations=2.  directed must also be False to work with igraph's implementation.
+  sc.tl.leiden(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/isolated_labels.py:311: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  batch_per_lab = tmp.groupby(label_key).agg({batch_key: "count"})
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/clustering.py:96: FutureWarning: In the future, the default backend for leiden will be igraph instead of leidenalg.
+
+ To achieve the future defaults please pass: flavor="igraph" and n_iterations=2.  directed must also be False to work with igraph's implementation.
+  cluster_function(adata, resolution=res, key_added=resolution_key, **kwargs)
+=== RUNNING seurat ===
+  outdir: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0
+  run_tag: full_hvg_seed0
+  atlas: /data1/esraa/Thesis-Project/Data/Processed_data/post_HVG_intersection/concatenated_hvg.h5ad
+[Python] Exporting ad.X as-is for R.
+[Python] Writing temporary h5ad for R: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/adata_for_seurat_seurat_full_hvg_seed0.h5ad
+[Python] Wrote HVG list: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/seurat_genes_seurat_full_hvg_seed0.csv (n=4000)
+[Python] Calling R Seurat with: Rscript /data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/R/run_seurat_integration.R /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/adata_for_seurat_seurat_full_hvg_seed0.h5ad dataset /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/seurat_full_hvg_seed0 rpca 20 30 50 /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/seurat_genes_seurat_full_hvg_seed0.csv 0
+[R] Reading H5AD: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/adata_for_seurat_seurat_full_hvg_seed0.h5ad
+[R] Warning message:
+[R] The names of these selected obs columns have been modified to match R
+[R] conventions: 'Cell#' -> 'Cell.' and 'Cluster#' -> 'Cluster.'
+[R] Batches found: GSE115469, GSE124395, GSE125449, GSE136103, GSE138709, GSE140228, GSE146409, GSE149614, GSE151530
+[R] Assays in SCE: X, counts, log1p_norm
+[R] Using 'X' assay (assumed log-normalized, will skip NormalizeData)
+[R] Using assay: X | dims = 4000 genes x 299891 cells
+[R] Subset genes requested: 4000 | present: 4000
+[R] Skipping NormalizeData (data already normalized) [FULL OBJ]
+[R] Running FindIntegrationAnchors(mode=rpca, reduction=rpca, dims=1:30, k.anchor=20)
+[R] Warning message:
+[R] The `slot` argument of `GetAssayData()` is deprecated as of SeuratObject 5.0.0.
+[R] ℹ Please use the `layer` argument instead.
+[R] ℹ The deprecated feature was likely used in the Seurat package.
+[R]   Please report the issue at <https://github.com/satijalab/seurat/issues>.
+[R] Running IntegrateEmbeddings(dims=1:30) [atlas-scale safe]
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 3 into 2
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 6 into 1
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 9 into 8
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 4 into 7
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 2 3 into 1 6
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 7 4 into 8 9
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 5 into 8 9 7 4
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Merging dataset 1 6 2 3 into 8 9 7 4 5
+[R] Extracting anchors for merged samples
+[R] Finding integration vectors
+[R] Finding integration vector weights
+[R] 0%   10   20   30   40   50   60   70   80   90   100%
+[R] [----|----|----|----|----|----|----|----|----|----|
+[R] **************************************************|
+[R] Integrating data
+[R] Warning: Layer counts isn't present in the assay object; returning NULL
+[R] Saved integrated embedding CSV: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/seurat_full_hvg_seed0_seurat_integrated_rpca.csv
+[R] Saved legacy PCA CSV (compatibility): /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/seurat_full_hvg_seed0_seurat_pca.csv
+[R] Saved Seurat RDS: /data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/seurat_full_hvg_seed0_seurat_integrated_embedding_only.rds
+[R] DONE
+Recompute neighbors on rep X_emb instead of None
+Cluster for iso_label_0.2 with leiden
+Cluster for iso_label_0.4 with leiden
+Cluster for iso_label_0.6 with leiden
+Cluster for iso_label_0.8 with leiden
+Cluster for iso_label_1.0 with leiden
+Cluster for iso_label_1.2 with leiden
+Cluster for iso_label_1.4 with leiden
+Cluster for iso_label_1.6 with leiden
+Cluster for iso_label_1.8 with leiden
+Cluster for iso_label_2.0 with leiden
+Recompute neighbors on rep X_emb instead of None
+Cluster for iso_label_0.2 with leiden
+Cluster for iso_label_0.4 with leiden
+Cluster for iso_label_0.6 with leiden
+Cluster for iso_label_0.8 with leiden
+Cluster for iso_label_1.0 with leiden
+Cluster for iso_label_1.2 with leiden
+Cluster for iso_label_1.4 with leiden
+Cluster for iso_label_1.6 with leiden
+Cluster for iso_label_1.8 with leiden
+Cluster for iso_label_2.0 with leiden
+Recompute neighbors on rep X_emb instead of None
+Cluster for iso_label_0.2 with leiden
+Cluster for iso_label_0.4 with leiden
+Cluster for iso_label_0.6 with leiden
+Cluster for iso_label_0.8 with leiden
+Cluster for iso_label_1.0 with leiden
+Cluster for iso_label_1.2 with leiden
+Cluster for iso_label_1.4 with leiden
+Cluster for iso_label_1.6 with leiden
+Cluster for iso_label_1.8 with leiden
+Cluster for iso_label_2.0 with leiden
+Recompute neighbors on rep X_emb instead of None
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/isolated_labels.py:311: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  batch_per_lab = tmp.groupby(label_key).agg({batch_key: "count"})
+Cluster for iso_label_0.2 with leiden
+Cluster for iso_label_0.4 with leiden
+Cluster for iso_label_0.6 with leiden
+Cluster for iso_label_0.8 with leiden
+Cluster for iso_label_1.0 with leiden
+Cluster for iso_label_1.2 with leiden
+Cluster for iso_label_1.4 with leiden
+Cluster for iso_label_1.6 with leiden
+Cluster for iso_label_1.8 with leiden
+Cluster for iso_label_2.0 with leiden
+Recompute neighbors on rep X_emb instead of None
+Cluster for iso_label_0.2 with leiden
+Cluster for iso_label_0.4 with leiden
+Cluster for iso_label_0.6 with leiden
+Cluster for iso_label_0.8 with leiden
+Cluster for iso_label_1.0 with leiden
+Cluster for iso_label_1.2 with leiden
+Cluster for iso_label_1.4 with leiden
+Cluster for iso_label_1.6 with leiden
+Cluster for iso_label_1.8 with leiden
+Cluster for iso_label_2.0 with leiden
+Recompute neighbors on rep X_emb instead of None
+Cluster for iso_label_0.2 with leiden
+Cluster for iso_label_0.4 with leiden
+Cluster for iso_label_0.6 with leiden
+Cluster for iso_label_0.8 with leiden
+Cluster for iso_label_1.0 with leiden
+Cluster for iso_label_1.2 with leiden
+Cluster for iso_label_1.4 with leiden
+Cluster for iso_label_1.6 with leiden
+Cluster for iso_label_1.8 with leiden
+Cluster for iso_label_2.0 with leiden
+Recompute neighbors on rep X_emb instead of None
+Cluster for iso_label_0.2 with leiden
+Cluster for iso_label_0.4 with leiden
+Cluster for iso_label_0.6 with leiden
+Cluster for iso_label_0.8 with leiden
+Cluster for iso_label_1.0 with leiden
+Cluster for iso_label_1.2 with leiden
+Cluster for iso_label_1.4 with leiden
+Cluster for iso_label_1.6 with leiden
+Cluster for iso_label_1.8 with leiden
+Cluster for iso_label_2.0 with leiden
+  0%|          | 0/9 [00:00<?, ?it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+ 11%|█         | 1/9 [00:00<00:07,  1.09it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+ 22%|██▏       | 2/9 [00:01<00:05,  1.32it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+ 33%|███▎      | 3/9 [00:01<00:02,  2.06it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+ 44%|████▍     | 4/9 [00:01<00:01,  2.80it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+ 56%|█████▌    | 5/9 [00:02<00:01,  2.02it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+ 67%|██████▋   | 6/9 [00:02<00:01,  2.72it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+ 78%|███████▊  | 7/9 [00:03<00:00,  2.51it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+ 89%|████████▉ | 8/9 [00:03<00:00,  1.97it/s]/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/tools/_score_genes.py:165: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs[score_name] = pd.Series(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+100%|██████████| 9/9 [00:04<00:00,  2.51it/s]100%|██████████| 9/9 [00:04<00:00,  2.19it/s]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:35: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  hvg_dir[i.obs[batch][0]] = i.var.index[hvg["highly_variable"]]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/highly_variable_genes.py:76: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  batch_var = ad_post.obs[batch_key][0]
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scanpy/preprocessing/_pca/__init__.py:226: FutureWarning: Argument `use_highly_variable` is deprecated, consider using the mask argument. Use_highly_variable=True can be called through mask_var="highly_variable". Use_highly_variable=False can be called through mask_var=None
+  mask_var_param, mask_var = _handle_mask_var(
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+/data1/esraa/miniconda3/envs/thesis-env/lib/python3.10/site-packages/scib/metrics/graph_connectivity.py:56: FutureWarning: pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead.
+  tab = pd.value_counts(labels)
+mean silhouette per group:                 silhouette_score
+group                           
+B cells                 0.695581
+CAFs                    0.774527
+Cholangiocyte           0.878201
+Endothelial             0.828834
+Erythroid               0.633039
+Fibroblast              0.725952
+Hepatocyte              0.822088
+Kupffer cells           0.766490
+LSECs                   0.761748
+Malignant               0.816581
+Mesenchymal             0.625852
+Myeloid                 0.892817
+NK cells                0.790638
+Plasma cells            0.743010
+Stellate Cells          0.785860
+T cells                 0.903686
+TAMs                    0.929681
+TECs                    0.949054
+=== DONE seurat ===
+==== seurat DONE  08 أبر, 2026 +04 09:07:30 ====
+============================================================

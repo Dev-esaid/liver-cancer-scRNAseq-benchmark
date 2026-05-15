@@ -1,0 +1,31 @@
+{
+  "NMI": 0.5643110850603479,
+  "ARI": 0.25972927962430636,
+  "cell_type_ASW": 0.46113262325525284,
+  "isolated_label_F1": 0.09056603773584905,
+  "isolated_label_ASW": 0.474802577868104,
+  "cell_cycle_conservation": 0.8394563799857573,
+  "hvg_conservation": 1.0,
+  "trajectory_conservation": NaN,
+  "trajectory_conservation_note": "compute_trajectory=False",
+  "batch_ASW": 0.7881686758744388,
+  "pcr_comparison": 0.09242492663624892,
+  "kBET": 0.36317828234330884,
+  "graph_connectivity": 0.9343895018553042,
+  "iLISI": 0.19733985416427136,
+  "cLISI": 0.9817745796653758,
+  "fastmnn_r_script": "/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/R/run_fastmnn.R",
+  "fastmnn_assay_type": "X",
+  "fastmnn_d": 50,
+  "fastmnn_k": 20,
+  "fastmnn_cos_norm": false,
+  "fastmnn_ndist": 1.0,
+  "fastmnn_seed": 0,
+  "fastmnn_hvg_used": true,
+  "fastmnn_gene_csv": "/data1/esraa/Thesis-Project/Results/Smoke/fastmnn_smoke/fastmnn_genes_fastmnn_smoke.csv",
+  "fastmnn_wrote_minimal_h5ad": true,
+  "fastmnn_minimal_obs_extra": [
+    "donor_id"
+  ],
+  "fastmnn_embedding_csv": "/data1/esraa/Thesis-Project/Results/Smoke/fastmnn_smoke/fastmnn_smoke_fastmnn_embedding.csv"
+}

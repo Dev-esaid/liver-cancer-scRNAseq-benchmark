@@ -1,0 +1,508 @@
+{
+  "meta": {
+    "ti_method": "cellrank",
+    "task_name": "task1_Monocyte_macrophage_TAM",
+    "n_integration_methods": 10,
+    "n_successful_runs": 10,
+    "n_failed_runs": 0,
+    "integration_methods": [
+      "bbknn",
+      "combat",
+      "fastmnn",
+      "harmony",
+      "liger",
+      "scanorama",
+      "scanvi",
+      "scgen",
+      "scvi",
+      "seurat"
+    ]
+  },
+  "kendalls_w": {
+    "status": "ok",
+    "value": {
+      "W": 0.953285,
+      "n_rankers": 10,
+      "n_cells_common": 20355,
+      "S": 66996895632914.0,
+      "chi2": 194031.5606,
+      "df": 20354,
+      "p_value": 0.0,
+      "integration_methods": [
+        "bbknn",
+        "combat",
+        "fastmnn",
+        "harmony",
+        "liger",
+        "scanorama",
+        "scanvi",
+        "scgen",
+        "scvi",
+        "seurat"
+      ]
+    },
+    "reason": null
+  },
+  "topology_jaccard": {
+    "status": "ok",
+    "value": {
+      "jaccard_mean": 0.370358,
+      "jaccard_std": 0.172911,
+      "jaccard_min": 0.047619,
+      "jaccard_max": 0.714286,
+      "n_pairs": 45,
+      "n_topology_ok": 10,
+      "pairwise_values": [
+        0.263158,
+        0.6,
+        0.5,
+        0.05,
+        0.333333,
+        0.6,
+        0.411765,
+        0.263158,
+        0.6,
+        0.263158,
+        0.411765,
+        0.222222,
+        0.411765,
+        0.142857,
+        0.5,
+        0.333333,
+        0.2,
+        0.6,
+        0.105263,
+        0.6,
+        0.6,
+        0.411765,
+        0.5,
+        0.5,
+        0.166667,
+        0.5,
+        0.5,
+        0.6,
+        0.411765,
+        0.411765,
+        0.157895,
+        0.047619,
+        0.235294,
+        0.157895,
+        0.111111,
+        0.411765,
+        0.333333,
+        0.714286,
+        0.263158,
+        0.263158,
+        0.411765,
+        0.6,
+        0.411765,
+        0.333333,
+        0.2
+      ],
+      "pair_labels": [
+        [
+          "bbknn",
+          "combat"
+        ],
+        [
+          "bbknn",
+          "fastmnn"
+        ],
+        [
+          "bbknn",
+          "harmony"
+        ],
+        [
+          "bbknn",
+          "liger"
+        ],
+        [
+          "bbknn",
+          "scanorama"
+        ],
+        [
+          "bbknn",
+          "scanvi"
+        ],
+        [
+          "bbknn",
+          "scgen"
+        ],
+        [
+          "bbknn",
+          "scvi"
+        ],
+        [
+          "bbknn",
+          "seurat"
+        ],
+        [
+          "combat",
+          "fastmnn"
+        ],
+        [
+          "combat",
+          "harmony"
+        ],
+        [
+          "combat",
+          "liger"
+        ],
+        [
+          "combat",
+          "scanorama"
+        ],
+        [
+          "combat",
+          "scanvi"
+        ],
+        [
+          "combat",
+          "scgen"
+        ],
+        [
+          "combat",
+          "scvi"
+        ],
+        [
+          "combat",
+          "seurat"
+        ],
+        [
+          "fastmnn",
+          "harmony"
+        ],
+        [
+          "fastmnn",
+          "liger"
+        ],
+        [
+          "fastmnn",
+          "scanorama"
+        ],
+        [
+          "fastmnn",
+          "scanvi"
+        ],
+        [
+          "fastmnn",
+          "scgen"
+        ],
+        [
+          "fastmnn",
+          "scvi"
+        ],
+        [
+          "fastmnn",
+          "seurat"
+        ],
+        [
+          "harmony",
+          "liger"
+        ],
+        [
+          "harmony",
+          "scanorama"
+        ],
+        [
+          "harmony",
+          "scanvi"
+        ],
+        [
+          "harmony",
+          "scgen"
+        ],
+        [
+          "harmony",
+          "scvi"
+        ],
+        [
+          "harmony",
+          "seurat"
+        ],
+        [
+          "liger",
+          "scanorama"
+        ],
+        [
+          "liger",
+          "scanvi"
+        ],
+        [
+          "liger",
+          "scgen"
+        ],
+        [
+          "liger",
+          "scvi"
+        ],
+        [
+          "liger",
+          "seurat"
+        ],
+        [
+          "scanorama",
+          "scanvi"
+        ],
+        [
+          "scanorama",
+          "scgen"
+        ],
+        [
+          "scanorama",
+          "scvi"
+        ],
+        [
+          "scanorama",
+          "seurat"
+        ],
+        [
+          "scanvi",
+          "scgen"
+        ],
+        [
+          "scanvi",
+          "scvi"
+        ],
+        [
+          "scanvi",
+          "seurat"
+        ],
+        [
+          "scgen",
+          "scvi"
+        ],
+        [
+          "scgen",
+          "seurat"
+        ],
+        [
+          "scvi",
+          "seurat"
+        ]
+      ]
+    },
+    "reason": null
+  },
+  "branch_count_variance": {
+    "status": "ok",
+    "value": {
+      "leaves": {
+        "values": [
+          7,
+          3,
+          6,
+          5,
+          8,
+          6,
+          6,
+          6,
+          5,
+          8
+        ],
+        "mean": 6.0,
+        "std": 1.4142,
+        "min": 3,
+        "max": 8,
+        "cv": 0.2357
+      },
+      "branchpoints": {
+        "values": [
+          3,
+          1,
+          2,
+          2,
+          4,
+          2,
+          3,
+          3,
+          2,
+          4
+        ],
+        "mean": 2.6,
+        "std": 0.9165,
+        "min": 1,
+        "max": 4,
+        "cv": 0.3525
+      },
+      "n_topology_ok": 10,
+      "per_method": [
+        {
+          "integration_method": "bbknn",
+          "n_leaves": 7,
+          "n_branchpoints": 3
+        },
+        {
+          "integration_method": "combat",
+          "n_leaves": 3,
+          "n_branchpoints": 1
+        },
+        {
+          "integration_method": "fastmnn",
+          "n_leaves": 6,
+          "n_branchpoints": 2
+        },
+        {
+          "integration_method": "harmony",
+          "n_leaves": 5,
+          "n_branchpoints": 2
+        },
+        {
+          "integration_method": "liger",
+          "n_leaves": 8,
+          "n_branchpoints": 4
+        },
+        {
+          "integration_method": "scanorama",
+          "n_leaves": 6,
+          "n_branchpoints": 2
+        },
+        {
+          "integration_method": "scanvi",
+          "n_leaves": 6,
+          "n_branchpoints": 3
+        },
+        {
+          "integration_method": "scgen",
+          "n_leaves": 6,
+          "n_branchpoints": 3
+        },
+        {
+          "integration_method": "scvi",
+          "n_leaves": 5,
+          "n_branchpoints": 2
+        },
+        {
+          "integration_method": "seurat",
+          "n_leaves": 8,
+          "n_branchpoints": 4
+        }
+      ]
+    },
+    "reason": null
+  },
+  "root_placement_consistency": {
+    "status": "ok",
+    "value": {
+      "consistency_rate_total": 1.0,
+      "consistency_rate_evaluable": 1.0,
+      "n_correct": 10,
+      "n_evaluable": 10,
+      "n_total_runs": 10,
+      "n_failed_runs": 0,
+      "root_group_expected": "Tissue Monocyte",
+      "group_key": "cell_subtype_L2",
+      "per_method": [
+        {
+          "integration_method": "bbknn",
+          "root_cell_id": "GSM4041154_healthy2_cd45-_ATTATCCTCGCAAGCC-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "combat",
+          "root_cell_id": "GSM4041155_healthy3_cd45+_TGTATTCTCGGTGTCG-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "fastmnn",
+          "root_cell_id": "GSM4041150_healthy1_cd45+_CAGCCGACACAGGAGT-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "harmony",
+          "root_cell_id": "GSM4041167_cirrhotic3_cd45-_TGACTTTCACCAGTTA-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "liger",
+          "root_cell_id": "GSM4041159_healthy4_cd45-_AACTCCCCACTAAGTC-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "scanorama",
+          "root_cell_id": "GSM4041160_healthy5_cd45+_CGTAGGCCACCGAATT-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "scanvi",
+          "root_cell_id": "GSM4041153_healthy2_cd45+_ACGCCGAAGGGAACGG-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "scgen",
+          "root_cell_id": "GSM4041163_cirrhotic1_cd45-B_CACAGTATCACAGGCC-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "scvi",
+          "root_cell_id": "GSM4041160_healthy5_cd45+_CCACTACTCGGAATCT-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        },
+        {
+          "integration_method": "seurat",
+          "root_cell_id": "GSM4041155_healthy3_cd45+_AAAGCAACATGCATGT-1",
+          "root_assigned_group": "Tissue Monocyte",
+          "root_group_expected": "Tissue Monocyte",
+          "correct": true,
+          "counted_as_incorrect_in_total": false
+        }
+      ]
+    },
+    "reason": null
+  },
+  "integration_sensitivity_score": {
+    "status": "ok",
+    "value": {
+      "ISS": 0.760939,
+      "components_used": [
+        "kendalls_w",
+        "topology_jaccard",
+        "root_consistency"
+      ],
+      "components_available": {
+        "kendalls_w": true,
+        "topology_jaccard": true,
+        "root_consistency": true
+      },
+      "component_scores": {
+        "kendalls_w": 0.953285,
+        "topology_jaccard": 0.370358,
+        "root_consistency": 1.0
+      },
+      "weights_used": {
+        "kendalls_w": 0.4,
+        "topology_jaccard": 0.35,
+        "root_consistency": 0.25
+      },
+      "weights_renormalised": false
+    },
+    "reason": null
+  }
+}

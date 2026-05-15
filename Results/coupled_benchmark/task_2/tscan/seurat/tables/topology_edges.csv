@@ -1,0 +1,12 @@
+source,target,weight,directed
+CD8 T (CX3CR1+),Effector Memory T,3.28531818158167,False
+CD8 T (GZMK+),CD8 T (PDCD1+),6.01571338980985,False
+CD8 T (GZMK+),Effector Memory T,4.0178250920497,False
+CD8 T (GZMK+),Intermediate T,1.58678418289727,False
+CD8 T (KLRD1+),Cytotoxic T,1.77491438401339,False
+CD8 T (SELL+),Central Memory T,6.2039409709174,False
+Central Memory T,Naive T,1.28161060156745,False
+Cytotoxic T,Intermediate T,3.31698250340992,False
+Intermediate T,Tissue-resident Memory T,2.35977894049792,False
+Memory/Activated T,Naive T,3.07144781360624,False
+Memory/Activated T,Tissue-resident Memory T,2.70163920422063,False

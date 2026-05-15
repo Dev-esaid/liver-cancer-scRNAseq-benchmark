@@ -1,0 +1,15 @@
+source,target,weight,directed
+MMP9+ macrophage,monocyte-derived macrophage,8.0,False
+MARCO+ macrophage,patient-specific macrophage,8.0,False
+monocyte-derived macrophage,patient-specific macrophage,6.0,False
+MMP9+ macrophage,proliferative macrophage,1.0,False
+monocyte-derived macrophage,proliferative macrophage,4.0,False
+MARCO+ macrophage,TREM2+ macrophage,3.0,False
+MMP9+ macrophage,TREM2+ macrophage,5.0,False
+monocyte-derived macrophage,TREM2+ macrophage,3.0,False
+patient-specific macrophage,TREM2+ macrophage,5.0,False
+MARCO+ macrophage,VEGFA+ macrophage,2.0,False
+MMP9+ macrophage,VEGFA+ macrophage,1.0,False
+monocyte-derived macrophage,VEGFA+ macrophage,2.0,False
+proliferative macrophage,VEGFA+ macrophage,1.0,False
+TREM2+ macrophage,VEGFA+ macrophage,10.0,False

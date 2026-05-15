@@ -1,0 +1,9 @@
+source,target,weight,directed
+proliferative CD4 T,proliferative CD8 T,1.0,False
+regulatory T,proliferative CD4 T,1.0,False
+central memory T,regulatory T,1.0,False
+tissue-resident memory T,central memory T,1.0,False
+naïve T,tissue-resident memory T,1.0,False
+intermediate T,naïve T,1.0,False
+cytotoxic T lymphocytes,intermediate T,1.0,False
+effector memory T,cytotoxic T lymphocytes,1.0,False

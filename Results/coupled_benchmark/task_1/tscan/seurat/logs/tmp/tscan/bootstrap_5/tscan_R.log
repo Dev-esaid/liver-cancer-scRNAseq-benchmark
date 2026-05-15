@@ -1,0 +1,15 @@
+# Command:
+Rscript /data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/R/tscan_run.R --embedding /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/tscan/seurat/logs/tmp/tscan/bootstrap_5/embedding.csv --meta /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/tscan/seurat/logs/tmp/tscan/bootstrap_5/meta.csv --cluster_key cell_subtype_L2 --root_cluster "Tissue Monocyte" --seed 5 --out_dir /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/tscan/seurat/logs/tmp/tscan/bootstrap_5/r_out
+
+TSCAN version: 1.40.0
+igraph version: 2.2.2
+seed: 5
+root_cluster label: Tissue Monocyte
+n_clusters: 13
+MST vertex names (first 20): C1QA+ Macrophage, CD14+ Monocyte, FCGR3A+ Monocyte, HLA-II+ Macrophage, Inflammatory Macrophage, MARCO+ Macrophage, MMP9+ Macrophage, Monocyte-derived Macrophage, THBS1+ Macrophage, Tissue Monocyte, Transitional Macrophage, TREM2+ Macrophage, VEGFA+ Macrophage
+MST connected components: 1
+Start clusters used (per component): Tissue Monocyte
+orderCells return class: PseudotimeOrdering
+pseudotime matrix dim: 16935x5
+Finite pseudotime values: 16935 / 16935
+TSCAN completed successfully. Outputs written to: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/tscan/seurat/logs/tmp/tscan/bootstrap_5/r_out

@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "dataset_name": "GSE140228",
+    "task_name": "task4_CD8_exhaustion",
+    "method_name": "monocle3",
+    "n_cells": 23654,
+    "n_genes": 20775
+  },
+  "pseudotime_sanity_raw": {
+    "status": "ok",
+    "value": {
+      "n_cells": 23654,
+      "n_finite": 23654,
+      "finite_fraction": 1.0,
+      "min": 0.0,
+      "max": 21.8600390226288,
+      "mean": 12.04059149873454,
+      "std": 6.345043871665316,
+      "n_unique": 23654,
+      "tie_fraction": 0.0
+    },
+    "reason": null
+  },
+  "marker_concordance": {
+    "status": "ok",
+    "value": [
+      {
+        "program": "CD4/CD8-C1-CCR7",
+        "expected_direction": "either",
+        "used_for_root": true,
+        "spearman_rho_raw": -0.2781366121259998,
+        "spearman_rho_aligned": 0.2781366121259998,
+        "spearman_p": 0.0,
+        "n_used": 23654,
+        "genes_requested": 8,
+        "genes_present": 8,
+        "genes_missing": 0
+      },
+      {
+        "program": "CD8-C5-SELL",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.17177087992606294,
+        "spearman_rho_aligned": 0.17177087992606294,
+        "spearman_p": 4.5813957751761285e-156,
+        "n_used": 23654,
+        "genes_requested": 8,
+        "genes_present": 8,
+        "genes_missing": 0
+      },
+      {
+        "program": "CD8-C3-IL7R",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.04940649755610934,
+        "spearman_rho_aligned": 0.04940649755610934,
+        "spearman_p": 2.895894507106671e-14,
+        "n_used": 23654,
+        "genes_requested": 7,
+        "genes_present": 6,
+        "genes_missing": 1
+      },
+      {
+        "program": "CD8-C6-GZMK",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.4405772330786375,
+        "spearman_rho_aligned": 0.4405772330786375,
+        "spearman_p": 0.0,
+        "n_used": 23654,
+        "genes_requested": 7,
+        "genes_present": 7,
+        "genes_missing": 0
+      },
+      {
+        "program": "CD8-C7-KLRD1",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.49652364459474563,
+        "spearman_rho_aligned": 0.49652364459474563,
+        "spearman_p": 0.0,
+        "n_used": 23654,
+        "genes_requested": 7,
+        "genes_present": 7,
+        "genes_missing": 0
+      },
+      {
+        "program": "CD8-C8-PDCD1",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.21961088584839722,
+        "spearman_rho_aligned": 0.21961088584839722,
+        "spearman_p": 3.1496995924457495e-256,
+        "n_used": 23654,
+        "genes_requested": 7,
+        "genes_present": 7,
+        "genes_missing": 0
+      },
+      {
+        "program": "CD8-C4-CX3CR1",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.42808930073499274,
+        "spearman_rho_aligned": 0.42808930073499274,
+        "spearman_p": 0.0,
+        "n_used": 23654,
+        "genes_requested": 9,
+        "genes_present": 9,
+        "genes_missing": 0
+      }
+    ],
+    "reason": null
+  },
+  "marker_monotonicity": {
+    "status": "ok",
+    "value": [
+      {
+        "program": "CD4/CD8-C1-CCR7",
+        "expected_direction": "either",
+        "used_for_root": true,
+        "binned_monotonicity": 0.631578947368421,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 8
+      },
+      {
+        "program": "CD8-C5-SELL",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.631578947368421,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 8
+      },
+      {
+        "program": "CD8-C3-IL7R",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5263157894736843,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 6
+      },
+      {
+        "program": "CD8-C6-GZMK",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.631578947368421,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 7
+      },
+      {
+        "program": "CD8-C7-KLRD1",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5789473684210527,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 7
+      },
+      {
+        "program": "CD8-C8-PDCD1",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5263157894736843,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 7
+      },
+      {
+        "program": "CD8-C4-CX3CR1",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5789473684210527,
+        "n_bins_requested": 20,
+        "n_bins_used": 20,
+        "tol": 0.0,
+        "genes_present": 9
+      }
+    ],
+    "reason": null
+  },
+  "knn_smoothness": {
+    "status": "ok",
+    "value": {
+      "mean_abs_deviation_to_neighbor_mean": 0.026438264618543955,
+      "n_zero_degree": 0,
+      "mean_row_sum": 8.218136381113167
+    },
+    "reason": null
+  },
+  "root_purity": {
+    "status": "ok",
+    "value": {
+      "group_key": "celltype_sub",
+      "root_label": "CD4/CD8-C1-CCR7",
+      "alpha": 0.1,
+      "n_tail": 2366,
+      "root_purity": 0.9213863060016906,
+      "baseline_fraction": 0.1444998731715566,
+      "fold_enrichment": 6.376381416665883
+    },
+    "reason": null
+  },
+  "topology_pseudotime_consistency": {
+    "status": "ok",
+    "value": {
+      "group_key": "celltype_sub",
+      "root_group": "CD4/CD8-C1-CCR7",
+      "distance_transform": "inverse_weight",
+      "force_undirected": true,
+      "spearman_rho": 0.7857142857142859,
+      "spearman_rho_abs": 0.7857142857142859,
+      "spearman_p": 0.03623846267982713,
+      "n_clusters_used": 7,
+      "n_nodes_graph": 7,
+      "n_nodes_reachable": 7,
+      "graph_build_report": {
+        "status": "ok",
+        "n_rows": 10,
+        "n_edges_used": 10,
+        "n_edges_skipped": 0,
+        "distance_transform": "inverse_weight",
+        "force_undirected": true,
+        "has_weight": true,
+        "has_directed": true,
+        "n_nodes": 7
+      }
+    },
+    "reason": null
+  }
+}

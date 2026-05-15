@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "dataset_name": "GSE140228",
+    "task_name": "task5_CD4_differentiation",
+    "method_name": "tscan",
+    "n_cells": 16646,
+    "n_genes": 20260
+  },
+  "pseudotime_sanity_raw": {
+    "status": "ok",
+    "value": {
+      "n_cells": 16646,
+      "n_finite": 16646,
+      "finite_fraction": 1.0,
+      "min": 0.0,
+      "max": 13.6870637493958,
+      "mean": 7.0696856009796205,
+      "std": 5.098726592977113,
+      "n_unique": 10329,
+      "tie_fraction": 0.37949056830469785
+    },
+    "reason": null
+  },
+  "marker_concordance": {
+    "status": "ok",
+    "value": [
+      {
+        "program": "CD4-C5-TCF7",
+        "expected_direction": "either",
+        "used_for_root": true,
+        "spearman_rho_raw": 0.14913860117895966,
+        "spearman_rho_aligned": 0.14913860117895966,
+        "spearman_p": 2.093686096275442e-83,
+        "n_used": 16646,
+        "genes_requested": 8,
+        "genes_present": 8,
+        "genes_missing": 0
+      },
+      {
+        "program": "CD4/CD8-C1-CCR7",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.14913860117895966,
+        "spearman_rho_aligned": 0.14913860117895966,
+        "spearman_p": 2.093686096275442e-83,
+        "n_used": 16646,
+        "genes_requested": 8,
+        "genes_present": 8,
+        "genes_missing": 0
+      },
+      {
+        "program": "CD4-C4-IL7R",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.16049728164080487,
+        "spearman_rho_aligned": 0.16049728164080487,
+        "spearman_p": 1.8418624296907968e-96,
+        "n_used": 16646,
+        "genes_requested": 6,
+        "genes_present": 6,
+        "genes_missing": 0
+      },
+      {
+        "program": "CD4-C3-ANXA1",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.08607932872308711,
+        "spearman_rho_aligned": 0.08607932872308711,
+        "spearman_p": 9.40416741804864e-29,
+        "n_used": 16646,
+        "genes_requested": 8,
+        "genes_present": 8,
+        "genes_missing": 0
+      },
+      {
+        "program": "CD4-C6-CXCL13",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.010093304791267818,
+        "spearman_rho_aligned": 0.010093304791267818,
+        "spearman_p": 0.19285920647876229,
+        "n_used": 16646,
+        "genes_requested": 9,
+        "genes_present": 9,
+        "genes_missing": 0
+      },
+      {
+        "program": "CD4-C7-FOXP3",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.10376815505449438,
+        "spearman_rho_aligned": 0.10376815505449438,
+        "spearman_p": 4.4132280463161606e-41,
+        "n_used": 16646,
+        "genes_requested": 6,
+        "genes_present": 6,
+        "genes_missing": 0
+      }
+    ],
+    "reason": null
+  },
+  "marker_monotonicity": {
+    "status": "ok",
+    "value": [
+      {
+        "program": "CD4-C5-TCF7",
+        "expected_direction": "either",
+        "used_for_root": true,
+        "binned_monotonicity": 0.625,
+        "n_bins_requested": 20,
+        "n_bins_used": 17,
+        "tol": 0.0,
+        "genes_present": 8
+      },
+      {
+        "program": "CD4/CD8-C1-CCR7",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.625,
+        "n_bins_requested": 20,
+        "n_bins_used": 17,
+        "tol": 0.0,
+        "genes_present": 8
+      },
+      {
+        "program": "CD4-C4-IL7R",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.6875,
+        "n_bins_requested": 20,
+        "n_bins_used": 17,
+        "tol": 0.0,
+        "genes_present": 6
+      },
+      {
+        "program": "CD4-C3-ANXA1",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.625,
+        "n_bins_requested": 20,
+        "n_bins_used": 17,
+        "tol": 0.0,
+        "genes_present": 8
+      },
+      {
+        "program": "CD4-C6-CXCL13",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.75,
+        "n_bins_requested": 20,
+        "n_bins_used": 17,
+        "tol": 0.0,
+        "genes_present": 9
+      },
+      {
+        "program": "CD4-C7-FOXP3",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5625,
+        "n_bins_requested": 20,
+        "n_bins_used": 17,
+        "tol": 0.0,
+        "genes_present": 6
+      }
+    ],
+    "reason": null
+  },
+  "knn_smoothness": {
+    "status": "ok",
+    "value": {
+      "mean_abs_deviation_to_neighbor_mean": 0.050787026724980484,
+      "n_zero_degree": 0,
+      "mean_row_sum": 8.1724751807743
+    },
+    "reason": null
+  },
+  "root_purity": {
+    "status": "ok",
+    "value": {
+      "group_key": "celltype_sub",
+      "root_label": "CD4-C5-TCF7",
+      "alpha": 0.1,
+      "n_tail": 1665,
+      "root_purity": 0.9147147147147147,
+      "baseline_fraction": 0.3171933197164484,
+      "fold_enrichment": 2.8837767312767313
+    },
+    "reason": null
+  },
+  "topology_pseudotime_consistency": {
+    "status": "ok",
+    "value": {
+      "group_key": "celltype_sub",
+      "root_group": "CD4-C5-TCF7",
+      "distance_transform": "inverse_weight",
+      "force_undirected": true,
+      "spearman_rho": 0.8857142857142858,
+      "spearman_rho_abs": 0.8857142857142858,
+      "spearman_p": 0.01884548104956266,
+      "n_clusters_used": 6,
+      "n_nodes_graph": 6,
+      "n_nodes_reachable": 6,
+      "graph_build_report": {
+        "status": "ok",
+        "n_rows": 5,
+        "n_edges_used": 5,
+        "n_edges_skipped": 0,
+        "distance_transform": "inverse_weight",
+        "force_undirected": true,
+        "has_weight": true,
+        "has_directed": true,
+        "n_nodes": 6
+      }
+    },
+    "reason": null
+  }
+}

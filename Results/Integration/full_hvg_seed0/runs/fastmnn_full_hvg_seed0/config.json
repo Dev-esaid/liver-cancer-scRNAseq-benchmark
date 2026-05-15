@@ -1,0 +1,45 @@
+{
+  "batch_key": "dataset",
+  "label_key": "major_celltype_l1",
+  "exclude_datasets": [],
+  "require_hvg": true,
+  "hvg_key": "highly_variable",
+  "max_hvgs": 4000,
+  "k": 50,
+  "d": 50,
+  "cos_norm": false,
+  "ndist": 1.0,
+  "assay_type": "X",
+  "neighbors_k": 50,
+  "umap_min_dist": 0.35,
+  "umap_spread": 1.0,
+  "leiden_resolution": 1.0,
+  "n_isolated": null,
+  "lisi_subsample": null,
+  "compute_trajectory": false,
+  "plot_subsample_n": 200000,
+  "plot_subsample_stratify_by": "dataset",
+  "plot_covariates": [
+    "dataset",
+    "major_celltype_l1",
+    "tumor_status",
+    "technology",
+    "cancer_type"
+  ],
+  "plot_extra_covariates": [
+    "platform",
+    "tissue",
+    "compartment",
+    "disease_group",
+    "donor_id"
+  ],
+  "run_tag": "fastmnn_full_hvg_seed0",
+  "seed": 0,
+  "save_h5ad": true,
+  "write_minimal_h5ad": true,
+  "minimal_obs_extra": [
+    "donor_id"
+  ],
+  "max_zero_signal_fraction": 0.05,
+  "max_zero_signal_cells_report": 10
+}

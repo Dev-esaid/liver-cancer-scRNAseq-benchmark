@@ -1,0 +1,22 @@
+{
+  "NMI": 0.37649930890822086,
+  "ARI": 0.09276044692491785,
+  "cell_type_ASW": 0.4396173395216465,
+  "isolated_label_F1": 0.20997980577165573,
+  "isolated_label_ASW": 0.45452690470431534,
+  "cell_cycle_conservation": 0.6854360549422822,
+  "hvg_conservation": 0.37844444444444447,
+  "trajectory_conservation": NaN,
+  "trajectory_conservation_note": "compute_trajectory=False",
+  "batch_ASW": 0.7180207986422649,
+  "pcr_comparison": 0.9997091103870447,
+  "kBET": 0.08753174374560324,
+  "graph_connectivity": 0.922861395832109,
+  "iLISI": 0.023165444615310726,
+  "cLISI": 0.9833166347537583,
+  "combat_space": "expr",
+  "combat_input_layer": "X",
+  "combat_hvg_key": "highly_variable",
+  "combat_max_hvgs": 4000,
+  "combat_hvg_flavor": "seurat_v3"
+}

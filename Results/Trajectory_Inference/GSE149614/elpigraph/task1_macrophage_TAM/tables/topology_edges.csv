@@ -1,0 +1,7 @@
+source,target,weight,directed
+proliferative macrophage,MARCO+ macrophage,1.0,True
+TREM2+ macrophage,proliferative macrophage,1.0,True
+proliferative macrophage,VEGFA+ macrophage,1.0,True
+monocyte-derived macrophage,proliferative macrophage,1.0,True
+proliferative macrophage,patient-specific macrophage,1.0,True
+proliferative macrophage,MMP9+ macrophage,1.0,True

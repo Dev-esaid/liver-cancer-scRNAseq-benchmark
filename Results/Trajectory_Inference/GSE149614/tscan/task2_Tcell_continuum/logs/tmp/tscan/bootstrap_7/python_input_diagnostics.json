@@ -1,0 +1,48 @@
+{
+  "method": "tscan",
+  "tag": "bootstrap_7",
+  "n_cells": 12346,
+  "n_dims_written": 30,
+  "rep_key": "X_pca",
+  "group_key": "cluster_annotation",
+  "root_cell_id": "16569",
+  "root_cluster": "naïve T",
+  "embedding_csv": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/tscan/task2_Tcell_continuum/logs/tmp/tscan/bootstrap_7/embedding.csv",
+  "meta_csv": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/tscan/task2_Tcell_continuum/logs/tmp/tscan/bootstrap_7/meta.csv",
+  "embedding_index_head": [
+    "18",
+    "21",
+    "33",
+    "72",
+    "82",
+    "88",
+    "96",
+    "115",
+    "124",
+    "135"
+  ],
+  "meta_cell_id_head": [
+    "18",
+    "21",
+    "33",
+    "72",
+    "82",
+    "88",
+    "96",
+    "115",
+    "124",
+    "135"
+  ],
+  "group_head": [
+    "naïve T",
+    "regulatory T",
+    "regulatory T",
+    "naïve T",
+    "proliferative CD4 T",
+    "intermediate T",
+    "naïve T",
+    "central memory T",
+    "proliferative CD4 T",
+    "regulatory T"
+  ]
+}

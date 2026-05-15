@@ -1,0 +1,44 @@
+{
+  "batch_key": "dataset",
+  "label_key": "major_celltype_l1",
+  "counts_layer": "counts",
+  "verbose": true,
+  "train_progress_bar": true,
+  "exclude_datasets_no_counts": [],
+  "n_latent": 30,
+  "n_hidden": 128,
+  "n_layers": 2,
+  "gene_likelihood": "nb",
+  "use_gpu": true,
+  "batch_size": 2048,
+  "max_epochs": 200,
+  "early_stopping": true,
+  "early_stopping_patience": 20,
+  "num_workers": 4,
+  "pin_memory": false,
+  "neighbors_k": 50,
+  "umap_min_dist": 0.35,
+  "umap_spread": 1.0,
+  "leiden_resolution": 1.0,
+  "rare_freq_threshold": 0.01,
+  "compute_isolated_f1": false,
+  "compute_rare_purity": true,
+  "categorical_covariates": [
+    "platform"
+  ],
+  "run_tag": "scvi_full_hvg_seed0",
+  "seed": 0,
+  "plot_covariates": [
+    "dataset",
+    "major_celltype_l1",
+    "technology",
+    "sequencer"
+  ],
+  "plot_extra_covariates": [
+    "platform",
+    "donor_id"
+  ],
+  "plot_subsample_n": 200000,
+  "plot_subsample_stratify_by": "dataset",
+  "save_h5ad": true
+}

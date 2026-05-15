@@ -1,0 +1,6 @@
+source,target,weight,directed
+Mono-C1-CD14,Mφ-C1-THBS1,1.0,False
+Mono-C2-FCGR3A,Mφ-C1-THBS1,1.0,False
+Mφ-C1-THBS1,Mφ-C2-C1QA,1.0,False
+Mono-C1-CD14,Mφ-C5-VCAN,1.0,False
+Mφ-C5-VCAN,Mφ-C6-MARCO,4.0,False

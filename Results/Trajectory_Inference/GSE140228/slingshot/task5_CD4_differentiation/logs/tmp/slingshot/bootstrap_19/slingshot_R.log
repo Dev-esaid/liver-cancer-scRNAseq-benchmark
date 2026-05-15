@@ -1,0 +1,11 @@
+# Command:
+/data1/esraa/miniconda3/envs/thesis-env/bin/Rscript /data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/R/slingshot_run.R --embedding /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/slingshot/task5_CD4_differentiation/logs/tmp/slingshot/bootstrap_19/embedding.csv --meta /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/slingshot/task5_CD4_differentiation/logs/tmp/slingshot/bootstrap_19/meta.csv --cluster_key celltype_sub --root_cluster CD4-C5-TCF7 --seed 19 --out_dir /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/slingshot/task5_CD4_differentiation/logs/tmp/slingshot/bootstrap_19/r_out
+
+slingshot version: 2.10.0
+SingleCellExperiment version: 1.24.0
+igraph version: 2.2.2
+seed: 19
+n_cells: 13320
+n_clusters: 6
+root_cluster: CD4-C5-TCF7
+Slingshot completed successfully. Outputs written to: /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/slingshot/task5_CD4_differentiation/logs/tmp/slingshot/bootstrap_19/r_out

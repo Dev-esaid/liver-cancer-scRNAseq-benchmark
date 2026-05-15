@@ -1,0 +1,9 @@
+source,target,weight,directed
+cytotoxic T lymphocytes,central memory T,0.09620764023275963,True
+naïve T,central memory T,0.08681089952973264,True
+effector memory T,cytotoxic T lymphocytes,0.12880318307345262,True
+cytotoxic T lymphocytes,intermediate T,0.16924587081411024,True
+cytotoxic T lymphocytes,proliferative CD8 T,0.0281241049833576,True
+effector memory T,tissue-resident memory T,0.08707985801020768,True
+intermediate T,regulatory T,0.06031661345516859,True
+proliferative CD4 T,proliferative CD8 T,0.07766566556818055,True

@@ -1,0 +1,75 @@
+{
+  "n_cells_input": 63306,
+  "n_genes_input": 54574,
+  "n_cells_output": 7203,
+  "n_genes_output": 17199,
+  "steps": [
+    {
+      "step": "subset_cells",
+      "n_cells_before": 63306,
+      "include": {
+        "key": "celltype_sub",
+        "n_values": 5,
+        "values": [
+          "NK-C5-CD69",
+          "NK-C3-IFNG",
+          "NK-C2-SELL",
+          "NK-C1-FCGR3A",
+          "NK-C7-CD160"
+        ],
+        "n_kept_after_include": 7203
+      },
+      "exclude": null,
+      "n_cells_after": 7203,
+      "n_cells_removed": 56103
+    },
+    {
+      "step": "filter_min_cells",
+      "min_cells": 3,
+      "n_genes_before": 54574,
+      "n_genes_after": 17199,
+      "n_genes_removed": 37375
+    },
+    {
+      "step": "filter_min_counts",
+      "min_counts": 1,
+      "n_genes_before": 17199,
+      "n_genes_after": 17199,
+      "n_genes_removed": 0
+    },
+    {
+      "step": "select_highly_variable_genes",
+      "n_top_genes": 3000,
+      "flavor": "seurat",
+      "batch_key": null,
+      "subset": false,
+      "n_genes_before": 17199,
+      "n_hvg_selected": 3000,
+      "n_genes_after": 17199
+    }
+  ],
+  "params": {
+    "include_key": "celltype_sub",
+    "include_values": [
+      "NK-C2-SELL",
+      "NK-C5-CD69",
+      "NK-C1-FCGR3A",
+      "NK-C7-CD160",
+      "NK-C3-IFNG"
+    ],
+    "exclude_key": null,
+    "exclude_values": null,
+    "replace_labels_json": null,
+    "replace_labels_key": "celltype_sub",
+    "min_cells": 3,
+    "min_counts": 1,
+    "n_top_genes": 3000,
+    "normalize": false,
+    "log1p": false,
+    "scale": false,
+    "target_sum": 10000.0,
+    "hvg_flavor": "seurat",
+    "hvg_subset": false,
+    "batch_key": null
+  }
+}

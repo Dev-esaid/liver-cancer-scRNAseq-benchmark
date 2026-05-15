@@ -1,0 +1,11 @@
+# Command:
+Rscript /data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/R/slingshot_run.R --embedding /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/slingshot/scvi/logs/tmp/slingshot/bootstrap_8/embedding.csv --meta /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/slingshot/scvi/logs/tmp/slingshot/bootstrap_8/meta.csv --cluster_key cell_subtype_L2 --root_cluster "Tissue Monocyte" --seed 8 --out_dir /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/slingshot/scvi/logs/tmp/slingshot/bootstrap_8/r_out
+
+slingshot version: 2.10.0
+SingleCellExperiment version: 1.24.0
+igraph version: 2.2.2
+seed: 8
+n_cells: 16935
+n_clusters: 13
+root_cluster: Tissue Monocyte
+Slingshot completed successfully. Outputs written to: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_1/slingshot/scvi/logs/tmp/slingshot/bootstrap_8/r_out

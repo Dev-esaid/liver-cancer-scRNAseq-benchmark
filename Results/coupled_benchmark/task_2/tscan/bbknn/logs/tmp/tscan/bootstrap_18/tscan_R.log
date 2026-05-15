@@ -1,0 +1,15 @@
+# Command:
+/data1/esraa/miniconda3/envs/thesis-env/bin/Rscript /data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/R/tscan_run.R --embedding /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/tscan/bbknn/logs/tmp/tscan/bootstrap_18/embedding.csv --meta /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/tscan/bbknn/logs/tmp/tscan/bootstrap_18/meta.csv --cluster_key cell_subtype_L2 --root_cluster "Naive T" --seed 18 --out_dir /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/tscan/bbknn/logs/tmp/tscan/bootstrap_18/r_out
+
+TSCAN version: 1.40.0
+igraph version: 2.2.2
+seed: 18
+root_cluster label: Naive T
+n_clusters: 12
+MST vertex names (first 20): CD8 T (CX3CR1+), CD8 T (GZMK+), CD8 T (KLRD1+), CD8 T (PDCD1+), CD8 T (SELL+), Central Memory T, Cytotoxic T, Effector Memory T, Intermediate T, Memory/Activated T, Naive T, Tissue-resident Memory T
+MST connected components: 1
+Start clusters used (per component): Naive T
+orderCells return class: PseudotimeOrdering
+pseudotime matrix dim: 26095x4
+Finite pseudotime values: 26095 / 26095
+TSCAN completed successfully. Outputs written to: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/tscan/bbknn/logs/tmp/tscan/bootstrap_18/r_out

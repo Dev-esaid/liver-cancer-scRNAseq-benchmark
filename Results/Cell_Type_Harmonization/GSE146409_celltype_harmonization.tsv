@@ -1,0 +1,18 @@
+cell_type_raw	major_celltype_l1	cell_subtype_raw	cell_subtype_L2	n_cells
+B cells	B cells	B cells	B cells	186
+CAFs	CAFs	CAFs	CAFs	552
+LVEC	Endothelial	LVEC	LVEC	630
+LVECt	Endothelial	LVECt	LVECt	269
+Pericytes	Fibroblast	Pericytes	Pericytes	145
+vSMC	Fibroblast	vSMC	vSMC	195
+Hepatocytes	Hepatocyte	Hepatocytes	Hepatocyte	311
+Kupffer cells	Kupffer cells	Kupffer cells	Kupffer cells	631
+LSEC	LSECs	LSEC	LSECs	357
+Carcinoma 1	Malignant	Carcinoma 1	Carcinoma 1	763
+Carcinoma 2	Malignant	Carcinoma 2	Carcinoma 2	589
+SAMs	Myeloid	SAMs	SAMs	1055
+TM1	Myeloid	TM1	Transitional Macrophage	353
+cDC1	Myeloid	cDC1	cDC1	61
+cDC2	Myeloid	cDC2	cDC2	539
+Stellate cells	Stellate Cells	Stellate cells	Stellate Cells	227
+T cells	T cells	T cells	T cells	292

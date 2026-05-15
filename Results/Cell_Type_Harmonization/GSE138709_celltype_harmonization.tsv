@@ -1,0 +1,10 @@
+cell_type_raw	major_celltype_l1	n_cells
+B_cell	B cells	274
+Fibroblast_HSC_CAF	CAFs	503
+Cholangiocyte	Cholangiocyte	11571
+Hepatocyte	Hepatocyte	524
+Macrophage_Kupffer	Kupffer cells	745
+Endothelial_LSEC	LSECs	1185
+Monocyte_DC	Myeloid	3877
+Plasma_cell	Plasma cells	725
+NKT_cell	T cells	9806

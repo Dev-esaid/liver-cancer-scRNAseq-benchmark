@@ -1,0 +1,7 @@
+source,target,weight,directed
+NK-C1-FCGR3A,NK-C2-SELL,1.0,False
+NK-C1-FCGR3A,NK-C5-CD69,4.0,False
+NK-C3-IFNG,NK-C5-CD69,3.0,False
+NK-C2-SELL,NK-C7-CD160,1.0,False
+NK-C3-IFNG,NK-C7-CD160,2.0,False
+NK-C5-CD69,NK-C7-CD160,1.0,False

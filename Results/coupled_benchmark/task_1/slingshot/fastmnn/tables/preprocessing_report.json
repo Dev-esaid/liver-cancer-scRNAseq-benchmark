@@ -1,0 +1,91 @@
+{
+  "n_cells_input": 299891,
+  "n_genes_input": 4000,
+  "n_cells_output": 21164,
+  "n_genes_output": 3982,
+  "steps": [
+    {
+      "step": "subset_cells",
+      "n_cells_before": 299891,
+      "include": {
+        "key": "cell_subtype_L2",
+        "n_values": 13,
+        "values": [
+          "Inflammatory Macrophage",
+          "MMP9+ Macrophage",
+          "FCGR3A+ Monocyte",
+          "HLA-II+ Macrophage",
+          "C1QA+ Macrophage",
+          "Tissue Monocyte",
+          "TREM2+ Macrophage",
+          "CD14+ Monocyte",
+          "Monocyte-derived Macrophage",
+          "MARCO+ Macrophage",
+          "VEGFA+ Macrophage",
+          "THBS1+ Macrophage",
+          "Transitional Macrophage"
+        ],
+        "n_kept_after_include": 21164
+      },
+      "exclude": null,
+      "n_cells_after": 21164,
+      "n_cells_removed": 278727
+    },
+    {
+      "step": "filter_min_cells",
+      "min_cells": 3,
+      "n_genes_before": 4000,
+      "n_genes_after": 3982,
+      "n_genes_removed": 18
+    },
+    {
+      "step": "filter_min_counts",
+      "min_counts": 1,
+      "n_genes_before": 3982,
+      "n_genes_after": 3982,
+      "n_genes_removed": 0
+    },
+    {
+      "step": "select_highly_variable_genes",
+      "n_top_genes": 3000,
+      "flavor": "variance_fallback",
+      "batch_key": null,
+      "subset": false,
+      "n_genes_before": 3982,
+      "n_hvg_selected": 3000,
+      "n_genes_after": 3982
+    }
+  ],
+  "params": {
+    "include_key": "cell_subtype_L2",
+    "include_values": [
+      "Tissue Monocyte",
+      "CD14+ Monocyte",
+      "FCGR3A+ Monocyte",
+      "Monocyte-derived Macrophage",
+      "Transitional Macrophage",
+      "Inflammatory Macrophage",
+      "MARCO+ Macrophage",
+      "TREM2+ Macrophage",
+      "C1QA+ Macrophage",
+      "MMP9+ Macrophage",
+      "VEGFA+ Macrophage",
+      "THBS1+ Macrophage",
+      "HLA-II+ Macrophage"
+    ],
+    "exclude_key": null,
+    "exclude_values": null,
+    "replace_labels_json": "{}",
+    "replace_labels_key": "cell_subtype_L2",
+    "min_cells": 3,
+    "min_counts": 1,
+    "n_top_genes": 3000,
+    "normalize": false,
+    "log1p": false,
+    "scale": false,
+    "target_sum": 10000.0,
+    "hvg_flavor": "seurat",
+    "hvg_subset": false,
+    "batch_key": null
+  }
+}

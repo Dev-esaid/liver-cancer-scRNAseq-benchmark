@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "dataset_name": "GSE149614",
+    "task_name": "task2_Tcell_continuum",
+    "method_name": "tscan",
+    "n_cells": 15428,
+    "n_genes": 19813
+  },
+  "pseudotime_sanity_raw": {
+    "status": "ok",
+    "value": {
+      "n_cells": 15428,
+      "n_finite": 15428,
+      "finite_fraction": 1.0,
+      "min": 0.0,
+      "max": 27.2998077549169,
+      "mean": 7.977913552651835,
+      "std": 4.858420776623902,
+      "n_unique": 8306,
+      "tie_fraction": 0.4616282084521649
+    },
+    "reason": null
+  },
+  "marker_concordance": {
+    "status": "ok",
+    "value": [
+      {
+        "program": "cytotoxic T lymphocytes",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.09678048209750392,
+        "spearman_rho_aligned": 0.09678048209750392,
+        "spearman_p": 1.97819353583628e-33,
+        "n_used": 15428,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "regulatory T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.16228069465117748,
+        "spearman_rho_aligned": 0.16228069465117748,
+        "spearman_p": 1.582523844204063e-91,
+        "n_used": 15428,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "intermediate T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.20077111518064503,
+        "spearman_rho_aligned": 0.20077111518064503,
+        "spearman_p": 4.830069306577728e-140,
+        "n_used": 15428,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "effector memory T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.2388055063228304,
+        "spearman_rho_aligned": 0.2388055063228304,
+        "spearman_p": 5.473599456085668e-199,
+        "n_used": 15428,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "tissue-resident memory T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.07457968934622337,
+        "spearman_rho_aligned": 0.07457968934622337,
+        "spearman_p": 1.7649862031988825e-20,
+        "n_used": 15428,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "na\u00efve T",
+        "expected_direction": "either",
+        "used_for_root": true,
+        "spearman_rho_raw": -0.5247690621045215,
+        "spearman_rho_aligned": 0.5247690621045215,
+        "spearman_p": 0.0,
+        "n_used": 15428,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "proliferative CD4 T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.26122367802621344,
+        "spearman_rho_aligned": 0.26122367802621344,
+        "spearman_p": 4.3703612231433915e-239,
+        "n_used": 15428,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "central memory T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": -0.36711278705698364,
+        "spearman_rho_aligned": 0.36711278705698364,
+        "spearman_p": 0.0,
+        "n_used": 15428,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      },
+      {
+        "program": "proliferative CD8 T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "spearman_rho_raw": 0.20180596495538466,
+        "spearman_rho_aligned": 0.20180596495538466,
+        "spearman_p": 1.6876567260128762e-141,
+        "n_used": 15428,
+        "genes_requested": 10,
+        "genes_present": 10,
+        "genes_missing": 0
+      }
+    ],
+    "reason": null
+  },
+  "marker_monotonicity": {
+    "status": "ok",
+    "value": [
+      {
+        "program": "cytotoxic T lymphocytes",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.625,
+        "n_bins_requested": 20,
+        "n_bins_used": 17,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "regulatory T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.6875,
+        "n_bins_requested": 20,
+        "n_bins_used": 17,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "intermediate T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5,
+        "n_bins_requested": 20,
+        "n_bins_used": 17,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "effector memory T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.625,
+        "n_bins_requested": 20,
+        "n_bins_used": 17,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "tissue-resident memory T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.6875,
+        "n_bins_requested": 20,
+        "n_bins_used": 17,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "na\u00efve T",
+        "expected_direction": "either",
+        "used_for_root": true,
+        "binned_monotonicity": 0.6875,
+        "n_bins_requested": 20,
+        "n_bins_used": 17,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "proliferative CD4 T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.6875,
+        "n_bins_requested": 20,
+        "n_bins_used": 17,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "central memory T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.75,
+        "n_bins_requested": 20,
+        "n_bins_used": 17,
+        "tol": 0.0,
+        "genes_present": 10
+      },
+      {
+        "program": "proliferative CD8 T",
+        "expected_direction": "either",
+        "used_for_root": false,
+        "binned_monotonicity": 0.5625,
+        "n_bins_requested": 20,
+        "n_bins_used": 17,
+        "tol": 0.0,
+        "genes_present": 10
+      }
+    ],
+    "reason": null
+  },
+  "knn_smoothness": {
+    "status": "ok",
+    "value": {
+      "mean_abs_deviation_to_neighbor_mean": 0.042386098450610275,
+      "n_zero_degree": 0,
+      "mean_row_sum": 8.566209426592568
+    },
+    "reason": null
+  },
+  "root_purity": {
+    "status": "ok",
+    "value": {
+      "group_key": "cluster_annotation",
+      "root_label": "na\u00efve T",
+      "alpha": 0.1,
+      "n_tail": 1543,
+      "root_purity": 0.7070641607258588,
+      "baseline_fraction": 0.10474462017111745,
+      "fold_enrichment": 6.7503625443555375
+    },
+    "reason": null
+  },
+  "topology_pseudotime_consistency": {
+    "status": "ok",
+    "value": {
+      "group_key": "cluster_annotation",
+      "root_group": "na\u00efve T",
+      "distance_transform": "inverse_weight",
+      "force_undirected": true,
+      "spearman_rho": 0.8166666666666667,
+      "spearman_rho_abs": 0.8166666666666667,
+      "spearman_p": 0.007224785246358786,
+      "n_clusters_used": 9,
+      "n_nodes_graph": 9,
+      "n_nodes_reachable": 9,
+      "graph_build_report": {
+        "status": "ok",
+        "n_rows": 8,
+        "n_edges_used": 8,
+        "n_edges_skipped": 0,
+        "distance_transform": "inverse_weight",
+        "force_undirected": true,
+        "has_weight": true,
+        "has_directed": true,
+        "n_nodes": 9
+      }
+    },
+    "reason": null
+  }
+}

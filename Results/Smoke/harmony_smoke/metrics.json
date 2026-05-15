@@ -1,0 +1,21 @@
+{
+  "NMI": 0.5965800977614094,
+  "ARI": 0.3852303600653012,
+  "cell_type_ASW": 0.5078389132395387,
+  "isolated_label_F1": 0.08108108108108109,
+  "isolated_label_ASW": 0.526592431589961,
+  "cell_cycle_conservation": 0.8184935173395782,
+  "hvg_conservation": 0.9853333333333334,
+  "trajectory_conservation": NaN,
+  "trajectory_conservation_note": "compute_trajectory=False",
+  "batch_ASW": 0.8663126980655501,
+  "pcr_comparison": 0.4908477139830324,
+  "kBET": 0.4126643791229029,
+  "graph_connectivity": 0.899769485135873,
+  "iLISI": 0.22188387249776742,
+  "cLISI": 0.9890165459883491,
+  "harmony_theta": null,
+  "harmony_max_iter_harmony": 20,
+  "harmony_n_pcs": 50,
+  "harmonypy_version": "0.2.0"
+}

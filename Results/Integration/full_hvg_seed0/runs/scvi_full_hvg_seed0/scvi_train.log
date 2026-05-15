@@ -1,0 +1,21 @@
+2026-04-07 16:12:10,638 | INFO | [scVI] accelerator=gpu
+2026-04-07 16:12:10,639 | INFO | [scVI] covariates=['platform']
+2026-04-07 16:12:10,640 | INFO | [scVI] setup_anndata: start
+2026-04-07 16:12:10,702 | INFO | [scVI] setup_anndata: done
+2026-04-07 16:12:10,703 | INFO | [scVI] init model: n_latent=50, n_hidden=128, n_layers=2, gene_likelihood=nb
+2026-04-07 16:12:10,703 | INFO | [scVI] train: start
+2026-04-07 16:17:31,540 | INFO | [scVI] accelerator=gpu
+2026-04-07 16:17:31,541 | INFO | [scVI] covariates=['platform']
+2026-04-07 16:17:31,542 | INFO | [scVI] setup_anndata: start
+2026-04-07 16:17:31,586 | INFO | [scVI] setup_anndata: done
+2026-04-07 16:17:31,587 | INFO | [scVI] init model: n_latent=50, n_hidden=128, n_layers=2, gene_likelihood=nb
+2026-04-07 16:17:31,588 | INFO | [scVI] train: start
+2026-04-07 16:20:29,309 | INFO | [scVI] accelerator=gpu
+2026-04-07 16:20:29,310 | INFO | [scVI] covariates=['platform']
+2026-04-07 16:20:29,310 | INFO | [scVI] setup_anndata: start
+2026-04-07 16:20:29,355 | INFO | [scVI] setup_anndata: done
+2026-04-07 16:20:29,356 | INFO | [scVI] init model: n_latent=50, n_hidden=128, n_layers=2, gene_likelihood=nb
+2026-04-07 16:20:29,356 | INFO | [scVI] train: start
+2026-04-07 16:31:28,789 | INFO | [scVI] train: done
+2026-04-07 16:31:28,790 | INFO | [scVI] saving model...
+2026-04-07 16:31:28,821 | INFO | [scVI] model saved

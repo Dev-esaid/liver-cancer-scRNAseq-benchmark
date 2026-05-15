@@ -1,0 +1,11 @@
+{
+  "n_pseudotime_rows_raw": 5617,
+  "n_pseudotime_ids_unique": 5617,
+  "n_common_ids": 5617,
+  "n_finite_pseudotime_after_reindex": 5617,
+  "n_edges": 6,
+  "n_topology_nodes": 7,
+  "r_log": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/tscan/task3_myeloid_monocyte_to_TAM/logs/tmp/tscan/bootstrap_5/tscan_R.log",
+  "pseudotime_csv": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/tscan/task3_myeloid_monocyte_to_TAM/logs/tmp/tscan/bootstrap_5/r_out/pseudotime.csv",
+  "edges_csv": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE140228/tscan/task3_myeloid_monocyte_to_TAM/logs/tmp/tscan/bootstrap_5/r_out/edges.csv"
+}

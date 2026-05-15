@@ -1,0 +1,20 @@
+{
+  "NMI": 0.5706960678860583,
+  "ARI": 0.23494526841699645,
+  "cell_type_ASW": 0.5403906926512718,
+  "isolated_label_F1": 0.2870988849208235,
+  "isolated_label_ASW": 0.554741323426632,
+  "cell_cycle_conservation": 0.3521124209942812,
+  "hvg_conservation": 1.0,
+  "trajectory_conservation": NaN,
+  "trajectory_conservation_note": "compute_trajectory=False",
+  "batch_ASW": 0.7957577628792007,
+  "pcr_comparison": 0.6031080633550849,
+  "kBET": 0.31615062296962493,
+  "graph_connectivity": 0.9268754491715345,
+  "iLISI": 0.27298358537772727,
+  "cLISI": 0.9839471581406957,
+  "seurat_r_script": "/data1/esraa/Thesis-Project/src/thesis_project/Integration/Integration_methods/R/run_seurat_integration.R",
+  "seurat_mode": "rpca",
+  "seurat_pca_csv": "/data1/esraa/Thesis-Project/Results/Integration/full_hvg_seed0/runs/seurat_full_hvg_seed0/seurat_full_hvg_seed0_seurat_pca.csv"
+}

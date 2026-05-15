@@ -1,0 +1,6 @@
+2026-04-05 13:46:30,744 | INFO | [HVG] Input already HVG-restricted (4000 genes).
+2026-04-05 13:46:30,825 | INFO | [Scanorama] backend=scanorama | batches=9 | dimred=50, knn=30, alpha=0.1, sigma=20.0, approx=True, batch_size=5000
+2026-04-05 13:46:56,630 | INFO | [Scanorama] embedding 'X_scanorama_scanorama_smoke' shape=(4997, 50)
+2026-04-07 13:18:29,286 | INFO | [HVG] Input already HVG-restricted (4000 genes).
+2026-04-07 13:18:29,411 | INFO | [Scanorama] backend=scanorama | batches=9 | dimred=50, knn=30, alpha=0.1, sigma=20.0, approx=True, batch_size=5000
+2026-04-07 13:20:37,907 | INFO | [Scanorama] embedding 'X_scanorama_scanorama_smoke' shape=(19997, 50)

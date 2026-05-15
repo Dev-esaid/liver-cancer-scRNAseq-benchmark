@@ -1,0 +1,11 @@
+# Command:
+Rscript /data1/esraa/Thesis-Project/src/thesis_project/Trajectory_Inference/TI_methods/R/slingshot_run.R --embedding /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/slingshot/task2_Tcell_continuum/logs/tmp/slingshot/bootstrap_11/embedding.csv --meta /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/slingshot/task2_Tcell_continuum/logs/tmp/slingshot/bootstrap_11/meta.csv --cluster_key cluster_annotation --root_cluster "naïve T" --seed 11 --out_dir /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/slingshot/task2_Tcell_continuum/logs/tmp/slingshot/bootstrap_11/r_out
+
+slingshot version: 2.10.0
+SingleCellExperiment version: 1.24.0
+igraph version: 1.5.1
+seed: 11
+n_cells: 12346
+n_clusters: 9
+root_cluster: naïve T
+Slingshot completed successfully. Outputs written to: /data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/slingshot/task2_Tcell_continuum/logs/tmp/slingshot/bootstrap_11/r_out

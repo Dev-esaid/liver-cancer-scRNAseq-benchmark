@@ -1,0 +1,9 @@
+source,target,weight,directed
+effector memory T,intermediate T,1.48770366392172,False
+naïve T,central memory T,1.36914242305335,False
+regulatory T,intermediate T,2.18237010158533,False
+regulatory T,proliferative CD4 T,3.67666063301718,False
+central memory T,intermediate T,1.67817771667265,False
+intermediate T,tissue-resident memory T,1.6756751562241,False
+intermediate T,cytotoxic T lymphocytes,1.26927635451168,False
+proliferative CD4 T,proliferative CD8 T,2.83534222871588,False

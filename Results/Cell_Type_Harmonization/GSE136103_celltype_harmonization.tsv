@@ -1,0 +1,54 @@
+cell_type_raw	major_celltype_l1	cell_subtype_raw	cell_subtype_L2	n_cells
+B cell	B cells	B cell (2)	B cells	1954
+B cell	B cells	B cell (1)	B cells	295
+B cell	B cells	B cell	B cells	50
+B cell	B cells	Plasma B cell (2)	Plasma cells	16
+B cell	B cells	Plasma B cell (1)	Plasma cells	2
+Cholangiocyte	Cholangiocyte	Cholangiocyte	Cholangiocyte	3261
+Endothelia	Endothelial	Endothelia (6)	Endothelial	2307
+Endothelia	Endothelial	Endothelia (7)	Endothelial	1667
+Endothelia	Endothelial	Endothelia (1)	Endothelial	1433
+Endothelia	Endothelial	Endothelia (5)	Endothelial	1407
+Endothelia	Endothelial	Endothelia (3)	Endothelial	629
+Endothelia	Endothelial	Endothelia (2)	Endothelial	264
+Endothelia	Endothelial	Endothelia (4)	Endothelial	214
+Hepatocyte	Hepatocyte	Hepatocyte	Hepatocyte	715
+Mesenchyme	Mesenchymal	Mesenchyme	Mesenchymal	46
+Mesenchyme	Mesenchymal	Mesothelia	Mesothelial	115
+Mesenchyme	Mesenchymal	(Myo) Fibroblast	Myofibroblast	349
+Mesenchyme	Mesenchymal	SAMes (B)	SAMs	97
+Mesenchyme	Mesenchymal	SAMes (A)	SAMs	27
+Mesenchyme	Mesenchymal	Mesenchyme (HSC)	Stellate Cells	475
+Mesenchyme	Mesenchymal	Mesenchyme (VSMC)	vSMC	1329
+MP	Myeloid	KC (1)	Kupffer cells	2250
+Mast cell	Myeloid	Mast cell	Mast cells	793
+MP	Myeloid	MP	Myeloid	187
+MP	Myeloid	SAM (2)	SAMs	1923
+MP	Myeloid	SAM (1)	SAMs	817
+MP	Myeloid	TMo (1)	Tissue Monocyte	2543
+MP	Myeloid	TMo (3)	Tissue Monocyte	348
+MP	Myeloid	TMo (2)	Tissue Monocyte	135
+MP	Myeloid	cDC1	cDC1	118
+MP	Myeloid	cDC2	cDC2	1565
+pDC	Myeloid	pDC	pDC	808
+ILC/NK	NK cells	CD4+ T cell (3)	CD4 T cells	52
+ILC/NK	NK cells	CD4+ T cell (1)	CD4 T cells	24
+ILC/NK	NK cells	CD4+ T cell (2)	CD4 T cells	6
+ILC/NK	NK cells	CD8+ T cell (1)	CD8 T cells	195
+ILC/NK	NK cells	CD8+ T cell (2)	CD8 T cells	59
+ILC/NK	NK cells	ILC/NK	ILC/NK	646
+ILC/NK	NK cells	NK cell (2)	NK cells	3624
+ILC/NK	NK cells	NK cell (1)	NK cells	2859
+ILC/NK	NK cells	cNK cell	cNK cells	3892
+Plasma cell	Plasma cells	Plasma B cell (2)	Plasma cells	653
+Plasma cell	Plasma cells	Plasma B cell (1)	Plasma cells	374
+Plasma cell	Plasma cells	Plasma cell	Plasma cells	1
+T cell	T cells	CD4+ T cell (1)	CD4 T cells	3098
+T cell	T cells	CD4+ T cell (3)	CD4 T cells	3014
+T cell	T cells	CD4+ T cell (2)	CD4 T cells	2010
+T cell	T cells	CD8+ T cell (1)	CD8 T cells	6916
+T cell	T cells	CD8+ T cell (2)	CD8 T cells	1499
+T cell	T cells	NK cell (1)	NK cells	23
+T cell	T cells	NK cell (2)	NK cells	11
+T cell	T cells	T cell	T cells	1624
+T cell	T cells	cNK cell	cNK cells	31

@@ -1,0 +1,11 @@
+{
+  "n_pseudotime_rows_raw": 10798,
+  "n_pseudotime_ids_unique": 10798,
+  "n_common_ids": 10798,
+  "n_finite_pseudotime_after_reindex": 10798,
+  "n_edges": 6,
+  "n_topology_nodes": 7,
+  "r_log": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/tscan/task1_macrophage_TAM/logs/tmp/tscan/bootstrap_17/tscan_R.log",
+  "pseudotime_csv": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/tscan/task1_macrophage_TAM/logs/tmp/tscan/bootstrap_17/r_out/pseudotime.csv",
+  "edges_csv": "/data1/esraa/Thesis-Project/Results/Trajectory_Inference/GSE149614/tscan/task1_macrophage_TAM/logs/tmp/tscan/bootstrap_17/r_out/edges.csv"
+}

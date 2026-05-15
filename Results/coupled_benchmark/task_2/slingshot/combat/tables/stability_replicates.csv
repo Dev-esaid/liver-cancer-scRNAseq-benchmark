@@ -1,0 +1,21 @@
+replicate_index,seed,status,n_cells,root_cell_id,error_msg
+0,0,ok,26095.0,15085,
+1,1,ok,26095.0,66077,
+2,2,ok,26095.0,66077,
+3,3,error,,,RuntimeError: Slingshot R step failed (exit=1). See log: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/slingshot/combat/logs/tmp/slingshot/bootstrap_3/slingshot_R.log
+4,4,ok,26095.0,66077,
+5,5,ok,26095.0,66077,
+6,6,ok,26095.0,15085,
+7,7,ok,26095.0,15085,
+8,8,ok,26095.0,15085,
+9,9,ok,26095.0,66077,
+10,10,ok,26095.0,66077,
+11,11,error,,,RuntimeError: Slingshot R step failed (exit=1). See log: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/slingshot/combat/logs/tmp/slingshot/bootstrap_11/slingshot_R.log
+12,12,ok,26095.0,15085,
+13,13,ok,26095.0,15085,
+14,14,error,,,RuntimeError: Slingshot R step failed (exit=1). See log: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/slingshot/combat/logs/tmp/slingshot/bootstrap_14/slingshot_R.log
+15,15,ok,26095.0,66077,
+16,16,ok,26095.0,66077,
+17,17,error,,,RuntimeError: Slingshot R step failed (exit=1). See log: /data1/esraa/Thesis-Project/Results/coupled_benchmark/task_2/slingshot/combat/logs/tmp/slingshot/bootstrap_17/slingshot_R.log
+18,18,ok,26095.0,15085,
+19,19,ok,26095.0,66077,

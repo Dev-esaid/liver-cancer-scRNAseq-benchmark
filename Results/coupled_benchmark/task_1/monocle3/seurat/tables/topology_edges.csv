@@ -1,0 +1,19 @@
+source,target,weight,directed
+C1QA+ Macrophage,HLA-II+ Macrophage,2.0,False
+C1QA+ Macrophage,MARCO+ Macrophage,2.0,False
+HLA-II+ Macrophage,MMP9+ Macrophage,1.0,False
+MARCO+ Macrophage,MMP9+ Macrophage,3.0,False
+C1QA+ Macrophage,Monocyte-derived Macrophage,2.0,False
+HLA-II+ Macrophage,Monocyte-derived Macrophage,4.0,False
+MMP9+ Macrophage,Monocyte-derived Macrophage,2.0,False
+C1QA+ Macrophage,THBS1+ Macrophage,1.0,False
+Monocyte-derived Macrophage,THBS1+ Macrophage,16.0,False
+FCGR3A+ Monocyte,Tissue Monocyte,9.0,False
+Monocyte-derived Macrophage,Tissue Monocyte,21.0,False
+C1QA+ Macrophage,TREM2+ Macrophage,16.0,False
+MARCO+ Macrophage,TREM2+ Macrophage,4.0,False
+MMP9+ Macrophage,TREM2+ Macrophage,2.0,False
+C1QA+ Macrophage,VEGFA+ Macrophage,1.0,False
+HLA-II+ Macrophage,VEGFA+ Macrophage,2.0,False
+MMP9+ Macrophage,VEGFA+ Macrophage,3.0,False
+Monocyte-derived Macrophage,VEGFA+ Macrophage,1.0,False

@@ -1,0 +1,5 @@
+ti_method,task_1_total,task_1_mean,task_2_total,task_2_mean,overall_total,overall_mean
+cellrank,277.57,27.76,128.44,12.84,406.01,20.3
+tscan,585.44,58.54,147.04,14.7,732.47,36.62
+monocle3,6166.04,616.6,2757.83,275.78,8923.87,446.19
+slingshot,28661.04,3184.56,25782.22,2864.69,54443.26,3024.63
