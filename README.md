@@ -209,5 +209,6 @@ Due to GitHub file size limitations, large processed objects and atlas-scale int
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
+- R
 ---
 # Clone Repository
