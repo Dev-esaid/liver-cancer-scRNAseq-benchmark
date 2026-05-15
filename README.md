@@ -158,9 +158,6 @@ Thesis-Project/
 
 | Path | Purpose |
 |------|---------|
-| **Data/Raw_data/** | Original datasets from 9 GEO repositories + HealthyLiverCells |
-| **Data/Processed_data/** | QC-filtered and processed data |
-| **Data/smoke_data/** | Test/smoke datasets |
 | **Notebooks/** | Jupyter analysis notebooks (6 main) |
 | **Results/** | Analysis outputs: integration, trajectory, benchmarking results |
 | **src/thesis_project/** | Main Python package source code |
